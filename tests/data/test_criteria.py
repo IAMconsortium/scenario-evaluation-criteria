@@ -136,21 +136,21 @@ def test_threshold_region_values(criteria_dirs):
     assert not errors, "\n".join(errors)
 
 
-def test_threshold_validation_outcome(criteria_dirs, criteria_types_dict):
+def test_threshold_evaluation_outcome(criteria_dirs, criteria_types_dict):
     errors = []
     for name, path in criteria_dirs.items():
         # Allowed outcomes for this criteria type are declared in
         # criteria-types.yaml. "ok" is the implicit default and never appears
         # in the threshold files, so it is excluded from the accepted values.
         type_label = format_type_prefix(name)
-        outcomes = criteria_types_dict[type_label]["validation_outcomes"]
+        outcomes = criteria_types_dict[type_label]["evaluation_outcomes"]
         valid = set(outcomes) - {"ok"}
         for i, row in enumerate(load_csv_rows(path / "thresholds.csv"), 1):
-            outcome = row.get("validation_outcome", "").strip()
+            outcome = row.get("evaluation_outcome", "").strip()
             if outcome not in valid:
                 errors.append(
                     f"{name}/thresholds.csv row {i}: "
-                    f"invalid validation_outcome '{outcome}' "
+                    f"invalid evaluation_outcome '{outcome}' "
                     f"(expected one of {sorted(valid)})"
                 )
     assert not errors, "\n".join(errors)

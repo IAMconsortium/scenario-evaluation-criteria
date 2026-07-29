@@ -6,7 +6,7 @@ Historical Vetting:
         past. Misalignment of a scenario means that the scenario is or has
         become impossible, which can often be the outcome of outdatedness of
         older scenarios.
-    validation_outcomes:
+    evaluation_outcomes:
         ok: Consistent with historical data
         failed: Inconsistent with historical data
         insufficient reporting: Variable not reported
@@ -27,7 +27,7 @@ Feasibility Concern:
         above or below these near-term and long-term thresholds is not
         strictly impossible, those developments would require unconventional
         implementation and growth rates.
-    validation_outcomes:
+    evaluation_outcomes:
         ok: No feasibility concerns
         medium: Moderate feasibility concerns
         high: Strong feasibility concerns
@@ -43,7 +43,7 @@ Sustainability Concern:
         respective sustainability targets. Misalignment of a scenario does not
         mean that the scenario is impossible or infeasible, but rather that it
         is undesirable from a non-climate sustainability perspective.
-    validation_outcomes:
+    evaluation_outcomes:
         ok: No sustainability concerns
         medium: Moderate sustainability concerns
         high: Strong sustainability concerns

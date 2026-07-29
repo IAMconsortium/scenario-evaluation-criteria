@@ -23,7 +23,7 @@ devtools::load_all()
 # While the R package has not been released yet, you have to install it from GitHub source using:
 #
 # ```R
-# devtools::install_github('IAMconsortium/scenario-validation-criteria')
+# devtools::install_github('IAMconsortium/scenario-evaluation-criteria')
 # ```
 
 # ## Load functions

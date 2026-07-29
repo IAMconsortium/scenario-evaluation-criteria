@@ -3,8 +3,8 @@ necessary/relevant and how its threshold values were chosen.
 
 ```python exec="true" session="index" showcode="false"
 import pandas as pd
-from scenario_validation_criteria import load_criteria
-from scenario_validation_criteria.formatting import (format_sources,
+from scenario_evaluation_criteria import load_criteria
+from scenario_evaluation_criteria.formatting import (format_sources,
                                                   insert_citations)
 
 

@@ -1,4 +1,4 @@
-criterion,variable,region,year,reference_data,unit,validation_outcome,lower,upper
+criterion,variable,region,year,reference_data,unit,evaluation_outcome,lower,upper
 Food Availability,Food Availability [per capita],World,,,kcal/cap/day,medium,2100,5000
 Unsustainable Bioenergy Use,Primary Energy|Biomass,World,,,EJ/yr,medium,,100
 Unsustainable Bioenergy Use,Primary Energy|Biomass,World,,,EJ/yr,high,,245

@@ -1,6 +1,6 @@
 [project]
-name = "scenario-validation-criteria"
-description = "Common definitions of validation criteria for IAM scenarios"
+name = "scenario-evaluation-criteria"
+description = "Common definitions of evaluation criteria for IAM scenarios"
 authors = [
     { name = "Philipp C. Verpoort", email = "philipp.verpoort@pik-potsdam.de" },
     { name = "Tomoko Hasegawa", email = "thase@fc.ritsumei.ac.jp" },
@@ -20,17 +20,17 @@ dependencies = [
 ]
 
 [project.urls]
-homepage = "https://scenario-validation-criteria.iamconsortium.org/"
-documentation = "https://scenario-validation-criteria.iamconsortium.org/"
-repository = "https://github.com/IAMconsortium/scenario-validation-criteria/"
-issues = "https://github.com/IAMconsortium/scenario-validation-criteria/issues"
+homepage = "https://scenario-evaluation-criteria.iamconsortium.org/"
+documentation = "https://scenario-evaluation-criteria.iamconsortium.org/"
+repository = "https://github.com/IAMconsortium/scenario-evaluation-criteria/"
+issues = "https://github.com/IAMconsortium/scenario-evaluation-criteria/issues"
 
 [project.optional-dependencies]
 formatting = ["pybtex>=0.25.1"]
 
 [tool.poetry]
 packages = [
-    { include = "scenario_validation_criteria", from = "python" },
+    { include = "scenario_evaluation_criteria", from = "python" },
 ]
 
 [tool.poetry.build]

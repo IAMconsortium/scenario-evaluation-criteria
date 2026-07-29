@@ -1,4 +1,4 @@
-criterion,variable,region,year,reference_data,unit,validation_outcome,lower,upper
+criterion,variable,region,year,reference_data,unit,evaluation_outcome,lower,upper
 Hydropower Capacity,Capacity|Electricity|Hydro,World,2030,,GW,medium,1175.37,1606.66
 Hydropower Capacity,Capacity|Electricity|Hydro,World,2030,,GW,high,979.43,2117.58
 Nuclear Capacity,Capacity|Electricity|Nuclear,World,2030,,GW,medium,320.33,441.92

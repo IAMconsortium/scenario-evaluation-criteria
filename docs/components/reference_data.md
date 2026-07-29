@@ -4,8 +4,8 @@ the dataset identifiers listed below.
 
 ```python exec="true" session="refdata" showcode="false"
 from itables import to_html_datatable
-from scenario_validation_criteria import load_criteria
-from scenario_validation_criteria.formatting import format_sources
+from scenario_evaluation_criteria import load_criteria
+from scenario_evaluation_criteria.formatting import format_sources
 
 sources = load_criteria("sources")
 sources_formatted = format_sources(sources)

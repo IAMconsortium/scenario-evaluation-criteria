@@ -1,4 +1,4 @@
-This page gives a criterion-by-criterion overview of all validation criteria,
+This page gives a criterion-by-criterion overview of all evaluation criteria,
 combining the scientific justifications with the computed threshold values.
 
 ```python exec="true" session="summary" showcode="false"
@@ -6,9 +6,9 @@ import re
 import pandas as pd
 from sigfig import round as sf_round
 from itables import to_html_datatable
-from scenario_validation_criteria import load_criteria
-from scenario_validation_criteria.preprocessed import load_criteria_combined
-from scenario_validation_criteria.formatting import format_sources, insert_citations
+from scenario_evaluation_criteria import load_criteria
+from scenario_evaluation_criteria.preprocessed import load_criteria_combined
+from scenario_evaluation_criteria.formatting import format_sources, insert_citations
 
 criteria_combined = load_criteria_combined().query("region == 'World'")
 criteria_types, criteria_meta, sources = load_criteria(
@@ -40,7 +40,7 @@ def _pivot(df):
     # Pivot absolute values, relative multipliers, and reference values together.
     pivoted = (
         d.pivot_table(
-            index=["variable", "region", "year", "validation_outcome", "unit"],
+            index=["variable", "region", "year", "evaluation_outcome", "unit"],
             columns="threshold_type",
             values=["value", "value_rel", "reference_value"],
             aggfunc="first",
@@ -57,10 +57,10 @@ def _pivot(df):
     if has_ref:
         # reference_data_expr is the same for both threshold types; attach once.
         ref_expr = (
-            d.groupby(["variable", "year", "validation_outcome"], dropna=False)
+            d.groupby(["variable", "year", "evaluation_outcome"], dropna=False)
             ["reference_data_expr"].first().reset_index()
         )
-        pivoted = pivoted.merge(ref_expr, on=["variable", "year", "validation_outcome"], how="left")
+        pivoted = pivoted.merge(ref_expr, on=["variable", "year", "evaluation_outcome"], how="left")
 
         for col in ["Lower (rel)", "Upper (rel)"]:
             pivoted[col] = pivoted[col].apply(
@@ -82,7 +82,7 @@ def _pivot(df):
             )
 
     col_order = [
-        "variable", "region", "year", "unit", "validation_outcome",
+        "variable", "region", "year", "unit", "evaluation_outcome",
         "Lower (abs)",
         *(["Lower (rel)", "Lower (ref)"] if has_ref else []),
         "Upper (abs)",
@@ -106,8 +106,8 @@ for crit_type in criteria_types:
 
     type_spec = criteria_types[crit_type]
     print(f"{_fmt(type_spec['description'])}\n")
-    print("**Possible validation outcomes:**\n")
-    for outcome, outcome_desc in type_spec["validation_outcomes"].items():
+    print("**Possible evaluation outcomes:**\n")
+    for outcome, outcome_desc in type_spec["evaluation_outcomes"].items():
         print(f"* `{outcome}` — {outcome_desc}")
     print("")
 

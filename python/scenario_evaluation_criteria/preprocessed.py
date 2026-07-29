@@ -40,7 +40,7 @@ def load_criteria_combined() -> pd.DataFrame:
     Returns
     -------
     pd.DataFrame
-        One row per (criterion, variable, region, year, validation_outcome,
+        One row per (criterion, variable, region, year, evaluation_outcome,
         threshold_type) combination with columns ``value`` and ``unit``.
 
     """
@@ -184,7 +184,7 @@ def load_criteria_combined() -> pd.DataFrame:
                 "region",
                 "year",
                 "variable",
-                "validation_outcome",
+                "evaluation_outcome",
                 "threshold_type",
             ],
             dropna=False,
@@ -216,15 +216,15 @@ def load_criteria_for_validator() -> list[dict]:
     criteria_combined = load_criteria_combined()
 
     def _build_entry(row):
-        # Pass the validation outcome to the validator as `warning_level`
+        # Pass the evaluation outcome to the validator as `warning_level`
         # for the concern outcomes (`medium`/`high`), but drop it for the
         # vetting outcome (`failed`).
         entry = {
             "upper_bound": row["upper_bound"],
             "lower_bound": row["lower_bound"],
         }
-        if row["validation_outcome"] != "failed":
-            entry = {"warning_level": row["validation_outcome"], **entry}
+        if row["evaluation_outcome"] != "failed":
+            entry = {"warning_level": row["evaluation_outcome"], **entry}
         return entry
 
     # Convert dataframe to list of nested dictionaries and return.
@@ -242,19 +242,19 @@ def load_criteria_for_validator() -> list[dict]:
             threshold_type=lambda df: df["threshold_type"] + "_bound",
         )
         .drop(columns="unit")
-        # Keep the validation outcome in the pivot index so that medium and
+        # Keep the evaluation outcome in the pivot index so that medium and
         # high thresholds remain separate entries.
         .pivot(
-            index=["name", "region", "year", "variable", "validation_outcome"],
+            index=["name", "region", "year", "variable", "evaluation_outcome"],
             columns="threshold_type",
             values="value",
         )
         .reset_index()
         .groupby(["name", "region", "year", "variable"], dropna=False)[
-            ["validation_outcome", "upper_bound", "lower_bound"]
+            ["evaluation_outcome", "upper_bound", "lower_bound"]
         ]
         .apply(lambda df: list(df.apply(_build_entry, axis=1)))
-        .to_frame("validation")
+        .to_frame("evaluation")
         .reset_index()
         .apply(lambda row: row.dropna().to_dict(), axis=1)
         .tolist()

@@ -1,4 +1,4 @@
-"""Definitions of scenario validation criteria.
+"""Definitions of scenario evaluation criteria.
 
 Use the `load_criteria` function to load definitions from raw definition files.
 """
@@ -39,7 +39,7 @@ THRESHOLD_COLS_DTYPES: dict[str, str] = {
     "year": "str",
     "reference_data": "str",
     "unit": "str",
-    "validation_outcome": "str",
+    "evaluation_outcome": "str",
     "upper": "float64",
     "lower": "float64",
 }

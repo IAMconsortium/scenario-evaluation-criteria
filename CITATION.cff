@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-title: Scenario Validation Criteria
+title: Scenario Evaluation Criteria
 message: >-
   If you use this software, please cite it using the
   metadata from this file.
@@ -41,7 +41,7 @@ keywords:
   - Pathways
   - Vetting
   - Criteria
-  - Validation
+  - Evaluation
   - Climate
   - Energy
   - Land-use

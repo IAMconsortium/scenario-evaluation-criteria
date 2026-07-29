@@ -22,7 +22,7 @@
 # While the Python package has not been released on PyPI yet, you have to install it from GitHub source using poetry:
 #
 # ```bash
-# poetry add git+https://github.com/IAMconsortium/scenario-validation-criteria.git
+# poetry add git+https://github.com/IAMconsortium/scenario-evaluation-criteria.git
 # ```
 
 # %% [markdown]
@@ -32,7 +32,7 @@
 # Use the built-in load functions from the package via `load_criteria`. For instance, the following will load the definition of the thresholds values.
 
 # %%
-from scenario_validation_criteria import load_criteria
+from scenario_evaluation_criteria import load_criteria
 
 load_criteria("criteria-thresholds")
 
@@ -59,7 +59,7 @@ sources = load_criteria("sources")
 # The entries in this object can be formatted according to some predefined style.
 
 # %%
-from scenario_validation_criteria.formatting import format_sources
+from scenario_evaluation_criteria.formatting import format_sources
 sources_formatted = format_sources(sources)
 display(sources_formatted["Creutzig-2014"])
 
@@ -67,7 +67,7 @@ display(sources_formatted["Creutzig-2014"])
 # The `insert_citations` function can be used to insert citations into text with citation patterns.
 
 # %%
-from scenario_validation_criteria.formatting import insert_citations
+from scenario_evaluation_criteria.formatting import insert_citations
 
 text = load_criteria("criteria-descriptions")["Sustainability Concern|Unsustainable Bioenergy Use"]["justification_threshold"]
 text_inserted = insert_citations(text, sources_formatted)

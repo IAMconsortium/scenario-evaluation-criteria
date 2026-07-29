@@ -1,8 +1,8 @@
 Each criterion is defined with one or more upper and/or lower threshold 
 values. Scenarios with reported values outside the range are marker with the 
-respective validation outcome.
+respective evaluation outcome.
 
-The possible validation outcomes depend on the [criterion type](types.md). 
+The possible evaluation outcomes depend on the [criterion type](types.md). 
 Feasibility and sustainability concerns mark scenarios as either `ok`, `medium` 
 or  `high`, whereas historical vetting mark scenarios as `ok` or `failed`.
 
@@ -19,7 +19,7 @@ data.
 
 ```python exec="true" session="index" showcode="false"
 import pandas as pd
-from scenario_validation_criteria import load_criteria
+from scenario_evaluation_criteria import load_criteria
 
 for crit_type in load_criteria("criteria-types"):
     print(f"## {crit_type}")

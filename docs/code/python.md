@@ -1,2 +1,2 @@
-::: scenario_validation_criteria
-::: scenario_validation_criteria.formatting
+::: scenario_evaluation_criteria
+::: scenario_evaluation_criteria.formatting

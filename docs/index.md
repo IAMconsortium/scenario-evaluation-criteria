@@ -10,7 +10,7 @@ hide:
 </p>
 
 
-<h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Scenario Validation Criteria</h1>
+<h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Scenario Evaluation Criteria</h1>
 
 {{ readme_section('## Background') }}
 
@@ -72,7 +72,7 @@ else:
 year = str(cff["date-released"]).split("-")[0]
 title = cff["title"]
 version = cff["version"]
-url = "https://github.com/IAMconsortium/scenario-validation-criteria/"
+url = "https://github.com/IAMconsortium/scenario-evaluation-criteria/"
 
 print(
     f"> {author_str} ({year}). *{title}* "
@@ -84,7 +84,7 @@ print(
 
 ## License
 
-All data and code are published under the [MIT licence](https://github.com/IAMconsortium/scenario-validation-criteria/blob/main/LICENSE.md).
+All data and code are published under the [MIT licence](https://github.com/IAMconsortium/scenario-evaluation-criteria/blob/main/LICENSE.md).
 
 ---
 

@@ -1,8 +1,8 @@
-The following types of validation criteria are defined.
+The following types of evaluation criteria are defined.
 
 ```python exec="true" session="index" showcode="false"
 import pandas as pd
-from scenario_validation_criteria import load_criteria
+from scenario_evaluation_criteria import load_criteria
 
 criteria_types = load_criteria("criteria-types")
 
@@ -15,7 +15,7 @@ rows = [
     {
         "type": f"`{name}`",
         "description": spec["description"],
-        "validation outcomes": _format_outcomes(spec["validation_outcomes"]),
+        "evaluation outcomes": _format_outcomes(spec["evaluation_outcomes"]),
     }
     for name, spec in criteria_types.items()
 ]

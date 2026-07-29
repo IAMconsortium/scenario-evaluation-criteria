@@ -17,9 +17,9 @@
 </p>
 
 
-# Scenario Validation Criteria
+# Scenario Evaluation Criteria
 
-Validation criteria for scenarios produced by Integrated Assessment
+Evaluation criteria for scenarios produced by Integrated Assessment
 Models (IAMs), energy system models and similar tools.
 
 ---
@@ -32,13 +32,13 @@ regions, and under different policy assumptions. Large ensembles of such
 scenarios by multiple model families underpin major scientific assessments
 such as the IPCC reports.
 
-Scenarios are often validated in the process of producing new scenarios or
+Scenarios are often evaluated in the process of producing new scenarios or
 when in the process of collecting and assess existing scenario ensembles.
 Specifically, scenarios are often checked against empirical observations,
 near-term projections, and sustainability targets to identify scenarios that
 are outdated, internally inconsistent, technically infeasible, or ecologically
 undesirable. This package provides a versioned, machine-readable set of such
-validation criteria so that different research groups can apply the same
+evaluation criteria so that different research groups can apply the same
 standards.
 
 ---
@@ -76,7 +76,7 @@ All data and code are published under the [MIT licence](LICENSE.md).
 ---
 
 ## Acknowledgments
-This collection of scenario validation criteria was curated as part of the 
+This collection of scenario evaluation criteria was curated as part of the 
 [Scenario Compass Initiative (SCI)](https://scenariocompass.org). Some of 
 the reference data was previously derived in the 
 [PRISMA](https://www.net0prisma.eu/) project.

@@ -1,5 +1,5 @@
 # Define path to data directory and check if it exists.
-.DATA_DIR <- paste0(system.file(package = "scenariovalidationcriteria"), "/extdata")
+.DATA_DIR <- paste0(system.file(package = "scenarioevaluationcriteria"), "/extdata")
 if (!dir.exists(.DATA_DIR)) {
     stop("Could not find data directory.")
 }

@@ -9,7 +9,7 @@ def attach_data(setup_kwargs):
     DATA_DIR_TARGET: Path = (
         Path(__file__).parent.parent
         / "python"
-        / "scenario_validation_criteria"
+        / "scenario_evaluation_criteria"
         / "data"
     )
 

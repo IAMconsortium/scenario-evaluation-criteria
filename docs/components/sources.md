@@ -4,8 +4,8 @@ the [criteria metadata](descriptions.md).
 
 ```python exec="true" session="index" showcode="false"
 import pandas as pd
-from scenario_validation_criteria import load_criteria
-from scenario_validation_criteria.formatting import format_sources
+from scenario_evaluation_criteria import load_criteria
+from scenario_evaluation_criteria.formatting import format_sources
 
 sources = load_criteria("sources")
 sources_formatted = format_sources(sources, target="html")

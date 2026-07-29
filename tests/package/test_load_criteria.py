@@ -1,4 +1,4 @@
-"""Tests for the Python package API (``scenario_validation_criteria``).
+"""Tests for the Python package API (``scenario_evaluation_criteria``).
 
 Unlike the raw-data tests, these load the installed package and exercise
 its public ``load_criteria`` entry point and internal helpers against the
@@ -8,8 +8,8 @@ data bundled into the package.
 import pandas
 import pytest
 
-import scenario_validation_criteria as svc
-from scenario_validation_criteria import (
+import scenario_evaluation_criteria as svc
+from scenario_evaluation_criteria import (
     COMPONENTS,
     load_criteria,
     _deformat_prefix,
@@ -90,7 +90,7 @@ def test_expand_metadata_templates_tilde_strips_placeholder():
 
 
 # ---------------------------------------------------------------------------
-# load_criteria: argument validation
+# load_criteria: argument evaluation
 # ---------------------------------------------------------------------------
 
 

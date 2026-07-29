@@ -22,7 +22,7 @@ EXPECTED_THRESHOLD_COLS = {
     "year",
     "reference_data",
     "unit",
-    "validation_outcome",
+    "evaluation_outcome",
     "lower",
     "upper",
 }
@@ -33,7 +33,7 @@ METADATA_REQUIRED_KEYS = {"justification_criterion", "justification_threshold"}
 def format_type_prefix(prefix: str) -> str:
     """Convert a criteria-type directory name to its formatted label.
 
-    Mirrors ``scenario_validation_criteria._format_prefix``: dashes become
+    Mirrors ``scenario_evaluation_criteria._format_prefix``: dashes become
     spaces and every word is capitalised (e.g. ``historical-vetting`` ->
     ``Historical Vetting``), matching the keys used in criteria-types.yaml.
     """
@@ -148,8 +148,8 @@ def is_float(s: str) -> bool:
 def expand_metadata_templates(metadata: dict) -> dict:
     """Expand template metadata entries into individual entries.
 
-    Standalone copy of ``scenario_validation_criteria._expand_metadata_``
-    ``templates`` so the raw-data tests can validate ``descriptions.yaml``
+    Standalone copy of ``scenario_evaluation_criteria._expand_metadata_``
+    ``templates`` so the raw-data tests can evaluate ``descriptions.yaml``
     without importing the Python package. The package's own expansion logic
     is exercised separately by the package-functionality tests.
 

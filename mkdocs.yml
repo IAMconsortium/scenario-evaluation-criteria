@@ -1,7 +1,7 @@
-site_name: Definitions of validation criteria for integrated assessment modelling scenarios
-site_url: https://iamconsortium.github.io/scenario-validation-criteria/
-repo_name: scenario-validation-criteria
-repo_url: https://github.com/IAMconsortium/scenario-validation-criteria/
+site_name: Definitions of evaluation criteria for integrated assessment modelling scenarios
+site_url: https://iamconsortium.github.io/scenario-evaluation-criteria/
+repo_name: scenario-evaluation-criteria
+repo_url: https://github.com/IAMconsortium/scenario-evaluation-criteria/
 copyright: © 2025 Integrated Assessment Modelling Consortium (IAMC)
 
 nav:
