@@ -175,16 +175,15 @@ Carbon Capture and Storage:
         reported upper bound derived by {{cite:Kazlou-2024}}.
 
 
-        While these threshold values all refer to CCS and would therefore make
-        most sense to apply to the varialbe
-        `Carbon Capture|Geological Storage`, this variable is often
-        underreported (especially in older scenarios). Therefore, the variable
-        `Carbon Capture` is also assessed using the same thresholds. Note
-        that this may lead to precautious flagging scenarios with more
-        granular reporting of carbon capture. In these scenarios, additional
-        categories such as CO₂ leakage or CO₂ utilization contribute to total
-        carbon capture, which as a result may exceed the corresponding
-        threshold even when geological storage remains below its threshold.
+        These threshold values all refer to CCS and are applied to the
+        variable `Carbon Capture|Geological Storage`. However this variable is
+        often underreported, especially in older scenarios. Therefore, the
+        variable `Carbon Capture` is also assessed using the same threshold
+        values. Note that this may lead to precautious flagging scenarios with
+        more granular reporting of carbon capture. In these scenarios,
+        additional categories such as CO₂ leakage or CO₂ utilization
+        contribute to total carbon capture, which as a result may exceed the
+        corresponding threshold even when geological storage remains below its threshold.
 Solar PV Capacity:
     justification_criterion: >-
         This criterion flags scenarios that assume a deployment of solar
