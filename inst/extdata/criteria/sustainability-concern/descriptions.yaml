@@ -1,7 +1,7 @@
 Food Availability:
     justification_criterion: >-
-        This scenario reports levels of food availability that are far beyond
-        or below human dietary energy needs.
+        This criterion flags scenarios that report levels of food availability
+        that are far beyond or below human dietary energy needs.
 
 
         This is a concern, because food availability below dietary energy needs
