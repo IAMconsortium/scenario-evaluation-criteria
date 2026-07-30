@@ -66,6 +66,9 @@ extra_css:
   - assets/css/extra.css
   - assets/css/theme-toggle.css
 
+extra_javascript:
+  - assets/js/version-selector.js
+
 extra:
   version:
     provider: mike

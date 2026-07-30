@@ -16,6 +16,10 @@ hide:
   </div>
 </div>
 
+<div style="text-align: center; margin: 40px 0;">
+  <p>You are viewing the documentation of version <strong data-md-version-label></strong>.<br>Click here to choose another version:</p>
+  <div data-md-version-embed></div>
+</div>
 
 <h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Scenario Evaluation Criteria</h1>
 

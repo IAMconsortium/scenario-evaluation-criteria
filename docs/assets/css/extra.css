@@ -5,3 +5,15 @@
 
   --md-accent-fg-color:             #e56d52;
 }
+
+/* In-page clone of the header's mike version selector (see version-selector.js) */
+[data-md-version-embed] {
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+
+[data-md-version-embed] .md-version {
+  position: relative;
+  display: inline-block;
+}
