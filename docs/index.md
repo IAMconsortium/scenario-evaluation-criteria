@@ -17,7 +17,7 @@ hide:
 </div>
 
 <div style="text-align: center; margin: 40px 0;">
-  <p>You are viewing the documentation of version <strong data-md-version-label></strong>.<br>Click here to choose another version:</p>
+  <p>You are viewing the documentation of version <strong data-md-version-label></strong>.<br>You can choose another version here:</p>
   <div data-md-version-embed></div>
 </div>
 
