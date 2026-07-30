@@ -1,24 +1,46 @@
 Food Availability:
     justification_criterion: >-
-        This criterion flags scenarios that report levels of food availability
-        that are above or below human nutritional needs.
-        
-        
-        This is a concern, because food availability below nutritional needs 
-        would mean hunger and because food availability above nutritional 
-        needs would mean high resource use due to overconsumption.
+        This scenario reports levels of food availability that are far beyond
+        or below human dietary energy needs.
+
+
+        This is a concern, because food availability below dietary energy needs
+        would imply the presence of hunger and food availability far beyond
+        above human needs would imply significant overconsumption and waste.
     justification_threshold: >-
-        According to the {{cite:FRA-2020}}, the Minimum Dietary Energy 
-        Requirement is 2,100 kcal/cap/day. Meanwhile, the highest historical
-        level of food availability is 4,000 kcal/cap/day.
+        According to the {{cite:FAO-2015}}, the Minimum Dietary Energy
+        Requirement is 1,840 kilo calories food intake per person per day.
+        Using a ÷0.83 conversion factor deducted from UNEP's food waste index
+        report {{citep:UNEP-FWIR-2021}}, we define the lower threshold for a
+        high concern as food availability below 2,220 kcal per person per day.
+        The upper threshold is set to 4,000 kcal per person per day, which is
+        the highest ever recorded regional food availability reported by
+        {{cite:FAO-2025}}.
+
+
+        The lower medium concern threshold is based on recommendations provided
+        by the EAT–Lancet Commission on healthy, sustainable, and just food
+        systems {{citep:Rockstrom-2025}}, which recommends an average estimate
+        of 2090 kcal food intake across all ages and sex. Relying on the same
+        conversion factor as before, this implies a food availability of 2,520
+        kcal per person per day. The upper medium concern threshold is set to
+        match the FAO's Maximum Dietary Energy Requirement of 3,110 kcal food
+        intake per day, resulting in a food availability of 3,750 kcal per
+        person per day {{citep:FAO-2016}}. This estimation of the Maximum Dietary
+        Energy Requirement followed methodology proposed by
+        {{cite:Cafiero-2014}}.
 
 
         Based on these values, we assume the following global threshold across
         all years:
 
-        • Upper threshold, medium concern: 5,000 kcal/cap/day
+        • Upper threshold, high concern: 4,000 kcal/cap/day
 
-        • Lower threshold, medium concern: 2,100 kcal/cap/day
+        • Upper threshold, medium concern: 3,750 kcal/cap/day
+
+        • Lower threshold, medium concern: 2,520 kcal/cap/day
+
+        • Lower threshold, high concern: 2,220 kcal/cap/day
 Unsustainable Bioenergy Use:
     justification_criterion: >-
         This criterion flags scenarios that assume a high usage of bioenergy.
