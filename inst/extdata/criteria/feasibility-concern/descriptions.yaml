@@ -38,7 +38,8 @@ Hydropower Capacity:
         efforts.
         
 
-        Based on this capacity data, we assume the following thresholds for 2030:
+        Based on this capacity data, we assume the following global thresholds
+        for 2030:
 
         • Lower threshold, high concern:  10% less than hydropower capacity
         (without pumped storage) that was operational in 2021.
@@ -84,8 +85,8 @@ Nuclear Capacity:
         • Retired: inactive capacity that has been retired
         
 
-        Based on this capacity data, we assume the following thresholds for
-        2030:
+        Based on this capacity data, we assume the following global thresholds
+        for 2030:
 
         • Lower, high concern:  0.0 GW to account for the fact that nuclear energy
         could, in principle, be phased out quickly, as observed in a few
@@ -140,8 +141,8 @@ Carbon Capture and Storage:
         Projects that were decommissioned or suspended are not counted.
 
 
-        Based on the CCUS database, we assume the following thresholds for
-        2030:
+        Based on the CCUS database, we assume the following global thresholds
+        for 2030:
 
         • Lower, high concern:  0.0 Mt CO₂/yr to account for the fact that CCUS is an
         immature technology.
@@ -164,7 +165,7 @@ Carbon Capture and Storage:
         4,300 Mt CO₂/yr (see Table 2 in the work by {{cite:Kazlou-2024}}), which assumes a doubling of existing plans and a 45% failure rate.
 
 
-        Based on this work, we assume the following thresholds:
+        Based on this work, we assume the following global thresholds:
 
         • Upper, medium concern in 2035:  1,300 Mt CO₂/yr, which is the
         geometric-mean (constant-growth-rate) interpolation between the
@@ -208,7 +209,7 @@ Solar PV Capacity:
 
 
         Based on the existing capacity data and the market outlook, we assume
-        the following thresholds for 2030:
+        the following global thresholds for 2030:
 
         • Lower threshold, high concern:  10% less than capacities operational
         in 2023, plus 33.75% of additions from the market outlook (without
@@ -267,7 +268,7 @@ Onshore Wind Capacity:
 
 
         Based on the existing capacity data and the market outlook, we assume
-        the following thresholds for 2030:
+        the following global thresholds for 2030:
 
         • Lower threshold, high concern:  10% less than capacities operational
         in 2024, plus 33.75% of additions from the market outlook.
