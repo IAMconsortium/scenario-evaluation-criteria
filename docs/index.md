@@ -4,13 +4,17 @@ hide:
   - toc
 ---
 
-<p align="center">
-  <img src="assets/logos/logo-light.svg" class="only-light" alt="Project Logo" style="max-width: 600px; width: 100%; margin-bottom: 50px;">
-  <img src="assets/logos/logo-dark.svg" class="only-dark" alt="Project Logo" style="max-width: 600px; width: 100%; margin-bottom: 50px;">
-  Developed as part of the <a href="https://scenariocompass.org/">Senario Compass Initiative</a>.
-  <img src="assets/logos/sci-light.svg" class="only-light" alt="SCI Logo" style="height: 50px; margin-bottom: 20px;">
-  <img src="assets/logos/sci-dark.svg" class="only-dark" alt="SCI Logo" style="height: 50px; margin-bottom: 20px;">
-</p>
+<div style="display: flex; flex-wrap: wrap; justify-content: center; align-items: center; gap: 20px; margin-bottom: 30px;">
+  <div style="flex: 1 1 auto; min-width: 250px; max-width: 600px;">
+    <img src="assets/logos/logo-light.svg" class="only-light" alt="Project Logo" style="width: 100%;">
+    <img src="assets/logos/logo-dark.svg" class="only-dark" alt="Project Logo" style="width: 100%;">
+  </div>
+  <div style="flex: 0 1 auto; text-align: center;">
+    <p>Developed as part of the <a href="https://scenariocompass.org/">Senario Compass Initiative</a>.</p>
+    <img src="assets/logos/sci-light.svg" class="only-light" alt="SCI Logo" style="height: 50px;">
+    <img src="assets/logos/sci-dark.svg" class="only-dark" alt="SCI Logo" style="height: 50px;">
+  </div>
+</div>
 
 
 <h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Scenario Evaluation Criteria</h1>
