@@ -37,10 +37,7 @@ packages = [
 generate-setup-file = false
 script = "scripts/build_copy_extdata.py"
 
-[tool.poetry.group.tests-data.dependencies]
-pytest = "^8.0"
-
-[tool.poetry.group.tests-package.dependencies]
+[tool.poetry.group.tests.dependencies]
 pytest = "^8.0"
 pybtex = "^0.25.1"
 

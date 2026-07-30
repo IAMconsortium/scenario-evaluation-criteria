@@ -4,6 +4,12 @@ repo_name: scenario-evaluation-criteria
 repo_url: https://github.com/IAMconsortium/scenario-evaluation-criteria/
 copyright: © 2025 Integrated Assessment Modelling Consortium (IAMC)
 
+# Build errors (e.g. broken citations, failed exec="true" blocks) only abort
+# the build when MKDOCS_STRICT is set, which the docs-* CI workflows do. Left
+# unset (the default for `mkdocs serve`/`mkdocs build` locally), broken pages
+# degrade in place so the rest of the site stays browsable while iterating.
+strict: !ENV [MKDOCS_STRICT, false]
+
 nav:
   - Home: index.md
   - Summary: summary.md

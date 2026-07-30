@@ -33,7 +33,7 @@ jobs:
 
       - name: Install dependencies (no package)
         run: |
-          poetry install --with tests-data --no-root
+          poetry install --with tests --no-root
 
       - name: Run raw data tests
         run: |
@@ -64,7 +64,7 @@ jobs:
 
       - name: Install package and dependencies
         run: |
-          poetry install --with tests-package
+          poetry install --with tests
 
       - name: Run package tests
         run: |

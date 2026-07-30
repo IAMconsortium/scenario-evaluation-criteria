@@ -68,6 +68,7 @@ jobs:
       - name: Deploy PR preview with mike
         env:
           LD_LIBRARY_PATH: ""
+          MKDOCS_STRICT: "true"
         run: |
           poetry run mike deploy "${{ steps.version.outputs.dir }}"
 

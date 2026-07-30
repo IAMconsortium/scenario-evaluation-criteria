@@ -61,6 +61,7 @@ jobs:
       - name: Run mike to deploy mkdocs as latest
         env:
           LD_LIBRARY_PATH: ""
+          MKDOCS_STRICT: "true"
         run: |
           poetry run mike deploy latest --update-aliases
 

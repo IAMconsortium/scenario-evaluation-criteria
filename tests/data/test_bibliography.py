@@ -1,6 +1,10 @@
 """Tests for the BibTeX sources file."""
 
+from pathlib import Path
+
 import yaml
+from pybtex.database import parse_file
+from pybtex.plugin import find_plugin
 
 from utils import (
     expand_metadata_templates,
@@ -10,9 +14,32 @@ from utils import (
 )
 
 
+EXTDATA = Path(__file__).parents[2] / "inst" / "extdata"
+
+
 def _load_metadata(crit_dir):
     raw = yaml.safe_load((crit_dir / "descriptions.yaml").read_text())
     return expand_metadata_templates(raw)
+
+
+# ---------------------------------------------------------------------------
+# Every BibTeX entry must parse and format without error (mirrors the
+# 'alpha'/'plaintext' style used by `format_sources` for rendering the docs).
+# ---------------------------------------------------------------------------
+
+
+def test_bib_entries_parse_and_format():
+    bib_data = parse_file(EXTDATA / "sources.bib")
+    style = find_plugin("pybtex.style.formatting", "alpha")()
+    backend = find_plugin("pybtex.backends", "plaintext")()
+
+    errors = []
+    for identifier, entry in bib_data.entries.items():
+        try:
+            next(style.format_entries([entry])).text.render(backend)
+        except Exception as exc:
+            errors.append(f"{identifier}: {exc}")
+    assert not errors, "\n".join(errors)
 
 
 # ---------------------------------------------------------------------------
