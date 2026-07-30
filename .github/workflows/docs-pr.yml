@@ -1,0 +1,116 @@
+name: Docs (PR preview)
+
+on:
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  deploy-pr-docs:
+    name: Build and deploy PR preview docs
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+
+      - name: Sync dependencies for docs
+        run: |
+          poetry install --with docs
+
+      - name: Configure git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Install R and IRkernel
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends r-base libzmq3-dev
+          sudo Rscript -e "install.packages(c('IRkernel', 'Rd2md'), repos='https://packagemanager.posit.co/cran/__linux__/noble/latest')"
+          mkdir -p /tmp/ir_kernel
+          printf '{"argv":["/usr/bin/R","--slave","-e","IRkernel::main()","--args","{connection_file}"],"display_name":"R","language":"R"}' \
+            > /tmp/ir_kernel/kernel.json
+          poetry run jupyter kernelspec install /tmp/ir_kernel --name ir --user
+
+      - name: Generate R documentation
+        run: |
+          Rscript -e "
+          library(Rd2md)
+          fns <- list.files('./man/', pattern='[.]Rd$', full.names=TRUE)
+          out <- file('./docs/code/R.md', 'w')
+          for (f in fns) { writeLines(as_markdown(read_rdfile(f)), out); writeLines('\n\n---\n\n', out) }
+          close(out)
+          "
+
+      - name: Compute PR preview version name
+        id: version
+        run: |
+          SLUG=$(echo "${{ github.head_ref }}" | tr '[:upper:]' '[:lower:]' | sed -E 's~[^a-z0-9]+~-~g; s~^-+|-+$~~g')
+          echo "dir=pr${{ github.event.pull_request.number }}-$SLUG" >> "$GITHUB_OUTPUT"
+
+      - name: Deploy PR preview with mike
+        env:
+          LD_LIBRARY_PATH: ""
+        run: |
+          poetry run mike deploy "${{ steps.version.outputs.dir }}"
+
+      - name: Strip PR entry from versions.json and push
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        run: |
+          git worktree add /tmp/gh-pages-wt gh-pages
+          cd /tmp/gh-pages-wt
+          jq --arg v "${{ steps.version.outputs.dir }}" 'map(select(.version != $v))' versions.json > versions.json.tmp
+          mv versions.json.tmp versions.json
+          git add versions.json
+          git commit --amend --no-edit
+          git push origin HEAD:gh-pages
+
+      - name: Comment on PR with preview link
+        if: github.event.pull_request.head.repo.full_name == github.repository
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const dir = "${{ steps.version.outputs.dir }}";
+            const url = `https://iamconsortium.github.io/scenario-evaluation-criteria/${dir}/`;
+            const marker = "<!-- docs-pr-preview -->";
+            const body = `${marker}\n📖 Docs preview: ${url}`;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+            const existing = comments.find((c) => c.body && c.body.includes(marker));
+
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body,
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body,
+              });
+            }

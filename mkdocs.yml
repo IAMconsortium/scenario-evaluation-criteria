@@ -66,6 +66,10 @@ extra_css:
   - assets/css/extra.css
   - assets/css/theme-toggle.css
 
+extra:
+  version:
+    provider: mike
+
 plugins:
   - search
   - macros:
