@@ -70,6 +70,15 @@ jobs:
           poetry run mike deploy ${{ steps.version.outputs.version }} stable --alias-type=symlink --update-aliases
           poetry run mike set-default latest
 
+      - name: Remove PR preview entries from versions.json
+        run: |
+          git worktree add /tmp/gh-pages-wt gh-pages
+          cd /tmp/gh-pages-wt
+          jq 'map(select(.version | test("^pr[0-9]+-") | not))' versions.json > versions.json.tmp
+          mv versions.json.tmp versions.json
+          git add versions.json
+          git commit --amend --no-edit
+
       - name: Push gh-pages branch
         run: |
           git push origin gh-pages
