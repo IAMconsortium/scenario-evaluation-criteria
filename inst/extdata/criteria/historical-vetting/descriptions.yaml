@@ -36,12 +36,22 @@ Emissions|CO2|Energy and Industrial Processes:
         Primary Fossil Fuel:
             Coal:
                 fuel_name: coal
+                src_note: ""
             Gas:
                 fuel_name: gas
+                src_note: ""
             Oil:
                 fuel_name: oil
+                src_note: ""
             Nuclear:
                 fuel_name: nuclear
+                src_note: >-
+                    The variable `Primary Energy|Nuclear` can be read off
+                    from the graph on page "Electricity generation by source,
+                    World, 1990-2023" of the IEA Energy Statistics Data Browser
+                    ([here](https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Energy%20supply&indicator=ElecGenByFuel)).
+                    For example, the value 2010 is stated as 2,756,288 GWh, which
+                    converts to 9.923 EJ (assuming 1 GWh = 3.6e-06 EJ).
     justification_criterion: >-
         This criterion flags scenarios that report {fuel_name} primary energy
         production that is inconsistent with historical values.
@@ -74,6 +84,7 @@ Emissions|CO2|Energy and Industrial Processes:
         using both the reported value in 2020 and the value averaged over the
         period Jan 2018 until Dec 2022, taking whichever is more permissive
         for the scenario in question.
+    note: "{src_note}"
 Final Energy:
     justification_criterion: >-
         This criterion flags scenarios that report final energy demand that is
