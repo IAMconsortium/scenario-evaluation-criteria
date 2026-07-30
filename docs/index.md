@@ -5,8 +5,11 @@ hide:
 ---
 
 <p align="center">
-  <img src="assets/logos/logo-light.svg" class="only-light" alt="Project Logo" style="max-width: 600px; width: 100%; margin-bottom: 20px;">
-  <img src="assets/logos/logo-dark.svg" class="only-dark" alt="Project Logo" style="max-width: 600px; width: 100%; margin-bottom: 20px;">
+  <img src="assets/logos/logo-light.svg" class="only-light" alt="Project Logo" style="max-width: 600px; width: 100%; margin-bottom: 50px;">
+  <img src="assets/logos/logo-dark.svg" class="only-dark" alt="Project Logo" style="max-width: 600px; width: 100%; margin-bottom: 50px;">
+  Developed as part of the <a href="https://scenariocompass.org/">Senario Compass Initiative</a>.
+  <img src="assets/logos/sci-light.svg" class="only-light" alt="SCI Logo" style="height: 50px; margin-bottom: 20px;">
+  <img src="assets/logos/sci-dark.svg" class="only-dark" alt="SCI Logo" style="height: 50px; margin-bottom: 20px;">
 </p>
 
 
