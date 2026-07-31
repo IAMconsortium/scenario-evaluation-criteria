@@ -54,7 +54,7 @@ inst/extdata/
 ├── criteria/
 │   ├── [criteria type]/         # Label of a criteria type
 │   │   ├── thresholds.csv       # Threshold values (variable, region, year, bounds)
-│   │   └── metadata.yaml        # Justifications for criteria and thresholds
+│   │   └── descriptions.yaml    # Justifications for criteria and thresholds
 │   └── […]                      # More criteria types
 └── reference-data/
     └── *.csv                    # External datasets used as threshold references
