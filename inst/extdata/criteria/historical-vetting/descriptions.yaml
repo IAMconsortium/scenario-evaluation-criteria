@@ -46,12 +46,11 @@ Emissions|CO2|Energy and Industrial Processes:
             Nuclear:
                 fuel_name: nuclear
                 src_note: >-
-                    The variable `Primary Energy|Nuclear` can be read off
-                    from the graph on page "Electricity generation by source,
+                    The value for `Primary Energy|Nuclear` is taken from
+                    the statistics of "Electricity generation by source,
                     World, 1990-2023" of the IEA Energy Statistics Data Browser
-                    ([here](https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Energy%20supply&indicator=ElecGenByFuel)).
-                    For example, the value 2010 is stated as 2,756,288 GWh, which
-                    converts to 9.923 EJ (assuming 1 GWh = 3.6e-06 EJ).
+                    ([here](https://www.iea.org/data-and-statistics/data-tools/energy-statistics-data-browser?country=WORLD&fuel=Energy%20supply&indicator=ElecGenByFuel))
+                    and then converted from GWh to EJ (assuming 1 GWh = 3.6e-06 EJ).
     justification_criterion: >-
         This criterion flags scenarios that report {fuel_name} primary energy
         production that is inconsistent with historical values.
