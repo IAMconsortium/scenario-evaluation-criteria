@@ -88,19 +88,19 @@ Nuclear Capacity:
         Based on this capacity data, we assume the following global thresholds
         for 2030:
 
-        • Lower, high concern:  0.0 GW to account for the fact that nuclear energy
-        could, in principle, be phased out quickly, as observed in a few
-        countries (e.g. Germany).
+        • Lower threshold, high concern:  0.0 GW to account for the fact that
+        nuclear energy could, in principle, be phased out quickly, as observed
+        in a few countries (e.g. Germany).
 
-        • Lower, medium concern:  15% less than capacities operational in
-        2024, as reported by the {{cite:IAEA-PRIS-2024}}.
+        • Lower threshold, medium concern:  15% less than capacities
+        operational in 2024, as reported by the {{cite:IAEA-PRIS-2024}}.
 
-        • Upper, medium concern:  5% more than capacities operational plus 75%
-        of plants under construction in 2024, as reported by the
-        {{cite:IAEA-PRIS-2024}}.
+        • Upper threshold, medium concern:  5% more than capacities
+        operational plus 75% of plants under construction in 2024, as reported
+        by the {{cite:IAEA-PRIS-2024}}.
 
-        • Upper, high concern:  10% more than the highest estimate for 2030
-        (461 GW) published by the {{cite:IAEA-E50-2024}}.
+        • Upper threshold, high concern:  10% more than the highest estimate
+        for 2030 (461 GW) published by the {{cite:IAEA-E50-2024}}.
 Carbon Capture and Storage:
     justification_criterion: >-
         This criterion flags scenarios that assume a deployment of CCS
@@ -144,25 +144,27 @@ Carbon Capture and Storage:
         Based on the CCUS database, we assume the following global thresholds
         for 2030:
 
-        • Lower, high concern:  0.0 Mt CO₂/yr to account for the fact that CCUS is an
-        immature technology.
+        • Lower threshold, high concern:  0.0 Mt CO₂/yr to account for the
+        fact that CCUS is an immature technology.
 
-        • Lower, medium concern:  10% less than capacities operational in 2024,
-        as reported by the CCUS database {{citep:IEA-CCUS-2024}}.
-
-        • Upper, medium concern:  5% more than capacities operational or under
-        construction, plus 21% of planned projects (without final investment
-        decision) in 2024, as reported by the CCUS database
+        • Lower threshold, medium concern:  10% less than capacities
+        operational in 2024, as reported by the CCUS database
         {{citep:IEA-CCUS-2024}}.
 
-        • Upper, high concern:  10% more than all projects operational, under
-        construction, or announced, as reported by the CCUS database
-        {{citep:IEA-CCUS-2024}}.
+        • Upper  threshold, medium concern:  5% more than capacities
+        operational or under construction, plus 21% of planned projects
+        (without final investment decision) in 2024, as reported by the
+        CCUS database {{citep:IEA-CCUS-2024}}.
+
+        • Upper threshold, high concern:  10% more than all projects
+        operational, under construction, or announced, as reported by the CCUS
+        database {{citep:IEA-CCUS-2024}}.
 
 
         Long-term (2035–2040): {{cite:Kazlou-2024}} derive an upper bound for
         feasible CCS capacity deployment in 2030 of 370 Mt CO₂/yr and 2040 of
-        4,300 Mt CO₂/yr (see Table 2 in the work by {{cite:Kazlou-2024}}), which assumes a doubling of existing plans and a 45% failure rate.
+        4,300 Mt CO₂/yr (see Table 2 in the work by {{cite:Kazlou-2024}}),
+        which assumes a doubling of existing plans and a 45% failure rate.
 
 
         Based on this work, we assume the following global thresholds:
@@ -184,7 +186,8 @@ Carbon Capture and Storage:
         more granular reporting of carbon capture. In these scenarios,
         additional categories such as CO₂ leakage or CO₂ utilization
         contribute to total carbon capture, which as a result may exceed the
-        corresponding threshold even when geological storage remains below its threshold.
+        corresponding threshold even when geological storage remains below its
+        threshold.
 Solar PV Capacity:
     justification_criterion: >-
         This criterion flags scenarios that assume a deployment of solar
