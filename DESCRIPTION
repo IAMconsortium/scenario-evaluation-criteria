@@ -33,7 +33,7 @@ Authors@R: c(
 		role = "aut",
 		comment = c(affiliation = "Potsdam Institute for Climate Impact Research", ORCID = "0000-0002-9057-6155"))
 	)
-Description: Evaluation criteria for scenarios produced by Integrated Assessment Models
+Description: Evaluation criteria for integrated assessment scenarios
 License: MIT
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
