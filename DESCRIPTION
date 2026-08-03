@@ -1,6 +1,6 @@
 Package: scenarioevaluationcriteria
 Title: Scenario Evaluation Criteria
-Version: 2026.07.31
+Version: 2026.08.03
 Authors@R: c(
     person(
 		given = "Philipp C.", family = "Verpoort",
