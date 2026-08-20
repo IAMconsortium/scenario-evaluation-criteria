@@ -90,7 +90,8 @@ else:
 year = str(cff["date-released"]).split("-")[0]
 title = cff["title"]
 version = cff["version"]
-url = "https://github.com/IAMconsortium/scenario-evaluation-criteria/"
+doi = next(i["value"] for i in cff["identifiers"] if i["type"] == "doi")
+url = f"https://doi.org/{doi}"
 
 print(
     f"> {author_str} ({year}). *{title}* "
