@@ -2,58 +2,214 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/</loc>
-         <lastmod>2026-08-20</lastmod>
-    </url>
-    <url>
-         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/code/R/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/code/python/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/components/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/components/descriptions/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/components/reference_data/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/components/sources/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/components/thresholds/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/components/types/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/biodiversity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/carbon-capture-and-storage/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/daccs-capacity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/deforestation/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/forest-expansion/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/hydropower-capacity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/land-cover/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/nuclear-capacity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/onshore-wind-capacity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/solar-pv-capacity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/feasibility-concern/wind-capacity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/cropland-yields/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/emissions-ch4-afolu-agriculture/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/emissions-co2-afolu-land/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/emissions-co2-afolu/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/emissions-co2-energy-and-industrial-processes/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/emissions-n2o-afolu-agriculture/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/final-energy/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/food-availability/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/land-cover-cropland/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/land-cover-forest/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/land-cover-pasture/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/land-cover/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/onshore-wind-capacity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/primary-energy-coal/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/primary-energy-gas/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/primary-energy-nuclear/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/primary-energy-oil/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/solar-pv-capacity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/historical-vetting/wind-capacity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/sustainability-concern/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/sustainability-concern/biodiversity/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/sustainability-concern/deforestation/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/sustainability-concern/exceeding-prudent-limit-for-geological-carbon-storage/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/sustainability-concern/food-availability/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/sustainability-concern/unsustainable-bioenergy-use/</loc>
+         <lastmod>2026-11-06</lastmod>
+    </url>
+    <url>
+         <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/summary/sustainability-concern/unsustainable-hydropower-use/</loc>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/tutorials/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/tutorials/R/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/tutorials/python/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
     <url>
          <loc>https://iamconsortium.github.io/scenario-evaluation-criteria/latest/tutorials/raw/</loc>
-         <lastmod>2026-08-20</lastmod>
+         <lastmod>2026-11-06</lastmod>
     </url>
 </urlset>
