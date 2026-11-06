@@ -41,6 +41,36 @@ Food Availability:
         • Lower threshold, medium concern: 2,520 kcal/cap/day
 
         • Lower threshold, high concern: 2,220 kcal/cap/day
+Biodiversity:
+    justification_criterion: >-
+        Halting biodiversity loss is considered a Sustainable Development Goal
+        (SDG) by the United Nations for maritime (SDG14) and terrestrial
+        (SDG15) life {{citep:UN-SDGs-2025}}. According to the 2024 Planetary
+        Boundary Health Check {{citep:PBHC-2024}}, the loss of genetic
+        diversity exceeded its safe levels in 2024. The {{cite:GBF-2025}}
+        targets halting human-induced species extinction by 2030.
+    justification_threshold: >-
+        We interpret the target of halting human-induced species extinction by
+        2030 as a non-negative change rate of the biodiversity intactness index.
+
+
+        Therefore, the lower threshold for the biodiversity intactness index is
+        set to zero.
+Unsustainable Hydropower Use:
+    justification_criterion: >-
+        Hydropower can negatively impact nature by altering river ecosystems,
+        disrupting fish migration, and affecting water quality. Dams can
+        change natural water flow, leading to habitat loss for aquatic and
+        terrestrial species. They can also trap sediment, which is essential
+        for maintaining downstream ecosystems. {{cite:Thieme-2021}} found that
+        if all planned hydropower dams would complete construction, this
+        would result in the loss of 260,000 kilometers of free-flowing rivers
+        globally.
+    justification_threshold: >-
+        {{cite:Opperman-2019}} show that a low level of hydropower expansion of
+        no more than 1500 GW hydropower globally combined with strategic
+        planning of the siting of new hydropower could reduce impacts on
+        free-flowing rivers by 90%.
 Unsustainable Bioenergy Use:
     justification_criterion: >-
         This criterion flags scenarios that assume a high usage of bioenergy.
@@ -79,6 +109,18 @@ Unsustainable Bioenergy Use:
         • Upper threshold, medium concern: 100 EJ/yr
 
         • Upper threshold, high concern: 245 EJ/yr
+Deforestation:
+    justification_criterion: >-
+        Managing forests sustainably is considered a Sustainable Development
+        Goal (SDG) by the United Nations (SDG15) {{citep:UN-SDGs-2025}}. The
+        Target 1 put forward by the {{cite:GBF-2025}} implies close to zero
+        deforestation by 2030.
+    justification_threshold: >-
+        We interpret the target of near-zero deforestation as 0 Mha/year of
+        deforestation in 2030.
+
+
+        Therefore, the lower threshold for deforestation is set to zero.
 Exceeding Prudent Limit For Geological Carbon Storage:
     justification_criterion: >-
         This criterion flags scenarios that rely on an amount of geological

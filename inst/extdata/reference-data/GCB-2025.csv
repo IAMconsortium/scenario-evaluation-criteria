@@ -1,0 +1,9 @@
+# source: GCB-2025
+# description: Based on {{source}}.
+variable,year,region,unit,value
+Emissions|CO2|AFOLU,2010,World,Mt CO2/yr,6517.791893333332
+Emissions|CO2|AFOLU,2015,World,Mt CO2/yr,6512.637866666679
+Emissions|CO2|AFOLU,2020,World,Mt CO2/yr,4516.539520000014
+Emissions|CO2|AFOLU|Land,2010,World,Mt CO2/yr,5181.2811
+Emissions|CO2|AFOLU|Land,2015,World,Mt CO2/yr,5634.3589
+Emissions|CO2|AFOLU|Land,2020,World,Mt CO2/yr,4298.3111

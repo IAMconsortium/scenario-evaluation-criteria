@@ -24,7 +24,6 @@ hide:
 <h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Scenario Evaluation Criteria</h1>
 
 <div style="text-align: center;" markdown>
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21771914.svg)](https://doi.org/10.5281/zenodo.21771914)
 [![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/IAMconsortium/scenario-evaluation-criteria/blob/main/LICENSE.md)
 [![Documentation Status](https://img.shields.io/badge/docs-online-blue)](https://scenario-evaluation-criteria.iamconsortium.org/)
 [![CI](https://github.com/IAMconsortium/scenario-evaluation-criteria/actions/workflows/ci.yml/badge.svg)](https://github.com/IAMconsortium/scenario-evaluation-criteria/actions/workflows/ci.yml)
@@ -90,8 +89,10 @@ else:
 year = str(cff["date-released"]).split("-")[0]
 title = cff["title"]
 version = cff["version"]
-doi = next(i["value"] for i in cff["identifiers"] if i["type"] == "doi")
-url = f"https://doi.org/{doi}"
+# Overridden on this branch: no DOI is minted for unreleased work, so link
+# to the branch itself instead (restore the CITATION.cff-derived DOI link
+# once this lands on main and gets a release).
+url = "https://github.com/IAMconsortium/scenario-evaluation-criteria/tree/2026-update"
 
 print(
     f"> {author_str} ({year}). *{title}* "

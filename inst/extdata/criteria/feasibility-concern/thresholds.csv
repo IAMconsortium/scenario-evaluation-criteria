@@ -1,15 +1,34 @@
 criterion,variable,region,year,reference_data,unit,evaluation_outcome,lower,upper
-Hydropower Capacity,Capacity|Electricity|Hydro,World,2030,,GW,medium,1175.37,1606.66
-Hydropower Capacity,Capacity|Electricity|Hydro,World,2030,,GW,high,979.43,2117.58
-Nuclear Capacity,Capacity|Electricity|Nuclear,World,2030,,GW,medium,320.33,441.92
+Biodiversity,Terrestrial Biodiversity|Biodiversity Intactness Index,World,2030,,%/yr,medium,-0.11,
+Deforestation,Forest Area Change|Deforestation,World,2030,,million ha/yr,medium,,16
+Deforestation,Forest Area Change|Deforestation|Primary,World,2030,,million ha/yr,medium,,12
+Forest Expansion,Forest Area Change|Forest Expansion,World,2030,,million ha/yr,medium,,10
+Forest Expansion,Forest Area Change|Forest Expansion|Planted,World,2030,,million ha/yr,medium,,5
+Land Cover,Land Cover,World,2030,,million ha,high,11554,14318
+Hydropower Capacity,Capacity|Electricity|Hydro,World,2030,,GW,medium,1265.78,1727.78
+Hydropower Capacity,Capacity|Electricity|Hydro,World,2030,,GW,high,1051.2,2278.98
+Hydropower Capacity,Capacity|Electricity|Hydro,All Countries,2030,IEA-HSMR-2021-low-proj,dimensionless,medium,1,
+Hydropower Capacity,Capacity|Electricity|Hydro,All Countries,2030,IEA-HSMR-2021-high-proj,dimensionless,medium,,1
+Nuclear Capacity,Capacity|Electricity|Nuclear,World,2030,,GW,medium,273.18,474.39
 Nuclear Capacity,Capacity|Electricity|Nuclear,World,2030,,GW,high,0,507.1
-Carbon Capture and Storage,"Carbon Capture|Geological Storage, Carbon Capture",World,2030,,Mt CO2/yr,medium,44.02,152.47
-Carbon Capture and Storage,"Carbon Capture|Geological Storage, Carbon Capture",World,2030,,Mt CO2/yr,high,0,457.89
+Nuclear Capacity,Capacity|Electricity|Nuclear,All Countries,2030,IAEA-PRIS-2026-low-proj,dimensionless,medium,1,
+Nuclear Capacity,Capacity|Electricity|Nuclear,All Countries,2030,IAEA-PRIS-2026-high-proj,dimensionless,medium,,1
+Carbon Capture and Storage,"Carbon Capture|Geological Storage, Carbon Capture",World,2030,,Mt CO2/yr,medium,50.95,190.06
+Carbon Capture and Storage,"Carbon Capture|Geological Storage, Carbon Capture",World,2030,,Mt CO2/yr,high,0,457.93
+Carbon Capture and Storage,Carbon Capture|Geological Storage,All Countries,2030,IEA-CCUS-2026-low-proj,dimensionless,medium,1,
+Carbon Capture and Storage,Carbon Capture|Geological Storage,All Countries,2030,IEA-CCUS-2026-high-proj,dimensionless,medium,,1
 Carbon Capture and Storage,"Carbon Capture|Geological Storage, Carbon Capture",World,2035,,Mt CO2/yr,medium,,1300
 Carbon Capture and Storage,"Carbon Capture|Geological Storage, Carbon Capture",World,2040,,Mt CO2/yr,medium,,4300
-Solar PV Capacity,Capacity|Electricity|Solar,World,2030,,GW,medium,4350.2,8163.7
-Solar PV Capacity,Capacity|Electricity|Solar,World,2030,,GW,high,2683.2,10896
-Onshore Wind Capacity,Capacity|Electricity|Wind|Onshore,World,2030,,GW,medium,1719,2853
-Onshore Wind Capacity,Capacity|Electricity|Wind|Onshore,World,2030,,GW,high,1220,3655
-Wind Capacity,Capacity|Electricity|Wind,World,2030,,GW,medium,1719,
-Wind Capacity,Capacity|Electricity|Wind,World,2030,,GW,high,1220,
+DACCS Capacity,Carbon Capture|Geological Storage|Direct Air Capture,World,2050,,Mt CO2/yr,medium,,4900
+Solar PV Capacity,Capacity|Electricity|Solar,World,2030,,GW,medium,4434.9,7843.8
+Solar PV Capacity,Capacity|Electricity|Solar,World,2030,,GW,high,2940.6,10272.1
+Solar PV Capacity,Capacity|Electricity|Solar,All Countries,2030,IRENA-RCS-2025-BNEF-2024-low-proj,dimensionless,medium,1,
+Solar PV Capacity,Capacity|Electricity|Solar,All Countries,2030,IRENA-RCS-2025-BNEF-2024-high-proj,dimensionless,medium,,1
+Wind Capacity,Capacity|Electricity|Wind,World,2030,,GW,medium,1776,2736
+Wind Capacity,Capacity|Electricity|Wind,World,2030,,GW,high,1351,3407
+Wind Capacity,Capacity|Electricity|Wind,All Countries,2030,IRENA-RCS-2025-BNEF-2024-low-proj,dimensionless,medium,1,
+Wind Capacity,Capacity|Electricity|Wind,All Countries,2030,IRENA-RCS-2025-BNEF-2024-high-proj,dimensionless,medium,,1
+Onshore Wind Capacity,Capacity|Electricity|Wind|Onshore,World,2030,,GW,medium,1585,2402
+Onshore Wind Capacity,Capacity|Electricity|Wind|Onshore,World,2030,,GW,high,1223,2970
+Onshore Wind Capacity,Capacity|Electricity|Wind|Onshore,All Countries,2030,IRENA-RCS-2025-BNEF-2024-low-proj,dimensionless,medium,1,
+Onshore Wind Capacity,Capacity|Electricity|Wind|Onshore,All Countries,2030,IRENA-RCS-2025-BNEF-2024-high-proj,dimensionless,medium,,1

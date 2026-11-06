@@ -22,7 +22,6 @@
 Evaluation criteria for scenarios produced by Integrated Assessment
 Models (IAMs), energy system models and similar tools.
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21771914.svg)](https://doi.org/10.5281/zenodo.21771914)
 [![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE.md)
 [![Documentation Status](https://img.shields.io/badge/docs-online-blue)](https://scenario-evaluation-criteria.iamconsortium.org/)
 [![CI](https://github.com/IAMconsortium/scenario-evaluation-criteria/actions/workflows/ci.yml/badge.svg)](https://github.com/IAMconsortium/scenario-evaluation-criteria/actions/workflows/ci.yml)
@@ -42,9 +41,9 @@ when in the process of collecting and assess existing scenario ensembles.
 Specifically, scenarios are often checked against empirical observations,
 near-term projections, and sustainability targets to identify scenarios that
 are outdated, internally inconsistent, technically infeasible, or ecologically
-undesirable. This package provides a versioned, machine-readable set of such
-evaluation criteria so that different research groups can apply the same
-standards.
+or socially undesirable. This package provides a versioned, machine-readable 
+set of such evaluation criteria so that different research groups can apply 
+the same standards.
 
 ---
 

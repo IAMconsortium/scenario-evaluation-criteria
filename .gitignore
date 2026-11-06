@@ -2,6 +2,7 @@
 /.jupyter/
 *.ipynb
 /docs/code/R.md
+/region-definitions/common-definitions/
 
 
 # Created by https://www.toptal.com/developers/gitignore/api/r,kate,linux,macos,python,windows,powershell,libreoffice,pycharm+all,microsoftoffice,visualstudiocode,jupyternotebooks

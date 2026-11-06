@@ -1,3 +1,66 @@
+Biodiversity:
+    justification_criterion: >-
+        This scenario reports a near-term decline of biodiversity intactness
+        that is stronger than what has been reported historically.
+
+
+        This is a concern because this near-term trend is inconsistent with
+        historically change rates.
+
+
+        The Global Biodiversity Framework (GBF) targets halting human-induced
+        species extinction by 2030, which we interpret as halting reducing
+        biodiversity intactness by 2030.
+    justification_threshold: >-
+        Historical values for the change rate of biodiversity intactness are
+        reported by {{citep:Pereira-2024}}.
+
+
+        The threshold is set as the lowest historical change rate.
+Deforestation:
+    justification_criterion: >-
+        This scenario reports a level of near-term deforestation that is above
+        what has been reported historically.
+
+        This is a concern because it would mean unprecedented deforestation,
+        which would go beyond what has been experienced historically.
+    justification_threshold: >-
+        The highest annual rate of deforestation in 1990–2020 was
+        estimated at 16 million hectars per year (12 million hectars for
+        primary deforestation) for the period of 1990-2000 {{citep:FRA-2020}}.
+Forest Expansion:
+    justification_criterion: >-
+        This scenario reports a near-term forest expansion rate that is above
+        what has been reported historically.
+
+
+        This is a concern because it would mean unprecedented forest expansion,
+        which would go beyond what has been experienced historically.
+    justification_threshold: >-
+        The highest annual rate of forest expansion in the last four decades
+        (1990–2020) was estimated at 10 million hectars per year (5 million
+        hectars for planted forest) for the period of 2000-2010
+        {{citep:FRA-2020}}.
+Land Cover:
+    justification_criterion: >-
+        This scenario reports land cover that is inconsistent with near-term
+        trends.
+
+
+        This is a concern because the underlying modelling likely makes false
+        assumptions on land cover and the efforts needed to reduce emissions
+        while growing sufficient food.
+    justification_threshold: >-
+        Near-term values for land cover are provided by {{cite:LUH3-2026}}.
+
+
+        The threshold for 2030 is derived from this source as follows:
+
+        • ±10% deviation will lead to exclusion.
+
+
+        Note that this range not only give models some leeway to deviate, but
+        also account for uncertainty in the underlying data sources.
 Hydropower Capacity:
     justification_criterion: >-
         This criterion flags scenarios that assume a deployment of hydropower
@@ -56,6 +119,18 @@ Hydropower Capacity:
         (without pumped storage) that is expected to be operational in 2030
         under accelerated efforts, plus 10% more than pumped storage capacity
         that is expected to be operational in 2030 under normal conditions.
+
+
+        Moreover, we assume the following regional thresholds for 2030:
+
+        • Lower threshold, medium concern:  40% less than hydropower capacity
+        (without pumped storage) that is expected to be operational in 2030
+        under normal conditions.
+
+        • Upper threshold, medium concern:  82% more than hydropower capacity
+        (without pumped storage) that is expected to be operational in 2030
+        under accelerated efforts, plus 10% more than pumped storage capacity
+        that is expected to be operational in 2030 under normal conditions.
 Nuclear Capacity:
     justification_criterion: >-
         This criterion flags scenarios that assume a deployment of nuclear
@@ -72,7 +147,7 @@ Nuclear Capacity:
     justification_threshold: >-
         Data on nuclear power plants is published by the International Atomic
         Energy Agency (IAEA). This includes plant-level data of existing
-        capacities {{citep:IAEA-PRIS-2024}} and estimates until 2050
+        capacities {{citep:IAEA-PRIS-2026}} and estimates until 2050
         {{citep:IAEA-E50-2024}}.
 
 
@@ -93,14 +168,26 @@ Nuclear Capacity:
         in a few countries (e.g. Germany).
 
         • Lower threshold, medium concern:  15% less than capacities
-        operational in 2024, as reported by the {{cite:IAEA-PRIS-2024}}.
+        operational in 2026, as reported by the {{cite:IAEA-PRIS-2026}}.
 
-        • Upper threshold, medium concern:  5% more than capacities
-        operational plus 75% of plants under construction in 2024, as reported
-        by the {{cite:IAEA-PRIS-2024}}.
+        • Upper, medium concern:  5% more than capacities operational plus 5%
+        more than inactive capacities in Japan (which we assume can be brought
+        back online) plus 79% of plants under construction in 2026, as reported
+        by the {{cite:IAEA-PRIS-2026}}.
 
         • Upper threshold, high concern:  10% more than the highest estimate
         for 2030 (461 GW) published by the {{cite:IAEA-E50-2024}}.
+
+
+        Moreover, we assume the following regional thresholds for 2030:
+
+        • Lower, medium concern:  52% less than capacities operational in
+        2026, as reported by the {{cite:IAEA-PRIS-2026}}.
+
+        • Upper, medium concern:  40% more than capacities operational plus 40%
+        more than inactive capacities in Japan (which we assume can be brought
+        back online) plus 40% more than plants under construction in 2026, as
+        reported by the {{cite:IAEA-PRIS-2026}}.
 Carbon Capture and Storage:
     justification_criterion: >-
         This criterion flags scenarios that assume a deployment of CCS
@@ -127,7 +214,7 @@ Carbon Capture and Storage:
         infrastructure, such as solar, wind, and batteries.
     justification_threshold: >-
         Near-term (2030): CCUS projects are tracked and published annually
-        in a database by the {{cite:IEA-CCUS-2024}}.
+        in a database by the {{cite:IEA-CCUS-2026}}.
 
 
         The projects in the CCUS database are assigned one of the following
@@ -148,17 +235,29 @@ Carbon Capture and Storage:
         fact that CCUS is an immature technology.
 
         • Lower threshold, medium concern:  10% less than capacities
-        operational in 2024, as reported by the CCUS database
-        {{citep:IEA-CCUS-2024}}.
+        operational in 2026, as reported by the CCUS database
+        {{citep:IEA-CCUS-2026}}.
 
-        • Upper  threshold, medium concern:  5% more than capacities
+        • Upper threshold, medium concern:  5% more than capacities
         operational or under construction, plus 21% of planned projects
-        (without final investment decision) in 2024, as reported by the
-        CCUS database {{citep:IEA-CCUS-2024}}.
+        (without final investment decision) in 2026, as reported by the
+        CCUS database {{citep:IEA-CCUS-2026}}.
 
         • Upper threshold, high concern:  10% more than all projects
         operational, under construction, or announced, as reported by the CCUS
-        database {{citep:IEA-CCUS-2024}}.
+        database {{citep:IEA-CCUS-2026}}.
+
+
+        Moreover, we assume the following regional thresholds for 2030:
+
+        • Lower, medium concern:  40% less than capacities operational in 2026
+        plus 30% of the projects under construction, as reported by the CCUS
+        database {{citep:IEA-CCUS-2026}}.
+
+        • Upper, medium concern:  40% more than capacities operational or under
+        construction, plus 28% of planned projects (without final investment
+        decision) in 2026, as reported by the CCUS database
+        {{citep:IEA-CCUS-2026}}.
 
 
         Long-term (2035–2040): {{cite:Kazlou-2024}} derive an upper bound for
@@ -188,6 +287,29 @@ Carbon Capture and Storage:
         contribute to total carbon capture, which as a result may exceed the
         corresponding threshold even when geological storage remains below its
         threshold.
+DACCS Capacity:
+    justification_criterion: >-
+        This scenario assumes a high deployment of Direct Air Capture with
+        Carbon Storage (DACCS).
+
+
+        DACCS is a technology that is very immature today. Moreover, CO₂ is
+        captured  directly from the atmosphere, which has a much lower CO₂
+        concentration than flue gases from points sources (e.g. a cement
+        or waste-incineration plant), the purification of CO₂ is much
+        harder and cannot be achieved with established carbon capture
+        technologies.
+
+
+        In summary, this causes DACCS to be a technology that will likely take
+        a long time to develop and scale up.
+    justification_threshold: >-
+        "If DACCS growth mirrors high-growth analogs (e.g., solar photovoltaics), it can reach up to 4.9 GtCO2 removal by midcentury" {{citep:Edwards-2024}}.
+
+
+        Based on this work, we assume the following threshold:
+
+        • Upper, medium concern in 2050:  4,900 Mt CO₂/yr.
 Solar PV Capacity:
     justification_criterion: >-
         This criterion flags scenarios that assume a deployment of solar
@@ -202,8 +324,8 @@ Solar PV Capacity:
         estimates have their limitations, they can be used to set broad ranges
         of near-term feasibility.
     justification_threshold: >-
-        Existing capacities in 2023 are reported by {{cite:Ember-2024}}.
-        Yearly additions for 2024–2030 are estimated in a market outlook by
+        Existing capacities in 2024 are reported by {{cite:IRENA-RCS-2025}}.
+        Yearly additions for 2025–2030 are estimated in a market outlook by
         {{cite:BNEF-2024}}.
 
 
@@ -215,20 +337,31 @@ Solar PV Capacity:
         the following global thresholds for 2030:
 
         • Lower threshold, high concern:  10% less than capacities operational
-        in 2023, plus 33.75% of additions from the market outlook (without
-        buffer/unknown).
+        in 2024, plus 33.75% of 2025–2030 additions from the market outlook
+        (without buffer/unknown).
 
         • Lower threshold, medium concern:  5% less than capacities operational
-        in 2023, plus 71.25% of additions from the market outlook (without
-        buffer/unknown).
+        in 2024, plus 71.25% of 2025–2030 additions from the market outlook
+        (without buffer/unknown).
 
         • Upper threshold, medium concern:  5% more than capacities operational
-        in 2023, plus 157.5% of additions from the market outlook (without
-        buffer/unknown).
+        in 2024, plus 157.5% of 2025–2030 additions from the market outlook
+        (without buffer/unknown).
 
         • Upper threshold, high concern:  10% more than capacities operational
-        in 2023, plus 220.0% of additions from the market outlook (with
-        buffer/unknown).
+        in 2024, plus 220.0% of 2025–2030 additions from the market outlook
+        (with buffer/unknown).
+
+
+        Moreover, we assume the following regional thresholds for 2030:
+
+        • Lower threshold, medium concern:  40% less than capacities
+        operational in 2024 plus 22.5% of 2025–2030 additions from the market
+        outlook (without buffer/unknown).
+
+        • Upper threshold, medium concern:  40% more than capacities
+        operational in 2024 plus 280% of 2025–2030 additions from the market
+        outlook (without buffer/unknown).
     note: >-
         Due to reporting inconsistencies in legacy projects, several
         models reported capacity-values that were far below actual
@@ -246,9 +379,15 @@ Solar PV Capacity:
 
         Visit [https://github.com/IAMconsortium/scenariocompass/tree/main/scripts/sci_v1.0](https://github.com/IAMconsortium/scenariocompass/tree/main/scripts/sci_v1.0)
         for more information.
-Onshore Wind Capacity:
+"{Component}Wind Capacity":
+    replacements:
+        Component:
+            ~:
+                component: total
+            "Onshore ":
+                component: onshore
     justification_criterion: >-
-        This criterion flags scenarios that assume a deployment of on-shore
+        This criterion flags scenarios that assume a deployment of {component}
         wind capacity that is inconsistent with near-term market outlooks.
 
 
@@ -261,8 +400,8 @@ Onshore Wind Capacity:
     justification_threshold: >-
         Existing capacities in 2024 are reported by the International
         Renewable Energy Agency {{citep:IRENA-RCS-2025}}. Yearly
-        additions for 2025–2028 are estimated in a market outlook by the
-        {{cite:GWEC-2024}}.
+        additions for 2025–2030 are estimated in a market outlook by the
+        {{cite:GWEC-2026}}.
 
 
         The outlook is based on input from regional wind associations,
@@ -274,31 +413,24 @@ Onshore Wind Capacity:
         the following global thresholds for 2030:
 
         • Lower threshold, high concern:  10% less than capacities operational
-        in 2024, plus 33.75% of additions from the market outlook.
+        in 2024, plus 33.75% of 2025–2030 additions from the market outlook.
 
         • Lower threshold, medium concern:  5% less than capacities operational
-        in 2024, plus 71.25% of additions from the market outlook.
+        in 2024, plus 71.25% of 2025–2030 additions from the market outlook.
 
         • Upper threshold, medium concern:  5% more than capacities operational
-        in 2024, plus 157.5% of additions from the market outlook.
+        in 2024, plus 157.5% of 2025–2030 additions from the market outlook.
 
         • Upper threshold, high concern:  10% more than capacities operational
-        in 2024, plus 220.0% of additions from the market outlook.
-Wind Capacity:
-    justification_criterion: >-
-        This criterion flags scenarios that assume a deployment of total wind
-        power capacity (onshore and offshore combined) that is inconsistent with
-        near-term market outlooks.
+        in 2024, plus 220.0% of 2025–2030 additions from the market outlook.
 
 
-        This technology is available at scale and has short project lead
-        times, meaning that there are no fundamental obstacles to fast
-        deployment. Its near-term growth can be estimated based on today's
-        installed capacity and near-term market outlooks. While these
-        estimates have their limitations, they can be used to set broad ranges
-        of near-term feasibility.
-    justification_threshold: >-
-        The same lower bounds as for the onshore wind capacity are applied to
-        total wind capacity, reflecting the assumption that onshore wind
-        alone provides a sufficient lower bound for total (onshore and
-        offshore) deployment.
+        Moreover, we assume the following regional thresholds for 2030:
+
+        • Lower threshold, medium concern:  40% less than capacities
+        operational in 2024 plus 22.5% of 2025–2030 additions from the market
+        outlook (without buffer/unknown).
+
+        • Upper threshold, medium concern:  40% more than capacities
+        operational in 2024 plus 280% of 2025–2030 additions from the market
+        outlook (without buffer/unknown).

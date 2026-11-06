@@ -1,0 +1,1424 @@
+# source: FAOSTAT-2026
+# description: Data from {{source}} extrapolated to 2025.
+variable,year,region,unit,value
+Emissions|CH4|AFOLU|Agriculture,2025,AFG,Mt CH4/yr,0.4374422
+Emissions|CH4|AFOLU|Agriculture,2025,AGO,Mt CH4/yr,0.2194349
+Emissions|CH4|AFOLU|Agriculture,2025,ALB,Mt CH4/yr,0.0508066
+Emissions|CH4|AFOLU|Agriculture,2025,ARE,Mt CH4/yr,0.0557413999999999
+Emissions|CH4|AFOLU|Agriculture,2025,ARG,Mt CH4/yr,3.3324057
+Emissions|CH4|AFOLU|Agriculture,2025,ARM,Mt CH4/yr,0.0236042
+Emissions|CH4|AFOLU|Agriculture,2025,ATG,Mt CH4/yr,0.0004763
+Emissions|CH4|AFOLU|Agriculture,2025,AUS,Mt CH4/yr,2.5885217
+Emissions|CH4|AFOLU|Agriculture,2025,AUT,Mt CH4/yr,0.1609455
+Emissions|CH4|AFOLU|Agriculture,2025,AZE,Mt CH4/yr,0.1428001
+Emissions|CH4|AFOLU|Agriculture,2025,BDI,Mt CH4/yr,0.0790986999999999
+Emissions|CH4|AFOLU|Agriculture,2025,BEL,Mt CH4/yr,0.1856267999999999
+Emissions|CH4|AFOLU|Agriculture,2025,BEN,Mt CH4/yr,0.1322044999999999
+Emissions|CH4|AFOLU|Agriculture,2025,BFA,Mt CH4/yr,0.5428213
+Emissions|CH4|AFOLU|Agriculture,2025,BGD,Mt CH4/yr,2.4513854000000004
+Emissions|CH4|AFOLU|Agriculture,2025,BGR,Mt CH4/yr,0.0630049
+Emissions|CH4|AFOLU|Agriculture,2025,BHR,Mt CH4/yr,0.000932
+Emissions|CH4|AFOLU|Agriculture,2025,BHS,Mt CH4/yr,0.0002371
+Emissions|CH4|AFOLU|Agriculture,2025,BIH,Mt CH4/yr,0.0410849
+Emissions|CH4|AFOLU|Agriculture,2025,BLR,Mt CH4/yr,0.3464886
+Emissions|CH4|AFOLU|Agriculture,2025,BLZ,Mt CH4/yr,0.0064715999999999
+Emissions|CH4|AFOLU|Agriculture,2025,BOL,Mt CH4/yr,0.8189152
+Emissions|CH4|AFOLU|Agriculture,2025,BRA,Mt CH4/yr,14.471676999999996
+Emissions|CH4|AFOLU|Agriculture,2025,BRB,Mt CH4/yr,0.000936
+Emissions|CH4|AFOLU|Agriculture,2025,BRN,Mt CH4/yr,0.0008087
+Emissions|CH4|AFOLU|Agriculture,2025,BTN,Mt CH4/yr,0.0137680999999999
+Emissions|CH4|AFOLU|Agriculture,2025,BWA,Mt CH4/yr,0.0405119
+Emissions|CH4|AFOLU|Agriculture,2025,CAF,Mt CH4/yr,0.1983442
+Emissions|CH4|AFOLU|Agriculture,2025,CAN,Mt CH4/yr,0.7662766
+Emissions|CH4|AFOLU|Agriculture,2025,CHE,Mt CH4/yr,0.1413314
+Emissions|CH4|AFOLU|Agriculture,2025,CHL,Mt CH4/yr,0.1962210999999999
+Emissions|CH4|AFOLU|Agriculture,2025,CHN,Mt CH4/yr,12.860491200000002
+Emissions|CH4|AFOLU|Agriculture,2025,CIV,Mt CH4/yr,0.1252792
+Emissions|CH4|AFOLU|Agriculture,2025,CMR,Mt CH4/yr,0.2645158
+Emissions|CH4|AFOLU|Agriculture,2025,COD,Mt CH4/yr,0.141812
+Emissions|CH4|AFOLU|Agriculture,2025,COG,Mt CH4/yr,0.0131268999999999
+Emissions|CH4|AFOLU|Agriculture,2025,COK,Mt CH4/yr,3.71e-05
+Emissions|CH4|AFOLU|Agriculture,2025,COL,Mt CH4/yr,1.9449299
+Emissions|CH4|AFOLU|Agriculture,2025,COM,Mt CH4/yr,0.0026703
+Emissions|CH4|AFOLU|Agriculture,2025,CPV,Mt CH4/yr,0.0021989
+Emissions|CH4|AFOLU|Agriculture,2025,CRI,Mt CH4/yr,0.1421034999999999
+Emissions|CH4|AFOLU|Agriculture,2025,CUB,Mt CH4/yr,0.2408507
+Emissions|CH4|AFOLU|Agriculture,2025,CYP,Mt CH4/yr,0.0032649
+Emissions|CH4|AFOLU|Agriculture,2025,CZE,Mt CH4/yr,0.1087997
+Emissions|CH4|AFOLU|Agriculture,2025,DEU,Mt CH4/yr,1.0014932
+Emissions|CH4|AFOLU|Agriculture,2025,DJI,Mt CH4/yr,0.0190925
+Emissions|CH4|AFOLU|Agriculture,2025,DMA,Mt CH4/yr,0.0010165
+Emissions|CH4|AFOLU|Agriculture,2025,DNK,Mt CH4/yr,0.1347564
+Emissions|CH4|AFOLU|Agriculture,2025,DOM,Mt CH4/yr,0.2546832
+Emissions|CH4|AFOLU|Agriculture,2025,DZA,Mt CH4/yr,0.2915773
+Emissions|CH4|AFOLU|Agriculture,2025,ECU,Mt CH4/yr,0.3095464999999999
+Emissions|CH4|AFOLU|Agriculture,2025,EGY,Mt CH4/yr,0.4338289999999999
+Emissions|CH4|AFOLU|Agriculture,2025,ERI,Mt CH4/yr,0.1218859
+Emissions|CH4|AFOLU|Agriculture,2025,ESP,Mt CH4/yr,0.6252831
+Emissions|CH4|AFOLU|Agriculture,2025,EST,Mt CH4/yr,0.022265
+Emissions|CH4|AFOLU|Agriculture,2025,ETH,Mt CH4/yr,3.1604354
+Emissions|CH4|AFOLU|Agriculture,2025,FIN,Mt CH4/yr,0.0703678
+Emissions|CH4|AFOLU|Agriculture,2025,FJI,Mt CH4/yr,0.013214
+Emissions|CH4|AFOLU|Agriculture,2025,FRA,Mt CH4/yr,1.3988733999999998
+Emissions|CH4|AFOLU|Agriculture,2025,FRO,Mt CH4/yr,0.0008458000000000001
+Emissions|CH4|AFOLU|Agriculture,2025,FSM,Mt CH4/yr,0.0013355
+Emissions|CH4|AFOLU|Agriculture,2025,GAB,Mt CH4/yr,0.0033858
+Emissions|CH4|AFOLU|Agriculture,2025,GBR,Mt CH4/yr,1.0338735
+Emissions|CH4|AFOLU|Agriculture,2025,GEO,Mt CH4/yr,0.0413083999999999
+Emissions|CH4|AFOLU|Agriculture,2025,GHA,Mt CH4/yr,0.1896715999999999
+Emissions|CH4|AFOLU|Agriculture,2025,GIN,Mt CH4/yr,0.6054658999999999
+Emissions|CH4|AFOLU|Agriculture,2025,GMB,Mt CH4/yr,0.0304327999999999
+Emissions|CH4|AFOLU|Agriculture,2025,GNB,Mt CH4/yr,0.0408681
+Emissions|CH4|AFOLU|Agriculture,2025,GNQ,Mt CH4/yr,0.0004589
+Emissions|CH4|AFOLU|Agriculture,2025,GRC,Mt CH4/yr,0.1414432999999999
+Emissions|CH4|AFOLU|Agriculture,2025,GRD,Mt CH4/yr,0.0005925999999999999
+Emissions|CH4|AFOLU|Agriculture,2025,GTM,Mt CH4/yr,0.2614552
+Emissions|CH4|AFOLU|Agriculture,2025,GUY,Mt CH4/yr,0.0519124
+Emissions|CH4|AFOLU|Agriculture,2025,HKG,Mt CH4/yr,0.0002183
+Emissions|CH4|AFOLU|Agriculture,2025,HND,Mt CH4/yr,0.1825873
+Emissions|CH4|AFOLU|Agriculture,2025,HRV,Mt CH4/yr,0.0383416
+Emissions|CH4|AFOLU|Agriculture,2025,HTI,Mt CH4/yr,0.1228397
+Emissions|CH4|AFOLU|Agriculture,2025,HUN,Mt CH4/yr,0.0851058999999999
+Emissions|CH4|AFOLU|Agriculture,2025,IDN,Mt CH4/yr,3.4363219
+Emissions|CH4|AFOLU|Agriculture,2025,IND,Mt CH4/yr,20.949097400000003
+Emissions|CH4|AFOLU|Agriculture,2025,IRL,Mt CH4/yr,0.5551483
+Emissions|CH4|AFOLU|Agriculture,2025,IRN,Mt CH4/yr,0.8220683
+Emissions|CH4|AFOLU|Agriculture,2025,IRQ,Mt CH4/yr,0.1508912
+Emissions|CH4|AFOLU|Agriculture,2025,ISL,Mt CH4/yr,0.0110419
+Emissions|CH4|AFOLU|Agriculture,2025,ISR,Mt CH4/yr,0.0251294
+Emissions|CH4|AFOLU|Agriculture,2025,ITA,Mt CH4/yr,0.7198121
+Emissions|CH4|AFOLU|Agriculture,2025,JAM,Mt CH4/yr,0.0125297999999999
+Emissions|CH4|AFOLU|Agriculture,2025,JOR,Mt CH4/yr,0.023986
+Emissions|CH4|AFOLU|Agriculture,2025,JPN,Mt CH4/yr,0.5414941999999999
+Emissions|CH4|AFOLU|Agriculture,2025,KAZ,Mt CH4/yr,0.5760217
+Emissions|CH4|AFOLU|Agriculture,2025,KEN,Mt CH4/yr,1.2921666
+Emissions|CH4|AFOLU|Agriculture,2025,KGZ,Mt CH4/yr,0.1582626999999999
+Emissions|CH4|AFOLU|Agriculture,2025,KHM,Mt CH4/yr,0.7381506999999999
+Emissions|CH4|AFOLU|Agriculture,2025,KIR,Mt CH4/yr,1.31e-05
+Emissions|CH4|AFOLU|Agriculture,2025,KNA,Mt CH4/yr,0.0002268
+Emissions|CH4|AFOLU|Agriculture,2025,KOR,Mt CH4/yr,0.3533314999999999
+Emissions|CH4|AFOLU|Agriculture,2025,KWT,Mt CH4/yr,0.0081944
+Emissions|CH4|AFOLU|Agriculture,2025,LAO,Mt CH4/yr,0.2868422
+Emissions|CH4|AFOLU|Agriculture,2025,LBN,Mt CH4/yr,0.0100515
+Emissions|CH4|AFOLU|Agriculture,2025,LBR,Mt CH4/yr,0.0082367
+Emissions|CH4|AFOLU|Agriculture,2025,LBY,Mt CH4/yr,0.0669592
+Emissions|CH4|AFOLU|Agriculture,2025,LCA,Mt CH4/yr,0.0007870999999999999
+Emissions|CH4|AFOLU|Agriculture,2025,LKA,Mt CH4/yr,0.1924074999999999
+Emissions|CH4|AFOLU|Agriculture,2025,LSO,Mt CH4/yr,0.0282597
+Emissions|CH4|AFOLU|Agriculture,2025,LTU,Mt CH4/yr,0.0584032
+Emissions|CH4|AFOLU|Agriculture,2025,LUX,Mt CH4/yr,0.015719
+Emissions|CH4|AFOLU|Agriculture,2025,LVA,Mt CH4/yr,0.0342200999999999
+Emissions|CH4|AFOLU|Agriculture,2025,MAC,Mt CH4/yr,1.64e-05
+Emissions|CH4|AFOLU|Agriculture,2025,MAR,Mt CH4/yr,0.2815677
+Emissions|CH4|AFOLU|Agriculture,2025,MDA,Mt CH4/yr,0.0175478
+Emissions|CH4|AFOLU|Agriculture,2025,MDG,Mt CH4/yr,0.6488230999999999
+Emissions|CH4|AFOLU|Agriculture,2025,MDV,Mt CH4/yr,1e-07
+Emissions|CH4|AFOLU|Agriculture,2025,MEX,Mt CH4/yr,2.455946499999999
+Emissions|CH4|AFOLU|Agriculture,2025,MKD,Mt CH4/yr,0.0220742
+Emissions|CH4|AFOLU|Agriculture,2025,MLI,Mt CH4/yr,0.9202354
+Emissions|CH4|AFOLU|Agriculture,2025,MLT,Mt CH4/yr,0.0016947
+Emissions|CH4|AFOLU|Agriculture,2025,MMR,Mt CH4/yr,1.7359336
+Emissions|CH4|AFOLU|Agriculture,2025,MNE,Mt CH4/yr,0.0098138
+Emissions|CH4|AFOLU|Agriculture,2025,MNG,Mt CH4/yr,0.6843517999999998
+Emissions|CH4|AFOLU|Agriculture,2025,MOZ,Mt CH4/yr,0.1339536999999999
+Emissions|CH4|AFOLU|Agriculture,2025,MRT,Mt CH4/yr,0.2707854
+Emissions|CH4|AFOLU|Agriculture,2025,MUS,Mt CH4/yr,0.0006923000000000001
+Emissions|CH4|AFOLU|Agriculture,2025,MWI,Mt CH4/yr,0.1496279
+Emissions|CH4|AFOLU|Agriculture,2025,MYS,Mt CH4/yr,0.1609434
+Emissions|CH4|AFOLU|Agriculture,2025,NAM,Mt CH4/yr,0.1438668
+Emissions|CH4|AFOLU|Agriculture,2025,NCL,Mt CH4/yr,0.0052023999999999
+Emissions|CH4|AFOLU|Agriculture,2025,NER,Mt CH4/yr,0.8874612999999998
+Emissions|CH4|AFOLU|Agriculture,2025,NGA,Mt CH4/yr,1.9874023
+Emissions|CH4|AFOLU|Agriculture,2025,NIC,Mt CH4/yr,0.3429825999999999
+Emissions|CH4|AFOLU|Agriculture,2025,NIU,Mt CH4/yr,1.1899999999999998e-05
+Emissions|CH4|AFOLU|Agriculture,2025,NLD,Mt CH4/yr,0.3712616999999999
+Emissions|CH4|AFOLU|Agriculture,2025,NOR,Mt CH4/yr,0.0907135999999999
+Emissions|CH4|AFOLU|Agriculture,2025,NPL,Mt CH4/yr,0.5844679999999999
+Emissions|CH4|AFOLU|Agriculture,2025,NRU,Mt CH4/yr,1e-07
+Emissions|CH4|AFOLU|Agriculture,2025,NZL,Mt CH4/yr,1.025077
+Emissions|CH4|AFOLU|Agriculture,2025,OMN,Mt CH4/yr,0.0478242
+Emissions|CH4|AFOLU|Agriculture,2025,PAK,Mt CH4/yr,6.164324299999999
+Emissions|CH4|AFOLU|Agriculture,2025,PAN,Mt CH4/yr,0.0933934999999999
+Emissions|CH4|AFOLU|Agriculture,2025,PER,Mt CH4/yr,0.7191680999999998
+Emissions|CH4|AFOLU|Agriculture,2025,PHL,Mt CH4/yr,1.9383245
+Emissions|CH4|AFOLU|Agriculture,2025,PNG,Mt CH4/yr,0.0061038999999999
+Emissions|CH4|AFOLU|Agriculture,2025,POL,Mt CH4/yr,0.5379275
+Emissions|CH4|AFOLU|Agriculture,2025,PRI,Mt CH4/yr,0.0144054999999999
+Emissions|CH4|AFOLU|Agriculture,2025,PRK,Mt CH4/yr,0.1214545
+Emissions|CH4|AFOLU|Agriculture,2025,PRT,Mt CH4/yr,0.1553773
+Emissions|CH4|AFOLU|Agriculture,2025,PRY,Mt CH4/yr,0.8091834
+Emissions|CH4|AFOLU|Agriculture,2025,PSE,Mt CH4/yr,0.007302
+Emissions|CH4|AFOLU|Agriculture,2025,PYF,Mt CH4/yr,0.0006885000000000002
+Emissions|CH4|AFOLU|Agriculture,2025,QAT,Mt CH4/yr,0.0135102999999999
+Emissions|CH4|AFOLU|Agriculture,2025,ROU,Mt CH4/yr,0.2810901999999999
+Emissions|CH4|AFOLU|Agriculture,2025,RUS,Mt CH4/yr,1.7662989
+Emissions|CH4|AFOLU|Agriculture,2025,RWA,Mt CH4/yr,0.0641369999999999
+Emissions|CH4|AFOLU|Agriculture,2025,SAU,Mt CH4/yr,0.2549766999999999
+Emissions|CH4|AFOLU|Agriculture,2025,SDN,Mt CH4/yr,1.8098239
+Emissions|CH4|AFOLU|Agriculture,2025,SEN,Mt CH4/yr,0.2562056
+Emissions|CH4|AFOLU|Agriculture,2025,SGP,Mt CH4/yr,7.09e-05
+Emissions|CH4|AFOLU|Agriculture,2025,SLB,Mt CH4/yr,0.0014423
+Emissions|CH4|AFOLU|Agriculture,2025,SLE,Mt CH4/yr,0.1040705999999999
+Emissions|CH4|AFOLU|Agriculture,2025,SLV,Mt CH4/yr,0.0518185
+Emissions|CH4|AFOLU|Agriculture,2025,SOM,Mt CH4/yr,0.6431879999999999
+Emissions|CH4|AFOLU|Agriculture,2025,SRB,Mt CH4/yr,0.0923940999999999
+Emissions|CH4|AFOLU|Agriculture,2025,SSD,Mt CH4/yr,0.751055
+Emissions|CH4|AFOLU|Agriculture,2025,STP,Mt CH4/yr,0.0001155
+Emissions|CH4|AFOLU|Agriculture,2025,SUR,Mt CH4/yr,0.0160927999999999
+Emissions|CH4|AFOLU|Agriculture,2025,SVK,Mt CH4/yr,0.0371144999999999
+Emissions|CH4|AFOLU|Agriculture,2025,SVN,Mt CH4/yr,0.0374453
+Emissions|CH4|AFOLU|Agriculture,2025,SWE,Mt CH4/yr,0.1112480999999999
+Emissions|CH4|AFOLU|Agriculture,2025,SWZ,Mt CH4/yr,0.0215480999999999
+Emissions|CH4|AFOLU|Agriculture,2025,SYC,Mt CH4/yr,5.5400000000000005e-05
+Emissions|CH4|AFOLU|Agriculture,2025,SYR,Mt CH4/yr,0.146155
+Emissions|CH4|AFOLU|Agriculture,2025,TCD,Mt CH4/yr,2.3498023
+Emissions|CH4|AFOLU|Agriculture,2025,TGO,Mt CH4/yr,0.0617945
+Emissions|CH4|AFOLU|Agriculture,2025,THA,Mt CH4/yr,2.1073726999999995
+Emissions|CH4|AFOLU|Agriculture,2025,TJK,Mt CH4/yr,0.1963065999999999
+Emissions|CH4|AFOLU|Agriculture,2025,TKL,Mt CH4/yr,1e-07
+Emissions|CH4|AFOLU|Agriculture,2025,TKM,Mt CH4/yr,0.2673782999999999
+Emissions|CH4|AFOLU|Agriculture,2025,TLS,Mt CH4/yr,0.029039
+Emissions|CH4|AFOLU|Agriculture,2025,TON,Mt CH4/yr,0.0010833
+Emissions|CH4|AFOLU|Agriculture,2025,TTO,Mt CH4/yr,0.0036453999999999
+Emissions|CH4|AFOLU|Agriculture,2025,TUN,Mt CH4/yr,0.0817247
+Emissions|CH4|AFOLU|Agriculture,2025,TUR,Mt CH4/yr,0.9613548
+Emissions|CH4|AFOLU|Agriculture,2025,TUV,Mt CH4/yr,1.1e-06
+Emissions|CH4|AFOLU|Agriculture,2025,TWN,Mt CH4/yr,0.0539913999999999
+Emissions|CH4|AFOLU|Agriculture,2025,TZA,Mt CH4/yr,1.7429136
+Emissions|CH4|AFOLU|Agriculture,2025,UGA,Mt CH4/yr,0.6810888
+Emissions|CH4|AFOLU|Agriculture,2025,UKR,Mt CH4/yr,0.2627304
+Emissions|CH4|AFOLU|Agriculture,2025,URY,Mt CH4/yr,0.7698653999999998
+Emissions|CH4|AFOLU|Agriculture,2025,USA,Mt CH4/yr,6.722379800000001
+Emissions|CH4|AFOLU|Agriculture,2025,UZB,Mt CH4/yr,0.9960787
+Emissions|CH4|AFOLU|Agriculture,2025,VCT,Mt CH4/yr,0.0002487
+Emissions|CH4|AFOLU|Agriculture,2025,VEN,Mt CH4/yr,1.0689163
+Emissions|CH4|AFOLU|Agriculture,2025,VNM,Mt CH4/yr,1.7370033
+Emissions|CH4|AFOLU|Agriculture,2025,VUT,Mt CH4/yr,0.0063503
+Emissions|CH4|AFOLU|Agriculture,2025,WSM,Mt CH4/yr,0.0027098
+Emissions|CH4|AFOLU|Agriculture,2025,World,Mt CH4/yr,136.4367041
+Emissions|CH4|AFOLU|Agriculture,2025,YEM,Mt CH4/yr,0.2036261999999999
+Emissions|CH4|AFOLU|Agriculture,2025,ZAF,Mt CH4/yr,0.5621482999999999
+Emissions|CH4|AFOLU|Agriculture,2025,ZMB,Mt CH4/yr,0.1862953
+Emissions|CH4|AFOLU|Agriculture,2025,ZWE,Mt CH4/yr,0.2464248999999999
+Emissions|N2O|AFOLU|Agriculture,2025,AFG,kt N2O/yr,14.434500000000003
+Emissions|N2O|AFOLU|Agriculture,2025,AGO,kt N2O/yr,12.2533
+Emissions|N2O|AFOLU|Agriculture,2025,ALB,kt N2O/yr,2.2844
+Emissions|N2O|AFOLU|Agriculture,2025,ARE,kt N2O/yr,2.6335
+Emissions|N2O|AFOLU|Agriculture,2025,ARG,kt N2O/yr,138.4483
+Emissions|N2O|AFOLU|Agriculture,2025,ARM,kt N2O/yr,1.7280000000000002
+Emissions|N2O|AFOLU|Agriculture,2025,ATG,kt N2O/yr,0.0217999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,AUS,kt N2O/yr,166.0585
+Emissions|N2O|AFOLU|Agriculture,2025,AUT,kt N2O/yr,7.0081
+Emissions|N2O|AFOLU|Agriculture,2025,AZE,kt N2O/yr,9.900100000000002
+Emissions|N2O|AFOLU|Agriculture,2025,BDI,kt N2O/yr,4.0068
+Emissions|N2O|AFOLU|Agriculture,2025,BEL,kt N2O/yr,7.983700000000002
+Emissions|N2O|AFOLU|Agriculture,2025,BEN,kt N2O/yr,7.494099999999999
+Emissions|N2O|AFOLU|Agriculture,2025,BFA,kt N2O/yr,27.213200000000008
+Emissions|N2O|AFOLU|Agriculture,2025,BGD,kt N2O/yr,80.07880000000003
+Emissions|N2O|AFOLU|Agriculture,2025,BGR,kt N2O/yr,10.9287
+Emissions|N2O|AFOLU|Agriculture,2025,BHR,kt N2O/yr,0.0675
+Emissions|N2O|AFOLU|Agriculture,2025,BHS,kt N2O/yr,0.0484999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,BIH,kt N2O/yr,1.9824
+Emissions|N2O|AFOLU|Agriculture,2025,BLR,kt N2O/yr,20.565900000000003
+Emissions|N2O|AFOLU|Agriculture,2025,BLZ,kt N2O/yr,0.5898
+Emissions|N2O|AFOLU|Agriculture,2025,BOL,kt N2O/yr,27.133
+Emissions|N2O|AFOLU|Agriculture,2025,BRA,kt N2O/yr,606.2760999999999
+Emissions|N2O|AFOLU|Agriculture,2025,BRB,kt N2O/yr,0.101
+Emissions|N2O|AFOLU|Agriculture,2025,BRN,kt N2O/yr,0.2749999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,BTN,kt N2O/yr,0.2603
+Emissions|N2O|AFOLU|Agriculture,2025,BWA,kt N2O/yr,2.4211
+Emissions|N2O|AFOLU|Agriculture,2025,CAF,kt N2O/yr,9.892500000000002
+Emissions|N2O|AFOLU|Agriculture,2025,CAN,kt N2O/yr,103.7101
+Emissions|N2O|AFOLU|Agriculture,2025,CHE,kt N2O/yr,4.6212
+Emissions|N2O|AFOLU|Agriculture,2025,CHL,kt N2O/yr,13.276000000000002
+Emissions|N2O|AFOLU|Agriculture,2025,CHN,kt N2O/yr,1034.7268
+Emissions|N2O|AFOLU|Agriculture,2025,CIV,kt N2O/yr,9.6118
+Emissions|N2O|AFOLU|Agriculture,2025,CMR,kt N2O/yr,14.9942
+Emissions|N2O|AFOLU|Agriculture,2025,COD,kt N2O/yr,7.326400000000001
+Emissions|N2O|AFOLU|Agriculture,2025,COG,kt N2O/yr,0.7207000000000001
+Emissions|N2O|AFOLU|Agriculture,2025,COK,kt N2O/yr,0.0016
+Emissions|N2O|AFOLU|Agriculture,2025,COL,kt N2O/yr,61.81060000000001
+Emissions|N2O|AFOLU|Agriculture,2025,COM,kt N2O/yr,0.1495
+Emissions|N2O|AFOLU|Agriculture,2025,CPV,kt N2O/yr,0.1301
+Emissions|N2O|AFOLU|Agriculture,2025,CRI,kt N2O/yr,5.917299999999999
+Emissions|N2O|AFOLU|Agriculture,2025,CUB,kt N2O/yr,7.2071999999999985
+Emissions|N2O|AFOLU|Agriculture,2025,CYP,kt N2O/yr,0.3726
+Emissions|N2O|AFOLU|Agriculture,2025,CZE,kt N2O/yr,9.432
+Emissions|N2O|AFOLU|Agriculture,2025,DEU,kt N2O/yr,57.46639999999999
+Emissions|N2O|AFOLU|Agriculture,2025,DJI,kt N2O/yr,0.8572000000000001
+Emissions|N2O|AFOLU|Agriculture,2025,DMA,kt N2O/yr,0.0319
+Emissions|N2O|AFOLU|Agriculture,2025,DNK,kt N2O/yr,9.197699999999998
+Emissions|N2O|AFOLU|Agriculture,2025,DOM,kt N2O/yr,10.1083
+Emissions|N2O|AFOLU|Agriculture,2025,DZA,kt N2O/yr,20.1971
+Emissions|N2O|AFOLU|Agriculture,2025,ECU,kt N2O/yr,10.8337
+Emissions|N2O|AFOLU|Agriculture,2025,EGY,kt N2O/yr,45.583200000000005
+Emissions|N2O|AFOLU|Agriculture,2025,ERI,kt N2O/yr,5.4430000000000005
+Emissions|N2O|AFOLU|Agriculture,2025,ESP,kt N2O/yr,35.9872
+Emissions|N2O|AFOLU|Agriculture,2025,EST,kt N2O/yr,1.6447999999999996
+Emissions|N2O|AFOLU|Agriculture,2025,ETH,kt N2O/yr,167.30589999999995
+Emissions|N2O|AFOLU|Agriculture,2025,FIN,kt N2O/yr,5.541800000000001
+Emissions|N2O|AFOLU|Agriculture,2025,FJI,kt N2O/yr,0.6161000000000002
+Emissions|N2O|AFOLU|Agriculture,2025,FRA,kt N2O/yr,88.55919999999999
+Emissions|N2O|AFOLU|Agriculture,2025,FRO,kt N2O/yr,0.0326
+Emissions|N2O|AFOLU|Agriculture,2025,FSM,kt N2O/yr,0.0475999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,GAB,kt N2O/yr,0.3456999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,GBR,kt N2O/yr,55.92389999999999
+Emissions|N2O|AFOLU|Agriculture,2025,GEO,kt N2O/yr,3.2442
+Emissions|N2O|AFOLU|Agriculture,2025,GHA,kt N2O/yr,12.8405
+Emissions|N2O|AFOLU|Agriculture,2025,GIN,kt N2O/yr,19.079
+Emissions|N2O|AFOLU|Agriculture,2025,GMB,kt N2O/yr,0.8705999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,GNB,kt N2O/yr,1.7756
+Emissions|N2O|AFOLU|Agriculture,2025,GNQ,kt N2O/yr,0.0296
+Emissions|N2O|AFOLU|Agriculture,2025,GRC,kt N2O/yr,9.425400000000002
+Emissions|N2O|AFOLU|Agriculture,2025,GRD,kt N2O/yr,0.0312
+Emissions|N2O|AFOLU|Agriculture,2025,GTM,kt N2O/yr,11.9499
+Emissions|N2O|AFOLU|Agriculture,2025,GUY,kt N2O/yr,1.1255
+Emissions|N2O|AFOLU|Agriculture,2025,HKG,kt N2O/yr,0.0735
+Emissions|N2O|AFOLU|Agriculture,2025,HND,kt N2O/yr,7.842200000000003
+Emissions|N2O|AFOLU|Agriculture,2025,HRV,kt N2O/yr,3.6272
+Emissions|N2O|AFOLU|Agriculture,2025,HTI,kt N2O/yr,3.9893
+Emissions|N2O|AFOLU|Agriculture,2025,HUN,kt N2O/yr,11.0804
+Emissions|N2O|AFOLU|Agriculture,2025,IDN,kt N2O/yr,171.80110000000005
+Emissions|N2O|AFOLU|Agriculture,2025,IND,kt N2O/yr,829.8085999999998
+Emissions|N2O|AFOLU|Agriculture,2025,IRL,kt N2O/yr,20.253300000000007
+Emissions|N2O|AFOLU|Agriculture,2025,IRN,kt N2O/yr,62.99260000000001
+Emissions|N2O|AFOLU|Agriculture,2025,IRQ,kt N2O/yr,13.745699999999998
+Emissions|N2O|AFOLU|Agriculture,2025,ISL,kt N2O/yr,0.5242
+Emissions|N2O|AFOLU|Agriculture,2025,ISR,kt N2O/yr,2.8585
+Emissions|N2O|AFOLU|Agriculture,2025,ITA,kt N2O/yr,31.19080000000001
+Emissions|N2O|AFOLU|Agriculture,2025,JAM,kt N2O/yr,0.7050000000000001
+Emissions|N2O|AFOLU|Agriculture,2025,JOR,kt N2O/yr,2.5686000000000004
+Emissions|N2O|AFOLU|Agriculture,2025,JPN,kt N2O/yr,13.8888
+Emissions|N2O|AFOLU|Agriculture,2025,KAZ,kt N2O/yr,27.848900000000004
+Emissions|N2O|AFOLU|Agriculture,2025,KEN,kt N2O/yr,63.6904
+Emissions|N2O|AFOLU|Agriculture,2025,KGZ,kt N2O/yr,6.259599999999999
+Emissions|N2O|AFOLU|Agriculture,2025,KHM,kt N2O/yr,12.6533
+Emissions|N2O|AFOLU|Agriculture,2025,KIR,kt N2O/yr,0.0078
+Emissions|N2O|AFOLU|Agriculture,2025,KNA,kt N2O/yr,0.011
+Emissions|N2O|AFOLU|Agriculture,2025,KOR,kt N2O/yr,15.2875
+Emissions|N2O|AFOLU|Agriculture,2025,KWT,kt N2O/yr,1.2464000000000002
+Emissions|N2O|AFOLU|Agriculture,2025,LAO,kt N2O/yr,9.8962
+Emissions|N2O|AFOLU|Agriculture,2025,LBN,kt N2O/yr,1.8004000000000004
+Emissions|N2O|AFOLU|Agriculture,2025,LBR,kt N2O/yr,0.5999000000000002
+Emissions|N2O|AFOLU|Agriculture,2025,LBY,kt N2O/yr,4.444599999999999
+Emissions|N2O|AFOLU|Agriculture,2025,LCA,kt N2O/yr,0.0382999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,LKA,kt N2O/yr,4.995
+Emissions|N2O|AFOLU|Agriculture,2025,LSO,kt N2O/yr,1.529
+Emissions|N2O|AFOLU|Agriculture,2025,LTU,kt N2O/yr,5.489500000000001
+Emissions|N2O|AFOLU|Agriculture,2025,LUX,kt N2O/yr,0.5912000000000002
+Emissions|N2O|AFOLU|Agriculture,2025,LVA,kt N2O/yr,3.2338
+Emissions|N2O|AFOLU|Agriculture,2025,MAC,kt N2O/yr,0.0106
+Emissions|N2O|AFOLU|Agriculture,2025,MAR,kt N2O/yr,24.2243
+Emissions|N2O|AFOLU|Agriculture,2025,MDA,kt N2O/yr,3.186
+Emissions|N2O|AFOLU|Agriculture,2025,MDG,kt N2O/yr,16.017899999999994
+Emissions|N2O|AFOLU|Agriculture,2025,MDV,kt N2O/yr,0.0049
+Emissions|N2O|AFOLU|Agriculture,2025,MEX,kt N2O/yr,115.69170000000004
+Emissions|N2O|AFOLU|Agriculture,2025,MKD,kt N2O/yr,1.1084
+Emissions|N2O|AFOLU|Agriculture,2025,MLI,kt N2O/yr,44.75909999999999
+Emissions|N2O|AFOLU|Agriculture,2025,MLT,kt N2O/yr,0.0516
+Emissions|N2O|AFOLU|Agriculture,2025,MMR,kt N2O/yr,34.7593
+Emissions|N2O|AFOLU|Agriculture,2025,MNE,kt N2O/yr,0.3029
+Emissions|N2O|AFOLU|Agriculture,2025,MNG,kt N2O/yr,31.717600000000004
+Emissions|N2O|AFOLU|Agriculture,2025,MOZ,kt N2O/yr,7.8713000000000015
+Emissions|N2O|AFOLU|Agriculture,2025,MRT,kt N2O/yr,10.5676
+Emissions|N2O|AFOLU|Agriculture,2025,MUS,kt N2O/yr,0.353
+Emissions|N2O|AFOLU|Agriculture,2025,MWI,kt N2O/yr,14.8449
+Emissions|N2O|AFOLU|Agriculture,2025,MYS,kt N2O/yr,15.0574
+Emissions|N2O|AFOLU|Agriculture,2025,NAM,kt N2O/yr,7.4761
+Emissions|N2O|AFOLU|Agriculture,2025,NCL,kt N2O/yr,0.2149
+Emissions|N2O|AFOLU|Agriculture,2025,NER,kt N2O/yr,42.8527
+Emissions|N2O|AFOLU|Agriculture,2025,NGA,kt N2O/yr,92.3582
+Emissions|N2O|AFOLU|Agriculture,2025,NIC,kt N2O/yr,10.884400000000005
+Emissions|N2O|AFOLU|Agriculture,2025,NIU,kt N2O/yr,0.0003000000000000001
+Emissions|N2O|AFOLU|Agriculture,2025,NLD,kt N2O/yr,14.685
+Emissions|N2O|AFOLU|Agriculture,2025,NOR,kt N2O/yr,5.192799999999999
+Emissions|N2O|AFOLU|Agriculture,2025,NPL,kt N2O/yr,15.464500000000005
+Emissions|N2O|AFOLU|Agriculture,2025,NZL,kt N2O/yr,42.7988
+Emissions|N2O|AFOLU|Agriculture,2025,OMN,kt N2O/yr,2.5079
+Emissions|N2O|AFOLU|Agriculture,2025,PAK,kt N2O/yr,228.77050000000008
+Emissions|N2O|AFOLU|Agriculture,2025,PAN,kt N2O/yr,3.7811
+Emissions|N2O|AFOLU|Agriculture,2025,PER,kt N2O/yr,24.991100000000007
+Emissions|N2O|AFOLU|Agriculture,2025,PHL,kt N2O/yr,34.68619999999999
+Emissions|N2O|AFOLU|Agriculture,2025,PNG,kt N2O/yr,0.8130000000000002
+Emissions|N2O|AFOLU|Agriculture,2025,POL,kt N2O/yr,44.9688
+Emissions|N2O|AFOLU|Agriculture,2025,PRI,kt N2O/yr,0.4354
+Emissions|N2O|AFOLU|Agriculture,2025,PRK,kt N2O/yr,3.8566
+Emissions|N2O|AFOLU|Agriculture,2025,PRT,kt N2O/yr,5.747600000000001
+Emissions|N2O|AFOLU|Agriculture,2025,PRY,kt N2O/yr,28.12750000000001
+Emissions|N2O|AFOLU|Agriculture,2025,PSE,kt N2O/yr,0.4908999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,PYF,kt N2O/yr,0.037
+Emissions|N2O|AFOLU|Agriculture,2025,QAT,kt N2O/yr,0.9728
+Emissions|N2O|AFOLU|Agriculture,2025,ROU,kt N2O/yr,23.367700000000006
+Emissions|N2O|AFOLU|Agriculture,2025,RUS,kt N2O/yr,128.95080000000002
+Emissions|N2O|AFOLU|Agriculture,2025,RWA,kt N2O/yr,3.7744
+Emissions|N2O|AFOLU|Agriculture,2025,SAU,kt N2O/yr,18.768700000000003
+Emissions|N2O|AFOLU|Agriculture,2025,SDN,kt N2O/yr,83.5897
+Emissions|N2O|AFOLU|Agriculture,2025,SEN,kt N2O/yr,13.8589
+Emissions|N2O|AFOLU|Agriculture,2025,SGP,kt N2O/yr,0.0521999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,SLB,kt N2O/yr,0.0414
+Emissions|N2O|AFOLU|Agriculture,2025,SLE,kt N2O/yr,3.109200000000001
+Emissions|N2O|AFOLU|Agriculture,2025,SLV,kt N2O/yr,2.5963000000000003
+Emissions|N2O|AFOLU|Agriculture,2025,SOM,kt N2O/yr,20.63970000000001
+Emissions|N2O|AFOLU|Agriculture,2025,SRB,kt N2O/yr,9.6662
+Emissions|N2O|AFOLU|Agriculture,2025,SSD,kt N2O/yr,37.05929999999999
+Emissions|N2O|AFOLU|Agriculture,2025,STP,kt N2O/yr,0.0127
+Emissions|N2O|AFOLU|Agriculture,2025,SUR,kt N2O/yr,0.4778999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,SVK,kt N2O/yr,4.178100000000001
+Emissions|N2O|AFOLU|Agriculture,2025,SVN,kt N2O/yr,1.6297
+Emissions|N2O|AFOLU|Agriculture,2025,SWE,kt N2O/yr,7.5853
+Emissions|N2O|AFOLU|Agriculture,2025,SWZ,kt N2O/yr,1.2374999999999998
+Emissions|N2O|AFOLU|Agriculture,2025,SYC,kt N2O/yr,0.008
+Emissions|N2O|AFOLU|Agriculture,2025,SYR,kt N2O/yr,10.4209
+Emissions|N2O|AFOLU|Agriculture,2025,TCD,kt N2O/yr,100.42880000000004
+Emissions|N2O|AFOLU|Agriculture,2025,TGO,kt N2O/yr,4.445900000000001
+Emissions|N2O|AFOLU|Agriculture,2025,THA,kt N2O/yr,80.4757
+Emissions|N2O|AFOLU|Agriculture,2025,TJK,kt N2O/yr,8.280600000000002
+Emissions|N2O|AFOLU|Agriculture,2025,TKM,kt N2O/yr,21.383800000000004
+Emissions|N2O|AFOLU|Agriculture,2025,TLS,kt N2O/yr,0.8126
+Emissions|N2O|AFOLU|Agriculture,2025,TON,kt N2O/yr,0.0458999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,TTO,kt N2O/yr,0.6022
+Emissions|N2O|AFOLU|Agriculture,2025,TUN,kt N2O/yr,7.545399999999999
+Emissions|N2O|AFOLU|Agriculture,2025,TUR,kt N2O/yr,104.77189999999996
+Emissions|N2O|AFOLU|Agriculture,2025,TUV,kt N2O/yr,0.0007
+Emissions|N2O|AFOLU|Agriculture,2025,TWN,kt N2O/yr,4.894799999999999
+Emissions|N2O|AFOLU|Agriculture,2025,TZA,kt N2O/yr,82.53280000000001
+Emissions|N2O|AFOLU|Agriculture,2025,UGA,kt N2O/yr,34.6102
+Emissions|N2O|AFOLU|Agriculture,2025,UKR,kt N2O/yr,42.00630000000001
+Emissions|N2O|AFOLU|Agriculture,2025,URY,kt N2O/yr,26.2998
+Emissions|N2O|AFOLU|Agriculture,2025,USA,kt N2O/yr,536.7208999999999
+Emissions|N2O|AFOLU|Agriculture,2025,UZB,kt N2O/yr,53.7653
+Emissions|N2O|AFOLU|Agriculture,2025,VCT,kt N2O/yr,0.0149
+Emissions|N2O|AFOLU|Agriculture,2025,VEN,kt N2O/yr,31.8576
+Emissions|N2O|AFOLU|Agriculture,2025,VNM,kt N2O/yr,71.039
+Emissions|N2O|AFOLU|Agriculture,2025,VUT,kt N2O/yr,0.2281
+Emissions|N2O|AFOLU|Agriculture,2025,WSM,kt N2O/yr,0.1033999999999999
+Emissions|N2O|AFOLU|Agriculture,2025,World,kt N2O/yr,6949.2032
+Emissions|N2O|AFOLU|Agriculture,2025,YEM,kt N2O/yr,11.701299999999998
+Emissions|N2O|AFOLU|Agriculture,2025,ZAF,kt N2O/yr,42.2228
+Emissions|N2O|AFOLU|Agriculture,2025,ZMB,kt N2O/yr,15.2827
+Emissions|N2O|AFOLU|Agriculture,2025,ZWE,kt N2O/yr,14.698199999999998
+Food Availability [per capita],2025,AFG,kcal/cap/day,2314.63
+Food Availability [per capita],2025,AGO,kcal/cap/day,2399.33
+Food Availability [per capita],2025,ALB,kcal/cap/day,3237.8
+Food Availability [per capita],2025,ARE,kcal/cap/day,3125.09
+Food Availability [per capita],2025,ARG,kcal/cap/day,3360.43
+Food Availability [per capita],2025,ARM,kcal/cap/day,3129.25
+Food Availability [per capita],2025,ATG,kcal/cap/day,2544.28
+Food Availability [per capita],2025,AUS,kcal/cap/day,3561.93
+Food Availability [per capita],2025,AUT,kcal/cap/day,3755.86
+Food Availability [per capita],2025,AZE,kcal/cap/day,3339.19
+Food Availability [per capita],2025,BEL,kcal/cap/day,3921.31
+Food Availability [per capita],2025,BFA,kcal/cap/day,2790.88
+Food Availability [per capita],2025,BGD,kcal/cap/day,2587.65
+Food Availability [per capita],2025,BGR,kcal/cap/day,2999.6
+Food Availability [per capita],2025,BHR,kcal/cap/day,3422.85
+Food Availability [per capita],2025,BHS,kcal/cap/day,2672.43
+Food Availability [per capita],2025,BIH,kcal/cap/day,3457.78
+Food Availability [per capita],2025,BLR,kcal/cap/day,3396.26
+Food Availability [per capita],2025,BLZ,kcal/cap/day,2831.81
+Food Availability [per capita],2025,BOL,kcal/cap/day,2373.67
+Food Availability [per capita],2025,BRA,kcal/cap/day,3423.45
+Food Availability [per capita],2025,BRB,kcal/cap/day,3117.97
+Food Availability [per capita],2025,BTN,kcal/cap/day,3106.71
+Food Availability [per capita],2025,BWA,kcal/cap/day,2713.86
+Food Availability [per capita],2025,CAN,kcal/cap/day,3590.04
+Food Availability [per capita],2025,CHE,kcal/cap/day,3402.39
+Food Availability [per capita],2025,CHL,kcal/cap/day,3057.47
+Food Availability [per capita],2025,CHN,kcal/cap/day,3526.9
+Food Availability [per capita],2025,CIV,kcal/cap/day,2937.75
+Food Availability [per capita],2025,CMR,kcal/cap/day,2900.97
+Food Availability [per capita],2025,COD,kcal/cap/day,2014.82
+Food Availability [per capita],2025,COG,kcal/cap/day,2187.12
+Food Availability [per capita],2025,COL,kcal/cap/day,3126.32
+Food Availability [per capita],2025,COM,kcal/cap/day,2390.16
+Food Availability [per capita],2025,CPV,kcal/cap/day,2793.61
+Food Availability [per capita],2025,CRI,kcal/cap/day,3061.13
+Food Availability [per capita],2025,CYP,kcal/cap/day,2876.46
+Food Availability [per capita],2025,CZE,kcal/cap/day,3384.27
+Food Availability [per capita],2025,DEU,kcal/cap/day,3534.54
+Food Availability [per capita],2025,DJI,kcal/cap/day,2720.97
+Food Availability [per capita],2025,DNK,kcal/cap/day,3733.87
+Food Availability [per capita],2025,DOM,kcal/cap/day,3313.44
+Food Availability [per capita],2025,DZA,kcal/cap/day,3396.01
+Food Availability [per capita],2025,ECU,kcal/cap/day,2620.91
+Food Availability [per capita],2025,EGY,kcal/cap/day,3094.01
+Food Availability [per capita],2025,ESP,kcal/cap/day,3377.16
+Food Availability [per capita],2025,EST,kcal/cap/day,3286.52
+Food Availability [per capita],2025,ETH,kcal/cap/day,2558.42
+Food Availability [per capita],2025,FIN,kcal/cap/day,3345.6
+Food Availability [per capita],2025,FJI,kcal/cap/day,2938.04
+Food Availability [per capita],2025,FRA,kcal/cap/day,3489.55
+Food Availability [per capita],2025,FSM,kcal/cap/day,2633.2
+Food Availability [per capita],2025,GAB,kcal/cap/day,2686.47
+Food Availability [per capita],2025,GBR,kcal/cap/day,3434.59
+Food Availability [per capita],2025,GEO,kcal/cap/day,2999.83
+Food Availability [per capita],2025,GHA,kcal/cap/day,3124.99
+Food Availability [per capita],2025,GIN,kcal/cap/day,2947.55
+Food Availability [per capita],2025,GMB,kcal/cap/day,2402.32
+Food Availability [per capita],2025,GNB,kcal/cap/day,2559.62
+Food Availability [per capita],2025,GRC,kcal/cap/day,3381.65
+Food Availability [per capita],2025,GRD,kcal/cap/day,2826.85
+Food Availability [per capita],2025,GTM,kcal/cap/day,2823.17
+Food Availability [per capita],2025,GUY,kcal/cap/day,3318.06
+Food Availability [per capita],2025,HKG,kcal/cap/day,2827.73
+Food Availability [per capita],2025,HND,kcal/cap/day,2628.13
+Food Availability [per capita],2025,HRV,kcal/cap/day,3447.57
+Food Availability [per capita],2025,HTI,kcal/cap/day,1958.81
+Food Availability [per capita],2025,HUN,kcal/cap/day,3549.11
+Food Availability [per capita],2025,IDN,kcal/cap/day,2900.3
+Food Availability [per capita],2025,IND,kcal/cap/day,2668.5
+Food Availability [per capita],2025,IRL,kcal/cap/day,3920.92
+Food Availability [per capita],2025,IRN,kcal/cap/day,2875.16
+Food Availability [per capita],2025,IRQ,kcal/cap/day,2763.82
+Food Availability [per capita],2025,ISL,kcal/cap/day,3681.06
+Food Availability [per capita],2025,ISR,kcal/cap/day,3753.9
+Food Availability [per capita],2025,ITA,kcal/cap/day,3752.66
+Food Availability [per capita],2025,JAM,kcal/cap/day,2892.06
+Food Availability [per capita],2025,JOR,kcal/cap/day,2555.98
+Food Availability [per capita],2025,KAZ,kcal/cap/day,3135.92
+Food Availability [per capita],2025,KEN,kcal/cap/day,2146.01
+Food Availability [per capita],2025,KGZ,kcal/cap/day,2763.23
+Food Availability [per capita],2025,KHM,kcal/cap/day,2642.91
+Food Availability [per capita],2025,KIR,kcal/cap/day,3125.69
+Food Availability [per capita],2025,KNA,kcal/cap/day,2853.54
+Food Availability [per capita],2025,KOR,kcal/cap/day,3430.35
+Food Availability [per capita],2025,KWT,kcal/cap/day,3135.58
+Food Availability [per capita],2025,LAO,kcal/cap/day,3188.1
+Food Availability [per capita],2025,LBN,kcal/cap/day,2827.67
+Food Availability [per capita],2025,LBR,kcal/cap/day,2135.15
+Food Availability [per capita],2025,LBY,kcal/cap/day,2867.18
+Food Availability [per capita],2025,LCA,kcal/cap/day,2654.32
+Food Availability [per capita],2025,LKA,kcal/cap/day,2675.11
+Food Availability [per capita],2025,LSO,kcal/cap/day,1872.7
+Food Availability [per capita],2025,LTU,kcal/cap/day,3347.5
+Food Availability [per capita],2025,LUX,kcal/cap/day,3521.85
+Food Availability [per capita],2025,LVA,kcal/cap/day,3342.19
+Food Availability [per capita],2025,MAC,kcal/cap/day,2928.55
+Food Availability [per capita],2025,MAR,kcal/cap/day,3353.86
+Food Availability [per capita],2025,MDA,kcal/cap/day,2991.25
+Food Availability [per capita],2025,MDG,kcal/cap/day,1977.96
+Food Availability [per capita],2025,MDV,kcal/cap/day,2671.39
+Food Availability [per capita],2025,MEX,kcal/cap/day,3304.56
+Food Availability [per capita],2025,MHL,kcal/cap/day,3322.43
+Food Availability [per capita],2025,MKD,kcal/cap/day,3475.55
+Food Availability [per capita],2025,MLT,kcal/cap/day,3406.62
+Food Availability [per capita],2025,MMR,kcal/cap/day,2809.02
+Food Availability [per capita],2025,MNE,kcal/cap/day,3669.43
+Food Availability [per capita],2025,MNG,kcal/cap/day,3031.07
+Food Availability [per capita],2025,MOZ,kcal/cap/day,2186.13
+Food Availability [per capita],2025,MRT,kcal/cap/day,2909.38
+Food Availability [per capita],2025,MUS,kcal/cap/day,3255.54
+Food Availability [per capita],2025,MWI,kcal/cap/day,2618.32
+Food Availability [per capita],2025,MYS,kcal/cap/day,2926.51
+Food Availability [per capita],2025,NAM,kcal/cap/day,2581.16
+Food Availability [per capita],2025,NCL,kcal/cap/day,3016.42
+Food Availability [per capita],2025,NER,kcal/cap/day,2654.02
+Food Availability [per capita],2025,NGA,kcal/cap/day,2470.11
+Food Availability [per capita],2025,NIC,kcal/cap/day,2760.19
+Food Availability [per capita],2025,NLD,kcal/cap/day,3466.98
+Food Availability [per capita],2025,NOR,kcal/cap/day,3475.59
+Food Availability [per capita],2025,NPL,kcal/cap/day,2919.77
+Food Availability [per capita],2025,NRU,kcal/cap/day,3087.34
+Food Availability [per capita],2025,NZL,kcal/cap/day,3121.5
+Food Availability [per capita],2025,OMN,kcal/cap/day,2981.33
+Food Availability [per capita],2025,PAK,kcal/cap/day,2513.76
+Food Availability [per capita],2025,PAN,kcal/cap/day,3104.59
+Food Availability [per capita],2025,PER,kcal/cap/day,2810.52
+Food Availability [per capita],2025,PHL,kcal/cap/day,2982.9
+Food Availability [per capita],2025,PNG,kcal/cap/day,2177.1
+Food Availability [per capita],2025,POL,kcal/cap/day,3730.14
+Food Availability [per capita],2025,PRT,kcal/cap/day,3552.93
+Food Availability [per capita],2025,PRY,kcal/cap/day,3067.06
+Food Availability [per capita],2025,PYF,kcal/cap/day,3044.82
+Food Availability [per capita],2025,QAT,kcal/cap/day,3251.08
+Food Availability [per capita],2025,ROU,kcal/cap/day,3648.94
+Food Availability [per capita],2025,RUS,kcal/cap/day,3528.4
+Food Availability [per capita],2025,RWA,kcal/cap/day,2404.9
+Food Availability [per capita],2025,SAU,kcal/cap/day,3659.84
+Food Availability [per capita],2025,SEN,kcal/cap/day,2847.77
+Food Availability [per capita],2025,SLB,kcal/cap/day,2165.63
+Food Availability [per capita],2025,SLE,kcal/cap/day,2437.3
+Food Availability [per capita],2025,SLV,kcal/cap/day,2896.33
+Food Availability [per capita],2025,SRB,kcal/cap/day,3878.93
+Food Availability [per capita],2025,STP,kcal/cap/day,2279.41
+Food Availability [per capita],2025,SUR,kcal/cap/day,2539.07
+Food Availability [per capita],2025,SVK,kcal/cap/day,2979.96
+Food Availability [per capita],2025,SVN,kcal/cap/day,3200.29
+Food Availability [per capita],2025,SWE,kcal/cap/day,3366.78
+Food Availability [per capita],2025,SWZ,kcal/cap/day,2573.77
+Food Availability [per capita],2025,SYC,kcal/cap/day,2888.64
+Food Availability [per capita],2025,SYR,kcal/cap/day,2259.36
+Food Availability [per capita],2025,THA,kcal/cap/day,2855.27
+Food Availability [per capita],2025,TJK,kcal/cap/day,2711.69
+Food Availability [per capita],2025,TKM,kcal/cap/day,2814.16
+Food Availability [per capita],2025,TLS,kcal/cap/day,2276.55
+Food Availability [per capita],2025,TON,kcal/cap/day,3059.05
+Food Availability [per capita],2025,TTO,kcal/cap/day,2945.7
+Food Availability [per capita],2025,TUN,kcal/cap/day,3431.54
+Food Availability [per capita],2025,TUR,kcal/cap/day,3892.23
+Food Availability [per capita],2025,TUV,kcal/cap/day,3300.92
+Food Availability [per capita],2025,TWN,kcal/cap/day,2958.35
+Food Availability [per capita],2025,TZA,kcal/cap/day,2518.33
+Food Availability [per capita],2025,UGA,kcal/cap/day,2377.7
+Food Availability [per capita],2025,UKR,kcal/cap/day,2785.79
+Food Availability [per capita],2025,URY,kcal/cap/day,3322.74
+Food Availability [per capita],2025,USA,kcal/cap/day,3947.33
+Food Availability [per capita],2025,UZB,kcal/cap/day,3297.23
+Food Availability [per capita],2025,VCT,kcal/cap/day,3042.94
+Food Availability [per capita],2025,VEN,kcal/cap/day,2800.39
+Food Availability [per capita],2025,VNM,kcal/cap/day,3086.03
+Food Availability [per capita],2025,VUT,kcal/cap/day,2909.06
+Food Availability [per capita],2025,WSM,kcal/cap/day,3116.51
+Food Availability [per capita],2025,World,kcal/cap/day,2916.4411109554308
+Food Availability [per capita],2025,YEM,kcal/cap/day,1810.53
+Food Availability [per capita],2025,ZAF,kcal/cap/day,2693.94
+Food Availability [per capita],2025,ZMB,kcal/cap/day,2169.77
+Food Availability [per capita],2025,ZWE,kcal/cap/day,2393.38
+Land Cover,2025,ABW,million ha,0.018
+Land Cover,2025,AFG,million ha,65.223
+Land Cover,2025,AGO,million ha,124.67
+Land Cover,2025,AIA,million ha,0.009
+Land Cover,2025,ALB,million ha,2.74
+Land Cover,2025,AND,million ha,0.047
+Land Cover,2025,ARE,million ha,7.102
+Land Cover,2025,ARG,million ha,273.669
+Land Cover,2025,ARM,million ha,2.819944
+Land Cover,2025,ASM,million ha,0.02
+Land Cover,2025,ATG,million ha,0.044
+Land Cover,2025,AUS,million ha,769.202
+Land Cover,2025,AUT,million ha,8.252
+Land Cover,2025,AZE,million ha,8.265
+Land Cover,2025,BDI,million ha,2.568
+Land Cover,2025,BEL,million ha,3.0494000000000003
+Land Cover,2025,BEN,million ha,11.276
+Land Cover,2025,BES,million ha,0.0322
+Land Cover,2025,BFA,million ha,27.36
+Land Cover,2025,BGD,million ha,12.998
+Land Cover,2025,BGR,million ha,10.856
+Land Cover,2025,BHR,million ha,0.08
+Land Cover,2025,BHS,million ha,1.001
+Land Cover,2025,BIH,million ha,5.12
+Land Cover,2025,BLM,million ha,0.002
+Land Cover,2025,BLR,million ha,20.2983
+Land Cover,2025,BLZ,million ha,2.281
+Land Cover,2025,BMU,million ha,0.0054
+Land Cover,2025,BOL,million ha,108.33
+Land Cover,2025,BRA,million ha,835.814
+Land Cover,2025,BRB,million ha,0.043
+Land Cover,2025,BRN,million ha,0.527
+Land Cover,2025,BTN,million ha,3.814
+Land Cover,2025,BWA,million ha,56.673
+Land Cover,2025,CAF,million ha,62.298
+Land Cover,2025,CAN,million ha,878.87
+Land Cover,2025,CHE,million ha,3.950963
+Land Cover,2025,CHL,million ha,74.283164
+Land Cover,2025,CHN,million ha,938.821
+Land Cover,2025,CIV,million ha,31.8
+Land Cover,2025,CMR,million ha,47.271
+Land Cover,2025,COD,million ha,226.705
+Land Cover,2025,COG,million ha,34.15
+Land Cover,2025,COK,million ha,0.024
+Land Cover,2025,COL,million ha,110.95
+Land Cover,2025,COM,million ha,0.1861
+Land Cover,2025,CPV,million ha,0.403
+Land Cover,2025,CRI,million ha,5.106
+Land Cover,2025,CUB,million ha,10.38
+Land Cover,2025,CUW,million ha,0.0444
+Land Cover,2025,CYM,million ha,0.024
+Land Cover,2025,CYP,million ha,0.924
+Land Cover,2025,CZE,million ha,7.716731
+Land Cover,2025,DEU,million ha,34.943
+Land Cover,2025,DJI,million ha,2.318
+Land Cover,2025,DMA,million ha,0.075
+Land Cover,2025,DNK,million ha,4.0
+Land Cover,2025,DOM,million ha,4.819802
+Land Cover,2025,DZA,million ha,238.174
+Land Cover,2025,ECU,million ha,24.836
+Land Cover,2025,EGY,million ha,99.545
+Land Cover,2025,ERI,million ha,12.11782
+Land Cover,2025,ESH,million ha,26.6
+Land Cover,2025,ESP,million ha,49.96974
+Land Cover,2025,EST,million ha,4.273
+Land Cover,2025,ETH,million ha,112.84988
+Land Cover,2025,FIN,million ha,30.396
+Land Cover,2025,FJI,million ha,1.827
+Land Cover,2025,FLK,million ha,1.217
+Land Cover,2025,FRA,million ha,53.895
+Land Cover,2025,FRO,million ha,0.137
+Land Cover,2025,FSM,million ha,0.07
+Land Cover,2025,GAB,million ha,25.767
+Land Cover,2025,GBR,million ha,24.193
+Land Cover,2025,GEO,million ha,6.949
+Land Cover,2025,GHA,million ha,22.7533
+Land Cover,2025,GIB,million ha,0.001
+Land Cover,2025,GIN,million ha,24.572
+Land Cover,2025,GLP,million ha,0.162
+Land Cover,2025,GMB,million ha,1.012
+Land Cover,2025,GNB,million ha,2.8120000000000003
+Land Cover,2025,GNQ,million ha,2.805
+Land Cover,2025,GRC,million ha,12.89
+Land Cover,2025,GRD,million ha,0.034
+Land Cover,2025,GRL,million ha,41.045
+Land Cover,2025,GTM,million ha,10.716
+Land Cover,2025,GUF,million ha,8.281
+Land Cover,2025,GUM,million ha,0.054
+Land Cover,2025,GUY,million ha,21.114
+Land Cover,2025,HKG,million ha,0.105
+Land Cover,2025,HND,million ha,11.189
+Land Cover,2025,HRV,million ha,5.596
+Land Cover,2025,HTI,million ha,2.756
+Land Cover,2025,HUN,million ha,9.126
+Land Cover,2025,IDN,million ha,189.255547
+Land Cover,2025,IMN,million ha,0.057
+Land Cover,2025,IND,million ha,297.319
+Land Cover,2025,IRL,million ha,6.889
+Land Cover,2025,IRN,million ha,162.25
+Land Cover,2025,IRQ,million ha,43.413
+Land Cover,2025,ISL,million ha,10.083
+Land Cover,2025,ISR,million ha,2.164
+Land Cover,2025,ITA,million ha,29.572
+Land Cover,2025,JAM,million ha,1.083
+Land Cover,2025,JOR,million ha,8.8794
+Land Cover,2025,JPN,million ha,36.45692700000001
+Land Cover,2025,KAZ,million ha,269.97
+Land Cover,2025,KEN,million ha,58.08763
+Land Cover,2025,KGZ,million ha,19.18
+Land Cover,2025,KHM,million ha,17.652
+Land Cover,2025,KIR,million ha,0.081
+Land Cover,2025,KNA,million ha,0.026
+Land Cover,2025,KOR,million ha,9.76
+Land Cover,2025,KWT,million ha,1.782
+Land Cover,2025,LAO,million ha,23.08
+Land Cover,2025,LBN,million ha,1.023
+Land Cover,2025,LBR,million ha,9.632
+Land Cover,2025,LBY,million ha,175.954
+Land Cover,2025,LCA,million ha,0.061
+Land Cover,2025,LIE,million ha,0.016
+Land Cover,2025,LKA,million ha,6.186
+Land Cover,2025,LSO,million ha,3.036
+Land Cover,2025,LTU,million ha,6.26
+Land Cover,2025,LUX,million ha,0.257446
+Land Cover,2025,LVA,million ha,6.223
+Land Cover,2025,MAC,million ha,0.0033
+Land Cover,2025,MAF,million ha,0.005
+Land Cover,2025,MAR,million ha,44.63
+Land Cover,2025,MCO,million ha,0.0002084
+Land Cover,2025,MDA,million ha,3.293
+Land Cover,2025,MDG,million ha,58.18
+Land Cover,2025,MDV,million ha,0.0298
+Land Cover,2025,MEX,million ha,194.395
+Land Cover,2025,MHL,million ha,0.018
+Land Cover,2025,MKD,million ha,2.522
+Land Cover,2025,MLI,million ha,122.019
+Land Cover,2025,MLT,million ha,0.032
+Land Cover,2025,MMR,million ha,65.267
+Land Cover,2025,MNE,million ha,1.345
+Land Cover,2025,MNG,million ha,155.8499786
+Land Cover,2025,MNP,million ha,0.046
+Land Cover,2025,MOZ,million ha,78.638
+Land Cover,2025,MRT,million ha,103.07
+Land Cover,2025,MSR,million ha,0.01
+Land Cover,2025,MTQ,million ha,0.106
+Land Cover,2025,MUS,million ha,0.1997
+Land Cover,2025,MWI,million ha,9.428
+Land Cover,2025,MYS,million ha,32.855000000000004
+Land Cover,2025,MYT,million ha,0.036626
+Land Cover,2025,NAM,million ha,82.32900000000001
+Land Cover,2025,NCL,million ha,1.828
+Land Cover,2025,NER,million ha,126.67
+Land Cover,2025,NFK,million ha,0.004
+Land Cover,2025,NGA,million ha,91.077
+Land Cover,2025,NIC,million ha,12.034
+Land Cover,2025,NIU,million ha,0.026
+Land Cover,2025,NLD,million ha,3.367
+Land Cover,2025,NOR,million ha,36.427
+Land Cover,2025,NPL,million ha,14.335
+Land Cover,2025,NRU,million ha,0.002
+Land Cover,2025,NZL,million ha,26.331
+Land Cover,2025,OMN,million ha,30.95
+Land Cover,2025,PAK,million ha,77.08800000000001
+Land Cover,2025,PAN,million ha,7.418
+Land Cover,2025,PCN,million ha,0.0047
+Land Cover,2025,PER,million ha,128.0
+Land Cover,2025,PHL,million ha,29.817
+Land Cover,2025,PLW,million ha,0.046
+Land Cover,2025,PNG,million ha,45.286
+Land Cover,2025,POL,million ha,30.627
+Land Cover,2025,PRI,million ha,0.887
+Land Cover,2025,PRK,million ha,12.041
+Land Cover,2025,PRT,million ha,9.16056
+Land Cover,2025,PRY,million ha,39.601203000000005
+Land Cover,2025,PSE,million ha,0.6025
+Land Cover,2025,PYF,million ha,0.3471
+Land Cover,2025,QAT,million ha,1.149
+Land Cover,2025,REU,million ha,0.251
+Land Cover,2025,ROU,million ha,23.008
+Land Cover,2025,RUS,million ha,1637.687
+Land Cover,2025,RWA,million ha,2.467
+Land Cover,2025,SAU,million ha,214.969
+Land Cover,2025,SDN,million ha,186.8
+Land Cover,2025,SEN,million ha,19.253
+Land Cover,2025,SGP,million ha,0.0718
+Land Cover,2025,SHN,million ha,0.039
+Land Cover,2025,SLB,million ha,2.799
+Land Cover,2025,SLE,million ha,7.218
+Land Cover,2025,SLV,million ha,2.072
+Land Cover,2025,SMR,million ha,0.006
+Land Cover,2025,SOM,million ha,62.734
+Land Cover,2025,SPM,million ha,0.023
+Land Cover,2025,SRB,million ha,8.409
+Land Cover,2025,SSD,million ha,63.193
+Land Cover,2025,STP,million ha,0.096
+Land Cover,2025,SUR,million ha,16.050761
+Land Cover,2025,SVK,million ha,4.808
+Land Cover,2025,SVN,million ha,2.01345
+Land Cover,2025,SWE,million ha,40.727
+Land Cover,2025,SWZ,million ha,1.72
+Land Cover,2025,SXM,million ha,0.0034
+Land Cover,2025,SYC,million ha,0.046
+Land Cover,2025,SYR,million ha,18.363
+Land Cover,2025,TCA,million ha,0.095
+Land Cover,2025,TCD,million ha,125.92
+Land Cover,2025,TGO,million ha,5.439
+Land Cover,2025,THA,million ha,51.089
+Land Cover,2025,TJK,million ha,13.879
+Land Cover,2025,TKL,million ha,0.001
+Land Cover,2025,TKM,million ha,46.993
+Land Cover,2025,TLS,million ha,1.487
+Land Cover,2025,TON,million ha,0.072
+Land Cover,2025,TTO,million ha,0.513
+Land Cover,2025,TUN,million ha,15.536
+Land Cover,2025,TUR,million ha,76.96300000000001
+Land Cover,2025,TUV,million ha,0.003
+Land Cover,2025,TWN,million ha,3.541
+Land Cover,2025,TZA,million ha,88.58
+Land Cover,2025,UGA,million ha,20.052
+Land Cover,2025,UKR,million ha,57.94
+Land Cover,2025,URY,million ha,17.502
+Land Cover,2025,USA,million ha,914.742
+Land Cover,2025,UZB,million ha,44.065
+Land Cover,2025,VAT,million ha,4.4e-05
+Land Cover,2025,VCT,million ha,0.039
+Land Cover,2025,VEN,million ha,88.205
+Land Cover,2025,VGB,million ha,0.015
+Land Cover,2025,VIR,million ha,0.035
+Land Cover,2025,VNM,million ha,31.342900000000004
+Land Cover,2025,VUT,million ha,1.219
+Land Cover,2025,WLF,million ha,0.0141999999999999
+Land Cover,2025,WSM,million ha,0.278
+Land Cover,2025,World,million ha,13016.772125
+Land Cover,2025,YEM,million ha,52.797
+Land Cover,2025,ZAF,million ha,121.309
+Land Cover,2025,ZMB,million ha,74.339
+Land Cover,2025,ZWE,million ha,38.685
+Land Cover|Cropland,2025,ABW,million ha,0.002
+Land Cover|Cropland,2025,AFG,million ha,8.116
+Land Cover|Cropland,2025,AGO,million ha,5.702
+Land Cover|Cropland,2025,ALB,million ha,0.6785
+Land Cover|Cropland,2025,AND,million ha,0.0007408
+Land Cover|Cropland,2025,ARE,million ha,0.0917037
+Land Cover|Cropland,2025,ARG,million ha,41.4553431
+Land Cover|Cropland,2025,ARM,million ha,0.5034
+Land Cover|Cropland,2025,ASM,million ha,0.00296
+Land Cover|Cropland,2025,ATG,million ha,0.005
+Land Cover|Cropland,2025,AUS,million ha,31.3746782
+Land Cover|Cropland,2025,AUT,million ha,1.3872832000000002
+Land Cover|Cropland,2025,AZE,million ha,2.3651
+Land Cover|Cropland,2025,BDI,million ha,1.6712068
+Land Cover|Cropland,2025,BEL,million ha,0.8863594
+Land Cover|Cropland,2025,BEN,million ha,4.166752300000001
+Land Cover|Cropland,2025,BFA,million ha,8.610788699999999
+Land Cover|Cropland,2025,BGD,million ha,8.799
+Land Cover|Cropland,2025,BGR,million ha,3.62258
+Land Cover|Cropland,2025,BHR,million ha,0.0040999999999999
+Land Cover|Cropland,2025,BHS,million ha,0.011
+Land Cover|Cropland,2025,BIH,million ha,0.444
+Land Cover|Cropland,2025,BLR,million ha,5.653300000000001
+Land Cover|Cropland,2025,BLZ,million ha,0.132
+Land Cover|Cropland,2025,BMU,million ha,0.0003
+Land Cover|Cropland,2025,BOL,million ha,5.8153989
+Land Cover|Cropland,2025,BRA,million ha,63.398
+Land Cover|Cropland,2025,BRB,million ha,0.008
+Land Cover|Cropland,2025,BRN,million ha,0.01
+Land Cover|Cropland,2025,BTN,million ha,0.114
+Land Cover|Cropland,2025,BWA,million ha,0.262
+Land Cover|Cropland,2025,CAF,million ha,2.6788000000000003
+Land Cover|Cropland,2025,CAN,million ha,38.315
+Land Cover|Cropland,2025,CHE,million ha,0.4217313
+Land Cover|Cropland,2025,CHL,million ha,1.9139
+Land Cover|Cropland,2025,CHN,million ha,127.58
+Land Cover|Cropland,2025,CIV,million ha,14.2993096
+Land Cover|Cropland,2025,CMR,million ha,7.8969
+Land Cover|Cropland,2025,COD,million ha,16.895663799999998
+Land Cover|Cropland,2025,COG,million ha,0.6514
+Land Cover|Cropland,2025,COK,million ha,0.0019
+Land Cover|Cropland,2025,COL,million ha,4.995
+Land Cover|Cropland,2025,COM,million ha,0.118
+Land Cover|Cropland,2025,CPV,million ha,0.054
+Land Cover|Cropland,2025,CRI,million ha,0.5443476
+Land Cover|Cropland,2025,CUB,million ha,3.5616
+Land Cover|Cropland,2025,CYM,million ha,0.0007
+Land Cover|Cropland,2025,CYP,million ha,0.1268923
+Land Cover|Cropland,2025,CZE,million ha,2.565998
+Land Cover|Cropland,2025,DEU,million ha,11.881
+Land Cover|Cropland,2025,DJI,million ha,0.0039
+Land Cover|Cropland,2025,DMA,million ha,0.023
+Land Cover|Cropland,2025,DNK,million ha,2.395
+Land Cover|Cropland,2025,DOM,million ha,1.5193597
+Land Cover|Cropland,2025,DZA,million ha,8.537700000000001
+Land Cover|Cropland,2025,ECU,million ha,2.4090000000000003
+Land Cover|Cropland,2025,EGY,million ha,4.058
+Land Cover|Cropland,2025,ERI,million ha,0.6920000000000001
+Land Cover|Cropland,2025,ESH,million ha,0.004
+Land Cover|Cropland,2025,ESP,million ha,16.606512
+Land Cover|Cropland,2025,EST,million ha,0.715
+Land Cover|Cropland,2025,ETH,million ha,18.456933000000003
+Land Cover|Cropland,2025,FIN,million ha,2.249
+Land Cover|Cropland,2025,FJI,million ha,0.1386
+Land Cover|Cropland,2025,FRA,million ha,17.926778
+Land Cover|Cropland,2025,FRO,million ha,7.000000000000001e-05
+Land Cover|Cropland,2025,FSM,million ha,0.002
+Land Cover|Cropland,2025,GAB,million ha,0.495
+Land Cover|Cropland,2025,GBR,million ha,6.0861833
+Land Cover|Cropland,2025,GEO,million ha,0.4319
+Land Cover|Cropland,2025,GHA,million ha,7.4175
+Land Cover|Cropland,2025,GIN,million ha,7.293890999999999
+Land Cover|Cropland,2025,GLP,million ha,0.022387
+Land Cover|Cropland,2025,GMB,million ha,0.447
+Land Cover|Cropland,2025,GNB,million ha,0.6455305
+Land Cover|Cropland,2025,GNQ,million ha,0.0998
+Land Cover|Cropland,2025,GRC,million ha,2.8959662
+Land Cover|Cropland,2025,GRD,million ha,0.007
+Land Cover|Cropland,2025,GTM,million ha,2.737
+Land Cover|Cropland,2025,GUF,million ha,0.0164349999999999
+Land Cover|Cropland,2025,GUM,million ha,0.008
+Land Cover|Cropland,2025,GUY,million ha,0.126
+Land Cover|Cropland,2025,HKG,million ha,0.003
+Land Cover|Cropland,2025,HND,million ha,1.618
+Land Cover|Cropland,2025,HRV,million ha,0.947
+Land Cover|Cropland,2025,HTI,million ha,1.305
+Land Cover|Cropland,2025,HUN,million ha,4.294114
+Land Cover|Cropland,2025,IDN,million ha,44.122203
+Land Cover|Cropland,2025,IMN,million ha,0.0234399
+Land Cover|Cropland,2025,IND,million ha,168.323
+Land Cover|Cropland,2025,IRL,million ha,0.441
+Land Cover|Cropland,2025,IRN,million ha,17.59
+Land Cover|Cropland,2025,IRQ,million ha,5.4924
+Land Cover|Cropland,2025,ISL,million ha,0.121
+Land Cover|Cropland,2025,ISR,million ha,0.3727
+Land Cover|Cropland,2025,ITA,million ha,9.484067
+Land Cover|Cropland,2025,JAM,million ha,0.188
+Land Cover|Cropland,2025,JOR,million ha,0.2873
+Land Cover|Cropland,2025,JPN,million ha,4.297
+Land Cover|Cropland,2025,KAZ,million ha,29.8017
+Land Cover|Cropland,2025,KEN,million ha,7.4686669
+Land Cover|Cropland,2025,KGZ,million ha,1.363475
+Land Cover|Cropland,2025,KHM,million ha,4.6543397
+Land Cover|Cropland,2025,KIR,million ha,0.034
+Land Cover|Cropland,2025,KNA,million ha,0.0050999999999999
+Land Cover|Cropland,2025,KOR,million ha,1.512
+Land Cover|Cropland,2025,KWT,million ha,0.014
+Land Cover|Cropland,2025,LAO,million ha,1.6102
+Land Cover|Cropland,2025,LBN,million ha,0.2742138
+Land Cover|Cropland,2025,LBR,million ha,0.7000000000000001
+Land Cover|Cropland,2025,LBY,million ha,2.05
+Land Cover|Cropland,2025,LCA,million ha,0.00957
+Land Cover|Cropland,2025,LIE,million ha,0.00173
+Land Cover|Cropland,2025,LKA,million ha,2.5669
+Land Cover|Cropland,2025,LSO,million ha,0.360748
+Land Cover|Cropland,2025,LTU,million ha,2.336
+Land Cover|Cropland,2025,LUX,million ha,0.062878
+Land Cover|Cropland,2025,LVA,million ha,1.37
+Land Cover|Cropland,2025,MAR,million ha,8.7882659
+Land Cover|Cropland,2025,MDA,million ha,2.137
+Land Cover|Cropland,2025,MDG,million ha,3.6
+Land Cover|Cropland,2025,MDV,million ha,0.0049
+Land Cover|Cropland,2025,MEX,million ha,24.4457137
+Land Cover|Cropland,2025,MHL,million ha,0.007
+Land Cover|Cropland,2025,MKD,million ha,0.456
+Land Cover|Cropland,2025,MLI,million ha,8.639488799999999
+Land Cover|Cropland,2025,MLT,million ha,0.008291
+Land Cover|Cropland,2025,MMR,million ha,12.517332
+Land Cover|Cropland,2025,MNE,million ha,0.01434
+Land Cover|Cropland,2025,MNG,million ha,1.1489685
+Land Cover|Cropland,2025,MNP,million ha,0.00017
+Land Cover|Cropland,2025,MOZ,million ha,6.0485
+Land Cover|Cropland,2025,MRT,million ha,0.46
+Land Cover|Cropland,2025,MSR,million ha,0.002
+Land Cover|Cropland,2025,MTQ,million ha,0.016848
+Land Cover|Cropland,2025,MUS,million ha,0.0789574
+Land Cover|Cropland,2025,MWI,million ha,4.2
+Land Cover|Cropland,2025,MYS,million ha,8.244299999999999
+Land Cover|Cropland,2025,MYT,million ha,0.019389
+Land Cover|Cropland,2025,NAM,million ha,0.812
+Land Cover|Cropland,2025,NCL,million ha,0.0097
+Land Cover|Cropland,2025,NER,million ha,17.8165
+Land Cover|Cropland,2025,NGA,million ha,44.2262087
+Land Cover|Cropland,2025,NIC,million ha,1.799
+Land Cover|Cropland,2025,NIU,million ha,0.0038
+Land Cover|Cropland,2025,NLD,million ha,1.045
+Land Cover|Cropland,2025,NOR,million ha,0.806
+Land Cover|Cropland,2025,NPL,million ha,1.9488
+Land Cover|Cropland,2025,NRU,million ha,0.0004
+Land Cover|Cropland,2025,NZL,million ha,0.592
+Land Cover|Cropland,2025,OMN,million ha,0.12173
+Land Cover|Cropland,2025,PAK,million ha,30.995
+Land Cover|Cropland,2025,PAN,million ha,0.6809662
+Land Cover|Cropland,2025,PER,million ha,6.198638
+Land Cover|Cropland,2025,PHL,million ha,11.2226
+Land Cover|Cropland,2025,PLW,million ha,0.0023
+Land Cover|Cropland,2025,PNG,million ha,1.215
+Land Cover|Cropland,2025,POL,million ha,11.546
+Land Cover|Cropland,2025,PRI,million ha,0.0662
+Land Cover|Cropland,2025,PRK,million ha,2.5453
+Land Cover|Cropland,2025,PRT,million ha,1.8078059
+Land Cover|Cropland,2025,PRY,million ha,4.643491
+Land Cover|Cropland,2025,PSE,million ha,0.1132
+Land Cover|Cropland,2025,PYF,million ha,0.0285
+Land Cover|Cropland,2025,QAT,million ha,0.024
+Land Cover|Cropland,2025,REU,million ha,0.028665
+Land Cover|Cropland,2025,ROU,million ha,8.813
+Land Cover|Cropland,2025,RUS,million ha,123.649
+Land Cover|Cropland,2025,RWA,million ha,1.497071
+Land Cover|Cropland,2025,SAU,million ha,3.637417
+Land Cover|Cropland,2025,SDN,million ha,21.211
+Land Cover|Cropland,2025,SEN,million ha,3.911
+Land Cover|Cropland,2025,SGP,million ha,0.00066
+Land Cover|Cropland,2025,SHN,million ha,0.004
+Land Cover|Cropland,2025,SLB,million ha,0.1012
+Land Cover|Cropland,2025,SLE,million ha,1.749
+Land Cover|Cropland,2025,SLV,million ha,0.881
+Land Cover|Cropland,2025,SMR,million ha,0.0023
+Land Cover|Cropland,2025,SOM,million ha,1.1292
+Land Cover|Cropland,2025,SPM,million ha,0.002
+Land Cover|Cropland,2025,SRB,million ha,2.817
+Land Cover|Cropland,2025,SSD,million ha,2.5742333
+Land Cover|Cropland,2025,STP,million ha,0.042
+Land Cover|Cropland,2025,SUR,million ha,0.055432
+Land Cover|Cropland,2025,SVK,million ha,1.324
+Land Cover|Cropland,2025,SVN,million ha,0.23338
+Land Cover|Cropland,2025,SWE,million ha,2.529
+Land Cover|Cropland,2025,SWZ,million ha,0.195
+Land Cover|Cropland,2025,SYC,million ha,0.00155
+Land Cover|Cropland,2025,SYR,million ha,5.442
+Land Cover|Cropland,2025,TCA,million ha,0.001
+Land Cover|Cropland,2025,TCD,million ha,5.3373
+Land Cover|Cropland,2025,TGO,million ha,2.82
+Land Cover|Cropland,2025,THA,million ha,21.576
+Land Cover|Cropland,2025,TJK,million ha,1.049
+Land Cover|Cropland,2025,TKL,million ha,0.0006
+Land Cover|Cropland,2025,TKM,million ha,1.6313392
+Land Cover|Cropland,2025,TLS,million ha,0.1914
+Land Cover|Cropland,2025,TON,million ha,0.031
+Land Cover|Cropland,2025,TTO,million ha,0.047
+Land Cover|Cropland,2025,TUN,million ha,4.9505
+Land Cover|Cropland,2025,TUR,million ha,23.971
+Land Cover|Cropland,2025,TUV,million ha,0.0018
+Land Cover|Cropland,2025,TWN,million ha,0.779
+Land Cover|Cropland,2025,TZA,million ha,15.5212
+Land Cover|Cropland,2025,UGA,million ha,9.1
+Land Cover|Cropland,2025,UKR,million ha,33.777
+Land Cover|Cropland,2025,URY,million ha,2.2386
+Land Cover|Cropland,2025,USA,million ha,154.7341251
+Land Cover|Cropland,2025,UZB,million ha,4.468
+Land Cover|Cropland,2025,VCT,million ha,0.005
+Land Cover|Cropland,2025,VEN,million ha,3.3000000000000003
+Land Cover|Cropland,2025,VGB,million ha,0.002
+Land Cover|Cropland,2025,VIR,million ha,0.0011
+Land Cover|Cropland,2025,VNM,million ha,11.649036
+Land Cover|Cropland,2025,VUT,million ha,0.145
+Land Cover|Cropland,2025,WLF,million ha,0.006
+Land Cover|Cropland,2025,WSM,million ha,0.04242
+Land Cover|Cropland,2025,World,million ha,1571.4557130000003
+Land Cover|Cropland,2025,YEM,million ha,1.452
+Land Cover|Cropland,2025,ZAF,million ha,12.413
+Land Cover|Cropland,2025,ZMB,million ha,3.839
+Land Cover|Cropland,2025,ZWE,million ha,4.0671216
+Land Cover|Pasture,2025,AFG,million ha,30.0
+Land Cover|Pasture,2025,AGO,million ha,40.361
+Land Cover|Pasture,2025,ALB,million ha,0.3661
+Land Cover|Pasture,2025,AND,million ha,0.018
+Land Cover|Pasture,2025,ARE,million ha,0.3
+Land Cover|Pasture,2025,ARG,million ha,74.681
+Land Cover|Pasture,2025,ARM,million ha,1.1705
+Land Cover|Pasture,2025,ATG,million ha,0.004
+Land Cover|Pasture,2025,AUS,million ha,331.869
+Land Cover|Pasture,2025,AUT,million ha,1.2099799
+Land Cover|Pasture,2025,AZE,million ha,2.4144
+Land Cover|Pasture,2025,BDI,million ha,0.483
+Land Cover|Pasture,2025,BEL,million ha,0.46694
+Land Cover|Pasture,2025,BEN,million ha,0.55
+Land Cover|Pasture,2025,BFA,million ha,6.0
+Land Cover|Pasture,2025,BGD,million ha,0.6
+Land Cover|Pasture,2025,BGR,million ha,1.38041
+Land Cover|Pasture,2025,BHR,million ha,0.004
+Land Cover|Pasture,2025,BHS,million ha,0.002
+Land Cover|Pasture,2025,BIH,million ha,0.656
+Land Cover|Pasture,2025,BLR,million ha,2.3807
+Land Cover|Pasture,2025,BLZ,million ha,0.05
+Land Cover|Pasture,2025,BOL,million ha,33.0
+Land Cover|Pasture,2025,BRA,million ha,173.36079999999998
+Land Cover|Pasture,2025,BRB,million ha,0.002
+Land Cover|Pasture,2025,BRN,million ha,0.0034
+Land Cover|Pasture,2025,BTN,million ha,0.413
+Land Cover|Pasture,2025,BWA,million ha,25.6
+Land Cover|Pasture,2025,CAF,million ha,2.99
+Land Cover|Pasture,2025,CAN,million ha,18.56
+Land Cover|Pasture,2025,CHE,million ha,1.0714915
+Land Cover|Pasture,2025,CHL,million ha,8.783637
+Land Cover|Pasture,2025,CHN,million ha,392.833
+Land Cover|Pasture,2025,CIV,million ha,13.2
+Land Cover|Pasture,2025,CMR,million ha,2.0
+Land Cover|Pasture,2025,COD,million ha,18.2
+Land Cover|Pasture,2025,COG,million ha,10.0
+Land Cover|Pasture,2025,COL,million ha,35.488
+Land Cover|Pasture,2025,COM,million ha,0.015
+Land Cover|Pasture,2025,CPV,million ha,0.025
+Land Cover|Pasture,2025,CRI,million ha,1.147985
+Land Cover|Pasture,2025,CUB,million ha,2.8394000000000004
+Land Cover|Pasture,2025,CYM,million ha,0.002
+Land Cover|Pasture,2025,CYP,million ha,0.002104
+Land Cover|Pasture,2025,CZE,million ha,0.968416
+Land Cover|Pasture,2025,DEU,million ha,4.704
+Land Cover|Pasture,2025,DJI,million ha,1.7
+Land Cover|Pasture,2025,DMA,million ha,0.002
+Land Cover|Pasture,2025,DNK,million ha,0.226
+Land Cover|Pasture,2025,DOM,million ha,1.1485492
+Land Cover|Pasture,2025,DZA,million ha,32.807
+Land Cover|Pasture,2025,ECU,million ha,2.9410000000000003
+Land Cover|Pasture,2025,ERI,million ha,6.9
+Land Cover|Pasture,2025,ESH,million ha,5.0
+Land Cover|Pasture,2025,ESP,million ha,9.885842
+Land Cover|Pasture,2025,EST,million ha,0.272
+Land Cover|Pasture,2025,ETH,million ha,20.0
+Land Cover|Pasture,2025,FIN,million ha,0.013
+Land Cover|Pasture,2025,FJI,million ha,0.173
+Land Cover|Pasture,2025,FLK,million ha,1.134175
+Land Cover|Pasture,2025,FRA,million ha,10.370467
+Land Cover|Pasture,2025,FRO,million ha,0.096
+Land Cover|Pasture,2025,FSM,million ha,0.003
+Land Cover|Pasture,2025,GAB,million ha,1.658236
+Land Cover|Pasture,2025,GBR,million ha,10.9232673
+Land Cover|Pasture,2025,GEO,million ha,1.94
+Land Cover|Pasture,2025,GHA,million ha,5.18624
+Land Cover|Pasture,2025,GIN,million ha,10.7
+Land Cover|Pasture,2025,GLP,million ha,0.024198
+Land Cover|Pasture,2025,GMB,million ha,0.187
+Land Cover|Pasture,2025,GNB,million ha,0.195
+Land Cover|Pasture,2025,GNQ,million ha,0.00492
+Land Cover|Pasture,2025,GRC,million ha,2.4760725000000003
+Land Cover|Pasture,2025,GRD,million ha,0.001
+Land Cover|Pasture,2025,GRL,million ha,0.24311
+Land Cover|Pasture,2025,GTM,million ha,1.875
+Land Cover|Pasture,2025,GUF,million ha,0.0255689999999999
+Land Cover|Pasture,2025,GUM,million ha,0.008
+Land Cover|Pasture,2025,GUY,million ha,0.594
+Land Cover|Pasture,2025,HKG,million ha,0.001
+Land Cover|Pasture,2025,HND,million ha,1.958
+Land Cover|Pasture,2025,HRV,million ha,0.539
+Land Cover|Pasture,2025,HTI,million ha,0.49
+Land Cover|Pasture,2025,HUN,million ha,0.7889320000000001
+Land Cover|Pasture,2025,IDN,million ha,11.0
+Land Cover|Pasture,2025,IMN,million ha,0.0159412
+Land Cover|Pasture,2025,IND,million ha,10.248
+Land Cover|Pasture,2025,IRL,million ha,3.749
+Land Cover|Pasture,2025,IRN,million ha,29.477
+Land Cover|Pasture,2025,IRQ,million ha,3.985
+Land Cover|Pasture,2025,ISL,million ha,1.517
+Land Cover|Pasture,2025,ISR,million ha,0.164
+Land Cover|Pasture,2025,ITA,million ha,3.60349
+Land Cover|Pasture,2025,JAM,million ha,0.229
+Land Cover|Pasture,2025,JOR,million ha,0.742
+Land Cover|Pasture,2025,JPN,million ha,0.31
+Land Cover|Pasture,2025,KAZ,million ha,184.464
+Land Cover|Pasture,2025,KEN,million ha,21.3
+Land Cover|Pasture,2025,KGZ,million ha,8.995369
+Land Cover|Pasture,2025,KHM,million ha,1.5
+Land Cover|Pasture,2025,KNA,million ha,0.0009000000000000001
+Land Cover|Pasture,2025,KOR,million ha,0.056
+Land Cover|Pasture,2025,KWT,million ha,0.136
+Land Cover|Pasture,2025,LAO,million ha,0.677
+Land Cover|Pasture,2025,LBN,million ha,0.4
+Land Cover|Pasture,2025,LBR,million ha,1.22304
+Land Cover|Pasture,2025,LBY,million ha,13.3
+Land Cover|Pasture,2025,LCA,million ha,0.00037
+Land Cover|Pasture,2025,LIE,million ha,0.00344
+Land Cover|Pasture,2025,LKA,million ha,0.44
+Land Cover|Pasture,2025,LSO,million ha,2.0
+Land Cover|Pasture,2025,LTU,million ha,0.537
+Land Cover|Pasture,2025,LUX,million ha,0.06976
+Land Cover|Pasture,2025,LVA,million ha,0.601
+Land Cover|Pasture,2025,MAR,million ha,21.0
+Land Cover|Pasture,2025,MDA,million ha,0.311
+Land Cover|Pasture,2025,MDG,million ha,37.295
+Land Cover|Pasture,2025,MDV,million ha,0.001
+Land Cover|Pasture,2025,MEX,million ha,74.09969500000001
+Land Cover|Pasture,2025,MKD,million ha,0.795
+Land Cover|Pasture,2025,MLI,million ha,34.64
+Land Cover|Pasture,2025,MMR,million ha,0.48
+Land Cover|Pasture,2025,MNE,million ha,0.24918
+Land Cover|Pasture,2025,MNG,million ha,106.3182772
+Land Cover|Pasture,2025,MNP,million ha,0.00037
+Land Cover|Pasture,2025,MOZ,million ha,35.463832000000004
+Land Cover|Pasture,2025,MRT,million ha,39.25
+Land Cover|Pasture,2025,MSR,million ha,0.001
+Land Cover|Pasture,2025,MTQ,million ha,0.014375
+Land Cover|Pasture,2025,MUS,million ha,0.007
+Land Cover|Pasture,2025,MWI,million ha,1.85
+Land Cover|Pasture,2025,MYS,million ha,0.285
+Land Cover|Pasture,2025,MYT,million ha,1.2e-05
+Land Cover|Pasture,2025,NAM,million ha,38.0
+Land Cover|Pasture,2025,NCL,million ha,0.17433
+Land Cover|Pasture,2025,NER,million ha,28.782
+Land Cover|Pasture,2025,NFK,million ha,0.001
+Land Cover|Pasture,2025,NGA,million ha,25.172
+Land Cover|Pasture,2025,NIC,million ha,3.2920000000000003
+Land Cover|Pasture,2025,NIU,million ha,0.001
+Land Cover|Pasture,2025,NLD,million ha,0.758
+Land Cover|Pasture,2025,NOR,million ha,0.176
+Land Cover|Pasture,2025,NPL,million ha,1.7953
+Land Cover|Pasture,2025,NZL,million ha,9.119
+Land Cover|Pasture,2025,OMN,million ha,1.35
+Land Cover|Pasture,2025,PAK,million ha,5.0
+Land Cover|Pasture,2025,PAN,million ha,1.509
+Land Cover|Pasture,2025,PER,million ha,18.186922
+Land Cover|Pasture,2025,PHL,million ha,1.5
+Land Cover|Pasture,2025,PLW,million ha,0.002
+Land Cover|Pasture,2025,PNG,million ha,0.19
+Land Cover|Pasture,2025,POL,million ha,3.014
+Land Cover|Pasture,2025,PRI,million ha,0.1027
+Land Cover|Pasture,2025,PRK,million ha,0.05
+Land Cover|Pasture,2025,PRT,million ha,2.1621538
+Land Cover|Pasture,2025,PRY,million ha,16.784
+Land Cover|Pasture,2025,PSE,million ha,0.278
+Land Cover|Pasture,2025,PYF,million ha,0.001565
+Land Cover|Pasture,2025,QAT,million ha,0.05
+Land Cover|Pasture,2025,REU,million ha,0.012962
+Land Cover|Pasture,2025,ROU,million ha,3.902
+Land Cover|Pasture,2025,RUS,million ha,92.052
+Land Cover|Pasture,2025,RWA,million ha,0.38606
+Land Cover|Pasture,2025,SAU,million ha,170.0
+Land Cover|Pasture,2025,SDN,million ha,91.454
+Land Cover|Pasture,2025,SEN,million ha,5.6000000000000005
+Land Cover|Pasture,2025,SHN,million ha,0.008
+Land Cover|Pasture,2025,SLB,million ha,0.008
+Land Cover|Pasture,2025,SLE,million ha,2.2
+Land Cover|Pasture,2025,SLV,million ha,0.3147
+Land Cover|Pasture,2025,SOM,million ha,43.0
+Land Cover|Pasture,2025,SRB,million ha,0.556
+Land Cover|Pasture,2025,SSD,million ha,25.773
+Land Cover|Pasture,2025,STP,million ha,0.001
+Land Cover|Pasture,2025,SUR,million ha,0.016
+Land Cover|Pasture,2025,SVK,million ha,0.501
+Land Cover|Pasture,2025,SVN,million ha,0.37882
+Land Cover|Pasture,2025,SWE,million ha,0.453
+Land Cover|Pasture,2025,SWZ,million ha,1.0
+Land Cover|Pasture,2025,SYR,million ha,8.164
+Land Cover|Pasture,2025,TCD,million ha,45.0
+Land Cover|Pasture,2025,TGO,million ha,1.0
+Land Cover|Pasture,2025,THA,million ha,0.8
+Land Cover|Pasture,2025,TJK,million ha,2.8297
+Land Cover|Pasture,2025,TKM,million ha,37.9469
+Land Cover|Pasture,2025,TLS,million ha,0.15
+Land Cover|Pasture,2025,TON,million ha,0.004
+Land Cover|Pasture,2025,TTO,million ha,0.007
+Land Cover|Pasture,2025,TUN,million ha,4.75
+Land Cover|Pasture,2025,TUR,million ha,14.617
+Land Cover|Pasture,2025,TZA,million ha,24.0
+Land Cover|Pasture,2025,UGA,million ha,5.315
+Land Cover|Pasture,2025,UKR,million ha,7.534
+Land Cover|Pasture,2025,URY,million ha,12.0
+Land Cover|Pasture,2025,USA,million ha,266.8062423
+Land Cover|Pasture,2025,UZB,million ha,21.114
+Land Cover|Pasture,2025,VCT,million ha,0.002
+Land Cover|Pasture,2025,VEN,million ha,18.2
+Land Cover|Pasture,2025,VGB,million ha,0.005
+Land Cover|Pasture,2025,VIR,million ha,0.0022
+Land Cover|Pasture,2025,VNM,million ha,0.642
+Land Cover|Pasture,2025,VUT,million ha,0.042
+Land Cover|Pasture,2025,WSM,million ha,0.00641
+Land Cover|Pasture,2025,World,million ha,3229.5097979
+Land Cover|Pasture,2025,YEM,million ha,22.0
+Land Cover|Pasture,2025,ZAF,million ha,83.928
+Land Cover|Pasture,2025,ZMB,million ha,20.0
+Land Cover|Pasture,2025,ZWE,million ha,12.1
+Yield|Cropland|Cereals,2025,AFG,million t DM/yr,1.7741387463902316
+Yield|Cropland|Cereals,2025,AGO,million t DM/yr,0.8239213119178175
+Yield|Cropland|Cereals,2025,ALB,million t DM/yr,3.877939172729705
+Yield|Cropland|Cereals,2025,ARE,million t DM/yr,16.81527126
+Yield|Cropland|Cereals,2025,ARG,million t DM/yr,3.711328334751213
+Yield|Cropland|Cereals,2025,ARM,million t DM/yr,1.4943847744202423
+Yield|Cropland|Cereals,2025,ATG,million t DM/yr,1.4689410600000004
+Yield|Cropland|Cereals,2025,AUS,million t DM/yr,2.048252491367144
+Yield|Cropland|Cereals,2025,AUT,million t DM/yr,5.08538817718453
+Yield|Cropland|Cereals,2025,AZE,million t DM/yr,2.6058165034298075
+Yield|Cropland|Cereals,2025,BDI,million t DM/yr,0.8739595189453431
+Yield|Cropland|Cereals,2025,BEL,million t DM/yr,5.189269996761013
+Yield|Cropland|Cereals,2025,BEN,million t DM/yr,1.02045476590372
+Yield|Cropland|Cereals,2025,BFA,million t DM/yr,0.9116867777908249
+Yield|Cropland|Cereals,2025,BGD,million t DM/yr,4.149480820060289
+Yield|Cropland|Cereals,2025,BGR,million t DM/yr,3.863699663553716
+Yield|Cropland|Cereals,2025,BHS,million t DM/yr,5.7888234
+Yield|Cropland|Cereals,2025,BIH,million t DM/yr,4.038091882456235
+Yield|Cropland|Cereals,2025,BLR,million t DM/yr,2.5817988373134875
+Yield|Cropland|Cereals,2025,BLZ,million t DM/yr,2.7838773486524757
+Yield|Cropland|Cereals,2025,BOL,million t DM/yr,1.6797538056563903
+Yield|Cropland|Cereals,2025,BRA,million t DM/yr,3.750134155896791
+Yield|Cropland|Cereals,2025,BRB,million t DM/yr,2.09256576
+Yield|Cropland|Cereals,2025,BRN,million t DM/yr,1.82980575
+Yield|Cropland|Cereals,2025,BTN,million t DM/yr,2.53049901066171
+Yield|Cropland|Cereals,2025,BWA,million t DM/yr,0.6865370562879
+Yield|Cropland|Cereals,2025,CAF,million t DM/yr,0.5930062886030818
+Yield|Cropland|Cereals,2025,CAN,million t DM/yr,3.045578748013858
+Yield|Cropland|Cereals,2025,CHE,million t DM/yr,3.474500868277494
+Yield|Cropland|Cereals,2025,CHL,million t DM/yr,5.012436395569374
+Yield|Cropland|Cereals,2025,CHN,million t DM/yr,4.8620200140288805
+Yield|Cropland|Cereals,2025,CIV,million t DM/yr,1.9161929929189987
+Yield|Cropland|Cereals,2025,CMR,million t DM/yr,1.339043122539357
+Yield|Cropland|Cereals,2025,COD,million t DM/yr,0.6559087909361551
+Yield|Cropland|Cereals,2025,COG,million t DM/yr,0.6640989187834156
+Yield|Cropland|Cereals,2025,COL,million t DM/yr,3.311379565460737
+Yield|Cropland|Cereals,2025,COM,million t DM/yr,1.2851413181012985
+Yield|Cropland|Cereals,2025,CPV,million t DM/yr,0.03015246
+Yield|Cropland|Cereals,2025,CRI,million t DM/yr,2.73214311629798
+Yield|Cropland|Cereals,2025,CUB,million t DM/yr,1.4607689198804708
+Yield|Cropland|Cereals,2025,CYP,million t DM/yr,1.0946343498206277
+Yield|Cropland|Cereals,2025,CZE,million t DM/yr,4.370307975618748
+Yield|Cropland|Cereals,2025,DEU,million t DM/yr,5.167235640052496
+Yield|Cropland|Cereals,2025,DJI,million t DM/yr,1.5270761999999998
+Yield|Cropland|Cereals,2025,DMA,million t DM/yr,1.2643083599999998
+Yield|Cropland|Cereals,2025,DNK,million t DM/yr,4.657250798846542
+Yield|Cropland|Cereals,2025,DOM,million t DM/yr,3.3689059069019844
+Yield|Cropland|Cereals,2025,DZA,million t DM/yr,1.168453365087733
+Yield|Cropland|Cereals,2025,ECU,million t DM/yr,3.018224068984157
+Yield|Cropland|Cereals,2025,EGY,million t DM/yr,5.55571214110129
+Yield|Cropland|Cereals,2025,ERI,million t DM/yr,0.4896396557379376
+Yield|Cropland|Cereals,2025,ESP,million t DM/yr,2.882772623288575
+Yield|Cropland|Cereals,2025,EST,million t DM/yr,2.8463552991894336
+Yield|Cropland|Cereals,2025,ETH,million t DM/yr,1.9671371994561644
+Yield|Cropland|Cereals,2025,FIN,million t DM/yr,2.776374377022647
+Yield|Cropland|Cereals,2025,FJI,million t DM/yr,2.314382031382181
+Yield|Cropland|Cereals,2025,FRA,million t DM/yr,4.7576251558992695
+Yield|Cropland|Cereals,2025,FSM,million t DM/yr,1.2936916190236685
+Yield|Cropland|Cereals,2025,GAB,million t DM/yr,1.1881291570763095
+Yield|Cropland|Cereals,2025,GBR,million t DM/yr,5.000438239725801
+Yield|Cropland|Cereals,2025,GEO,million t DM/yr,2.124157974910053
+Yield|Cropland|Cereals,2025,GHA,million t DM/yr,1.9821272894261213
+Yield|Cropland|Cereals,2025,GIN,million t DM/yr,1.0229071407293011
+Yield|Cropland|Cereals,2025,GMB,million t DM/yr,0.7638123048185593
+Yield|Cropland|Cereals,2025,GNB,million t DM/yr,1.0118784535221228
+Yield|Cropland|Cereals,2025,GRC,million t DM/yr,3.064207157001918
+Yield|Cropland|Cereals,2025,GRD,million t DM/yr,0.7456561200000001
+Yield|Cropland|Cereals,2025,GTM,million t DM/yr,1.6751439644550967
+Yield|Cropland|Cereals,2025,GUY,million t DM/yr,4.900312501432949
+Yield|Cropland|Cereals,2025,HND,million t DM/yr,1.413013451806422
+Yield|Cropland|Cereals,2025,HRV,million t DM/yr,4.94745280786387
+Yield|Cropland|Cereals,2025,HTI,million t DM/yr,0.8011228520528485
+Yield|Cropland|Cereals,2025,HUN,million t DM/yr,4.252863776559996
+Yield|Cropland|Cereals,2025,IDN,million t DM/yr,4.139378857410999
+Yield|Cropland|Cereals,2025,IND,million t DM/yr,2.6555419883118314
+Yield|Cropland|Cereals,2025,IRL,million t DM/yr,5.620072242349669
+Yield|Cropland|Cereals,2025,IRN,million t DM/yr,2.0679577343992563
+Yield|Cropland|Cereals,2025,IRQ,million t DM/yr,2.007373158808662
+Yield|Cropland|Cereals,2025,ISL,million t DM/yr,1.518572385
+Yield|Cropland|Cereals,2025,ISR,million t DM/yr,1.9849965450558815
+Yield|Cropland|Cereals,2025,ITA,million t DM/yr,3.9100981593925033
+Yield|Cropland|Cereals,2025,JAM,million t DM/yr,1.0042340399999998
+Yield|Cropland|Cereals,2025,JOR,million t DM/yr,1.2321555373191784
+Yield|Cropland|Cereals,2025,JPN,million t DM/yr,4.637042286373418
+Yield|Cropland|Cereals,2025,KAZ,million t DM/yr,1.1607707577628357
+Yield|Cropland|Cereals,2025,KEN,million t DM/yr,1.2756848281312243
+Yield|Cropland|Cereals,2025,KGZ,million t DM/yr,2.6427544890975034
+Yield|Cropland|Cereals,2025,KHM,million t DM/yr,2.8854144251120086
+Yield|Cropland|Cereals,2025,KOR,million t DM/yr,4.8755058711689685
+Yield|Cropland|Cereals,2025,KWT,million t DM/yr,10.668449578158212
+Yield|Cropland|Cereals,2025,LAO,million t DM/yr,3.1728945913512563
+Yield|Cropland|Cereals,2025,LBN,million t DM/yr,2.0191690186423297
+Yield|Cropland|Cereals,2025,LBR,million t DM/yr,0.8414457299999999
+Yield|Cropland|Cereals,2025,LBY,million t DM/yr,0.5029150726564877
+Yield|Cropland|Cereals,2025,LKA,million t DM/yr,3.0672471313614693
+Yield|Cropland|Cereals,2025,LSO,million t DM/yr,0.4531772207387216
+Yield|Cropland|Cereals,2025,LTU,million t DM/yr,3.333883278173273
+Yield|Cropland|Cereals,2025,LUX,million t DM/yr,3.976636628967813
+Yield|Cropland|Cereals,2025,LVA,million t DM/yr,3.019058685510526
+Yield|Cropland|Cereals,2025,MAR,million t DM/yr,0.941837833249336
+Yield|Cropland|Cereals,2025,MDA,million t DM/yr,1.8174006873144688
+Yield|Cropland|Cereals,2025,MDG,million t DM/yr,1.8104404152006317
+Yield|Cropland|Cereals,2025,MDV,million t DM/yr,1.832245830714286
+Yield|Cropland|Cereals,2025,MEX,million t DM/yr,2.826050455051952
+Yield|Cropland|Cereals,2025,MKD,million t DM/yr,2.7045096847454926
+Yield|Cropland|Cereals,2025,MLI,million t DM/yr,1.256145908754118
+Yield|Cropland|Cereals,2025,MMR,million t DM/yr,2.833204159567133
+Yield|Cropland|Cereals,2025,MNE,million t DM/yr,2.039579304147772
+Yield|Cropland|Cereals,2025,MNG,million t DM/yr,0.9482653255071678
+Yield|Cropland|Cereals,2025,MOZ,million t DM/yr,0.5823811441396165
+Yield|Cropland|Cereals,2025,MRT,million t DM/yr,1.167389582509773
+Yield|Cropland|Cereals,2025,MUS,million t DM/yr,8.89624764
+Yield|Cropland|Cereals,2025,MWI,million t DM/yr,1.4073721227637015
+Yield|Cropland|Cereals,2025,MYS,million t DM/yr,2.682122955363861
+Yield|Cropland|Cereals,2025,NAM,million t DM/yr,0.1389054986761989
+Yield|Cropland|Cereals,2025,NCL,million t DM/yr,8.715141804873415
+Yield|Cropland|Cereals,2025,NER,million t DM/yr,0.4490093092432972
+Yield|Cropland|Cereals,2025,NGA,million t DM/yr,1.1795743351927677
+Yield|Cropland|Cereals,2025,NIC,million t DM/yr,1.8960090401708785
+Yield|Cropland|Cereals,2025,NLD,million t DM/yr,5.139809563652442
+Yield|Cropland|Cereals,2025,NOR,million t DM/yr,3.2381617748994027
+Yield|Cropland|Cereals,2025,NPL,million t DM/yr,2.657133718207585
+Yield|Cropland|Cereals,2025,NZL,million t DM/yr,6.914097717310597
+Yield|Cropland|Cereals,2025,OMN,million t DM/yr,21.282177327442454
+Yield|Cropland|Cereals,2025,PAK,million t DM/yr,2.6487841469267197
+Yield|Cropland|Cereals,2025,PAN,million t DM/yr,3.1920877602725715
+Yield|Cropland|Cereals,2025,PER,million t DM/yr,3.663866509500601
+Yield|Cropland|Cereals,2025,PHL,million t DM/yr,2.7853967717984385
+Yield|Cropland|Cereals,2025,PNG,million t DM/yr,3.678120729982154
+Yield|Cropland|Cereals,2025,POL,million t DM/yr,3.681847261566616
+Yield|Cropland|Cereals,2025,PRI,million t DM/yr,2.8338043711445784
+Yield|Cropland|Cereals,2025,PRK,million t DM/yr,2.7198116592861656
+Yield|Cropland|Cereals,2025,PRT,million t DM/yr,4.0001330247416895
+Yield|Cropland|Cereals,2025,PRY,million t DM/yr,2.7168871573157536
+Yield|Cropland|Cereals,2025,PSE,million t DM/yr,1.9180814560488315
+Yield|Cropland|Cereals,2025,QAT,million t DM/yr,11.201045550000002
+Yield|Cropland|Cereals,2025,ROU,million t DM/yr,2.665034530509959
+Yield|Cropland|Cereals,2025,RUS,million t DM/yr,2.306820642772128
+Yield|Cropland|Cereals,2025,RWA,million t DM/yr,1.315809162486678
+Yield|Cropland|Cereals,2025,SAU,million t DM/yr,3.8777659425419424
+Yield|Cropland|Cereals,2025,SDN,million t DM/yr,0.4461920998423344
+Yield|Cropland|Cereals,2025,SEN,million t DM/yr,1.523432514697969
+Yield|Cropland|Cereals,2025,SLB,million t DM/yr,1.4126024700000004
+Yield|Cropland|Cereals,2025,SLE,million t DM/yr,1.0261414235655657
+Yield|Cropland|Cereals,2025,SLV,million t DM/yr,2.116456729325209
+Yield|Cropland|Cereals,2025,SOM,million t DM/yr,0.2744533649486786
+Yield|Cropland|Cereals,2025,SRB,million t DM/yr,3.893640781597629
+Yield|Cropland|Cereals,2025,SSD,million t DM/yr,0.7245234779501467
+Yield|Cropland|Cereals,2025,STP,million t DM/yr,1.4993928
+Yield|Cropland|Cereals,2025,SUR,million t DM/yr,3.366268245864158
+Yield|Cropland|Cereals,2025,SVK,million t DM/yr,4.20867457526013
+Yield|Cropland|Cereals,2025,SVN,million t DM/yr,4.969394749059015
+Yield|Cropland|Cereals,2025,SWE,million t DM/yr,3.997048437945141
+Yield|Cropland|Cereals,2025,SWZ,million t DM/yr,0.8108672273978844
+Yield|Cropland|Cereals,2025,SYR,million t DM/yr,1.2227470667531195
+Yield|Cropland|Cereals,2025,TCD,million t DM/yr,0.6412791521988652
+Yield|Cropland|Cereals,2025,TGO,million t DM/yr,0.9031399995472154
+Yield|Cropland|Cereals,2025,THA,million t DM/yr,2.343287289919368
+Yield|Cropland|Cereals,2025,TJK,million t DM/yr,3.1156757812764915
+Yield|Cropland|Cereals,2025,TKM,million t DM/yr,1.2965463382010471
+Yield|Cropland|Cereals,2025,TLS,million t DM/yr,1.588165677575993
+Yield|Cropland|Cereals,2025,TTO,million t DM/yr,0.73850733
+Yield|Cropland|Cereals,2025,TUN,million t DM/yr,1.4371627086709955
+Yield|Cropland|Cereals,2025,TUR,million t DM/yr,2.5994398981459894
+Yield|Cropland|Cereals,2025,TWN,million t DM/yr,4.857226101485379
+Yield|Cropland|Cereals,2025,TZA,million t DM/yr,1.3946199299866362
+Yield|Cropland|Cereals,2025,UGA,million t DM/yr,1.4385228877835794
+Yield|Cropland|Cereals,2025,UKR,million t DM/yr,3.882317270554898
+Yield|Cropland|Cereals,2025,URY,million t DM/yr,3.836907228595481
+Yield|Cropland|Cereals,2025,USA,million t DM/yr,6.421510678049971
+Yield|Cropland|Cereals,2025,UZB,million t DM/yr,4.157726306869442
+Yield|Cropland|Cereals,2025,VCT,million t DM/yr,9.98383116
+Yield|Cropland|Cereals,2025,VEN,million t DM/yr,3.2358837851171627
+Yield|Cropland|Cereals,2025,VNM,million t DM/yr,4.536281328256132
+Yield|Cropland|Cereals,2025,VUT,million t DM/yr,0.47600484
+Yield|Cropland|Cereals,2025,World,million t DM/yr,3.650825034045121
+Yield|Cropland|Cereals,2025,YEM,million t DM/yr,0.5871967841099015
+Yield|Cropland|Cereals,2025,ZAF,million t DM/yr,3.421742944464705
+Yield|Cropland|Cereals,2025,ZMB,million t DM/yr,1.7422653815409137
+Yield|Cropland|Cereals,2025,ZWE,million t DM/yr,0.8070838894087373

@@ -2,7 +2,7 @@ The reference data is used to define some of the [criteria thresholds](threshold
 The identifiers in the reference data column of the thresholds correspond to
 the dataset identifiers listed below.
 
-```python exec="true" session="refdata" showcode="false"
+```python exec="true" session="refdata" showcode="false" idprefix=""
 from itables import to_html_datatable
 from scenario_evaluation_criteria import load_criteria
 from scenario_evaluation_criteria.formatting import format_sources

@@ -29,13 +29,91 @@ def _convert_year(value):
     return int(value)
 
 
-def load_criteria_combined() -> pd.DataFrame:
+def _aggregate_reference_data_to_regions(reference_data, region_mapping):
+    """Sum country-resolved reference-data rows up to regions.
+
+    For each region in ``region_mapping``, sums the ``value`` of its member
+    countries' rows, grouping by every other existing column so that
+    per-source/variable/year (and cumulative-range) granularity is preserved.
+    The aggregated rows are appended to ``reference_data``; existing rows
+    (``World`` and individual countries) are left untouched, since they are
+    simply no longer referenced once ``region_mapping`` is in use.
+    """
+    membership = pd.DataFrame(
+        [
+            (region, country)
+            for region, members in region_mapping.items()
+            for country in members
+        ],
+        columns=["region_agg", "region"],
+    )
+    group_cols = [
+        c for c in reference_data.columns if c not in ("region", "value")
+    ]
+    aggregated = (
+        reference_data.merge(membership, on="region")
+        .groupby(group_cols + ["region_agg"], dropna=False)["value"]
+        .sum()
+        .reset_index()
+        .rename(columns={"region_agg": "region"})
+    )
+    return pd.concat([reference_data, aggregated], ignore_index=True)
+
+
+def region_mapping_from_definition(
+    definitions_path, hierarchy=None
+) -> dict[str, list[str]]:
+    """Build a region_mapping dict from a local nomenclature region definition.
+
+    Parameters
+    ----------
+    definitions_path
+        Path to a local clone of a nomenclature-compatible ``definitions``
+        folder containing a ``region`` subfolder (e.g. a checkout of
+        github.com/IAMconsortium/common-definitions).
+    hierarchy
+        If given, only regions whose ``hierarchy`` attribute matches this
+        value are included (e.g. ``"R5"``, ``"R10"``).
+
+    Returns
+    -------
+    dict[str, list[str]]
+        Mapping of region name to the ISO3-alpha-3 codes of its member
+        countries, suitable for the ``region_mapping`` argument of
+        :func:`load_criteria_combined`.
+
+    """
+    from nomenclature import DataStructureDefinition
+
+    dsd = DataStructureDefinition(definitions_path, dimensions=["region"])
+    return {
+        code.name: [countries.lookup(name).alpha_3 for name in code.countries]
+        for code in dsd.region.mapping.values()
+        if code.countries
+        and (hierarchy is None or code.hierarchy == hierarchy)
+    }
+
+
+def load_criteria_combined(
+    region_mapping: dict[str, list[str]] | None = None,
+) -> pd.DataFrame:
     """Load and combine criteria thresholds with reference data.
 
     Processes raw criteria definitions through six steps:
     melting bound types, exploding comma-separated fields, expanding
     ``All Countries``, resolving reference-data multipliers, and applying
     range/min/max operators across multiple sources.
+
+    Parameters
+    ----------
+    region_mapping
+        Optional mapping of region name to the ISO3-alpha-3 codes of its
+        member countries (see :func:`region_mapping_from_definition`). If
+        given, ``All Countries`` expands into the given region names instead
+        of individual countries, and country-resolved reference data is
+        aggregated (summed) up to each region before thresholds are applied.
+        If omitted, ``All Countries`` expands into individual countries as
+        before.
 
     Returns
     -------
@@ -47,6 +125,10 @@ def load_criteria_combined() -> pd.DataFrame:
     # Step 0: Load the raw criteria definitions.
     criteria_thrsh = load_criteria("criteria-thresholds")
     reference_data = load_criteria("reference-data")
+    if region_mapping is not None:
+        reference_data = _aggregate_reference_data_to_regions(
+            reference_data, region_mapping
+        )
 
     # Step 1: Melt threshold types (upper, lower) into column.
     criteria_step1 = criteria_thrsh.melt(
@@ -69,8 +151,11 @@ def load_criteria_combined() -> pd.DataFrame:
     criteria_step2 = criteria_tmp.reset_index(drop=True)
     criteria_step2["year"] = criteria_step2["year"].map(_convert_year)
 
-    # Step 3: Replace `All Countries` with country codes and explode.
-    all_countries = [country.alpha_3 for country in countries]
+    # Step 3: Replace `All Countries` with country/region codes and explode.
+    if region_mapping is not None:
+        all_countries = list(region_mapping.keys())
+    else:
+        all_countries = [country.alpha_3 for country in countries]
     criteria_step3 = (
         criteria_step2.assign(
             region=lambda df: df["region"].map(

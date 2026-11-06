@@ -1,0 +1,23 @@
+# Pulls in IAMConsortium/common-definitions' region definitions (R5/R9/R10
+# groupings and native model regions) via nomenclature-iamc's external
+# repository mechanism, so this project does not vendor a copy of that data
+# and does not need it as an installable dependency (it ships no Python
+# packaging). Used by scenario_evaluation_criteria.summary_pages (the docs/
+# summary/ pages) and tests/package/test_preprocessed.py
+# through DataStructureDefinition("region-definitions/definitions", ...),
+# which clones/caches the repository into region-definitions/common-definitions
+# (gitignored) on first use.
+#
+# Pinned to a commit for reproducibility; bump `hash` to pick up upstream
+# changes (e.g. newly registered models or updated region groupings).
+repositories:
+  common-definitions:
+    url: https://github.com/IAMconsortium/common-definitions.git
+    hash: 032b4b7ca9e8a0b1f27ada97b5e4323cf89fd721
+
+definitions:
+  region:
+    repository:
+      - name: common-definitions
+        include:
+          - name: "*"

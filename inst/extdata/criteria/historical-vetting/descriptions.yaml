@@ -31,6 +31,51 @@ Emissions|CO2|Energy and Industrial Processes:
         using both the reported value in 2020 and the value averaged over the
         period Jan 2018 until Dec 2022, taking whichever is more permissive
         for the scenario in question.
+"Emissions|{AFOLU Emission Components}":
+    replacements:
+        AFOLU Emission Components:
+            CO2|AFOLU:
+                sectors: agriculture, forestry, and land-use
+                species: CO2
+                sources: "{{cite:EDGAR-2025}}, {{cite:FAOSTAT-2026}}, {{cite:GCB-2025}}, {{cite:Hansis-2015}}, {{cite:Houghton-2023}}, {{cite:OSCAR-GCB-2023}}, {{cite:PRIMAP-2025-v2p7}}, and {{cite:Qin-2024}}"
+            CO2|AFOLU|Land:
+                sectors: forestry and other land use and land use change
+                species: CO2
+                sources: "{{cite:Gasser-2020}}, {{cite:GCB-2025}}, and {{cite:OSCAR-GCB-2023}}"
+            CH4|AFOLU|Agriculture:
+                sectors: agriculture
+                species: CH4
+                sources: "{{cite:EDGAR-2025}}, {{cite:FAOSTAT-2026}}, {{cite:PRIMAP-2025-v2p7}}"
+            N2O|AFOLU|Agriculture:
+                sectors: agriculture
+                species: N2O
+                sources: "{{cite:EDGAR-2025}}, {{cite:FAOSTAT-2026}}, {{cite:PRIMAP-2025-v2p7}}"
+    justification_criterion: >-
+        This scenario reports {species} emissions from {sectors} that are
+        inconsistent with historical values. This is a concern because the
+        underlying modelling likely makes false assumptions on the remaining
+        GHG emissions budget and the mitigation effort required to reach
+        net-zero emissions.
+    justification_threshold: >-
+        Historical values for {species} emissions from {sectors} are provided by
+        {sources}.
+
+
+        The thresholds are derived from these sources as follows:
+
+        • 2010, 2015, and 2020: ±20% deviation will lead to exclusion.
+
+        • 2025: ±30% deviation will lead to exclusion.
+
+
+        Note that these ranges not only give models some leeway to deviate, but
+        also account for uncertainty in the underlying data sources. To further
+        account for uncertainty in the historical values, the most permissible
+        source of all sources for each variable, region, and period is used to
+        set the threshold.
+
+
+        The threshold for 2025 is set to the value reported for 2020.
 "Primary Energy|{Primary Fossil Fuel}":
     replacements:
         Primary Fossil Fuel:
@@ -120,3 +165,178 @@ Final Energy:
         using both the reported value in 2020 and the value averaged over the
         period Jan 2018 until Dec 2022, taking whichever is more permissive
         for the scenario in question.
+Cropland Yields:
+    justification_criterion: >-
+        This scenario reports crop-land yields that are inconsistent with
+        historical values. This is a concern because the underlying modelling
+        likely makes false assumptions on the crop-land yields and the effort
+        required to reach net-zero emissions while feeding the population of
+        the world.
+    justification_threshold: >-
+        Historical values are provided by the Food and Agriculture Organization
+        of the United Nations {{citep:FAOSTAT-2026}}.
+
+
+        The thresholds are derived from these sources as follows:
+
+        • 2010, 2015, and 2020: ±20% deviation will lead to exclusion.
+
+        • 2025: ±30% deviation will lead to exclusion.
+
+
+        Note that these ranges not only give models some leeway to deviate, but
+        also account for uncertainty in the underlying data sources. To further
+        account for uncertainty in the historical values, the most permissible
+        source of all sources for each variable, region, and period is used to
+        set the threshold.
+
+
+        The threshold for 2025 is set to the value reported for 2020.
+Food Availability:
+    justification_criterion: >-
+        This scenario reports levels of food availability that are inconsistent
+        with historical values. This is a concern because the underlying modelling
+        likely makes false assumptions on the current state of food availability
+        and the effort required to reach net-zero emissions while growing
+        sufficient food for the world population.
+    justification_threshold: >-
+        Historical values are provided by the Food and Agriculture Organization
+        of the United Nations {{citep:FAOSTAT-2026}}.
+
+
+        The thresholds are derived from these sources as follows:
+
+        • 2010, 2015, and 2020: ±20% deviation will lead to exclusion.
+
+        • 2025: ±30% deviation will lead to exclusion.
+
+
+        Note that these ranges not only give models some leeway to deviate, but
+        also account for uncertainty in the underlying data sources. To further
+        account for uncertainty in the historical values, the most permissible
+        source of all sources for each variable, region, and period is used to
+        set the threshold.
+
+
+        The threshold for 2025 is set to the value reported for 2020.
+Land Cover|{Component}:
+    replacements:
+        Component:
+            ~:
+                component: land cover
+            Cropland:
+                component: crop-land land cover
+            Forest:
+                component: forest land cover
+            Pasture:
+                component: pasture land cover
+    justification_criterion: >-
+        This scenario reports {component} that is inconsistent with historical
+        values. This is a concern because the underlying modelling likely makes
+        false assumptions on land cover today and the efforts needed to reduce
+        emissions while feeding the planet.
+    justification_threshold: >-
+        Historical values for land cover are provided by {{cite:LUH2-2020}},
+        {{cite:LUH2-GCB-2025}}, {{cite:LUH3-2026}}, and {{cite:FAOSTAT-2026}}.
+
+
+        The thresholds are derived from these sources as follows:
+
+        • 2010, 2015, and 2020: ±10% deviation for land cover and ±20% for
+        crop-land cover.
+
+        • 2025: ±20% deviation for land cover and ±30% for crop-land cover.
+
+
+        Note that these ranges not only give models some leeway to deviate, but
+        also account for uncertainty in the underlying data sources. To further
+        account for uncertainty in the historical values, the most permissible
+        source of all sources for each variable, region, and period is used to
+        set the threshold.
+
+
+        The threshold for 2025 is set to the value reported for 2020.
+Solar PV Capacity:
+    justification_criterion: >-
+        This criterion flags scenarios that reports deployment of solar
+        photovoltaics capacity that is inconsistent historical values.
+
+
+        This is a concern because the underlying modelling likely makes false
+        assumptions on the mitigation effort required to reach net-zero
+        emissions.
+    justification_threshold: >-
+        Existing capacities in 2024 are reported by {{cite:IRENA-RCS-2025}}.
+        Yearly additions for 2025–2030 are estimated in a market outlook by
+        {{cite:BNEF-2024}}.
+
+
+        The market outlook data comprises 8 regional categories and a
+        "buffer/unknown" category.
+
+
+        Based on the existing capacity data and the market outlook, we assume
+        the following global thresholds for 2025:
+
+        • Lower threshold, failed vetting:  10% less than capacities operational
+        in 2024, plus 33.75% of 2025 additions from the market outlook (without
+        buffer/unknown).
+
+        • Upper threshold, failed vetting:  10% more than capacities operational
+        in 2024, plus 220.0% of 2025 additions from the market outlook (with
+        buffer/unknown).
+    note: >-
+        Due to reporting inconsistencies in legacy projects, several
+        models reported capacity-values that were far below actual
+        power generation from solar PV, causing an overly restrictive
+        application of this criterion.
+
+
+        To remedy this inconsistency, we implemented an exception in
+        the evaluation workflow for **Release v1.0 and v1.1 of the SCI ensemble**:
+        any *high* concern flag was changed to *medium* if actual power generation
+        from solar PV was above 10.5 EJ/yr in 2030, corresponding to the
+        lowest generation value of scenarios that meet the lower bound
+        of the capacity threshold.
+
+
+        Visit [https://github.com/IAMconsortium/scenariocompass/tree/main/scripts/sci_v1.0](https://github.com/IAMconsortium/scenariocompass/tree/main/scripts/sci_v1.0)
+        for more information.
+"{Component}Wind Capacity":
+    replacements:
+        Component:
+            ~:
+                component: total
+            "Onshore ":
+                component: onshore
+    justification_criterion: >-
+        This criterion flags scenarios that assume a deployment of {component}
+        wind capacity that is inconsistent with near-term market outlooks.
+
+
+        This technology is available at scale and has short project lead
+        times, meaning that there are no fundamental obstacles to fast
+        deployment. Its near-term growth can be estimated based on today's
+        installed capacity and near-term market outlooks. While these
+        estimates have their limitations, they can be used to set broad ranges
+        of near-term feasibility.
+    justification_threshold: >-
+        Existing capacities in 2024 are reported by the International
+        Renewable Energy Agency {{citep:IRENA-RCS-2025}}. Yearly
+        additions for 2025 are estimated in a market outlook by the
+        {{cite:GWEC-2026}}.
+
+
+        The outlook is based on input from regional wind associations,
+        government targets, tender results, announced auction plans, available
+        project pipelines, and input from industry experts.
+
+
+        Based on the existing capacity data and the market outlook, we assume
+        the following global thresholds for 2025:
+
+        • Lower threshold, failed vetting:  10% less than capacities operational
+        in 2024, plus 33.75% of 2025 additions from the market outlook.
+
+        • Upper threshold, failed vetting:  10% more than capacities operational
+        in 2024, plus 220.0% of 2025 additions from the market outlook.

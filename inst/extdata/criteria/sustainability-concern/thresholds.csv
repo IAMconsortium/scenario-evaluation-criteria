@@ -1,7 +1,11 @@
 criterion,variable,region,year,reference_data,unit,evaluation_outcome,lower,upper
 Food Availability,Food Availability [per capita],World,,,kcal/cap/day,high,2220,4000
 Food Availability,Food Availability [per capita],World,,,kcal/cap/day,medium,2520,3750
+Biodiversity,Terrestrial Biodiversity|Biodiversity Intactness Index,World,2030,,%/yr,medium,,0
+Deforestation,Forest Area Change|Deforestation,World,2030,,million ha/yr,medium,,0
+Deforestation,Forest Area Change|Deforestation|Primary,World,2030,,million ha/yr,medium,,0
 Unsustainable Bioenergy Use,Primary Energy|Biomass,World,,,EJ/yr,medium,,100
 Unsustainable Bioenergy Use,Primary Energy|Biomass,World,,,EJ/yr,high,,245
+Unsustainable Hydropower Use,Capacity|Electricity|Hydro,World,,,GW,high,,1500
 Exceeding Prudent Limit For Geological Carbon Storage,Carbon Capture|Geological Storage,World,cumulative[2020-2100],,Mt CO2,high,,1460000
 Exceeding Prudent Limit For Geological Carbon Storage,Carbon Capture|Geological Storage,World,cumulative[2020-2100],,Mt CO2,medium,,1290000

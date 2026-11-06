@@ -1,0 +1,5 @@
+# source: Gasser-2020
+# description: Based on {{source}}.
+variable,year,region,unit,value
+Emissions|CO2|AFOLU|Land,2010,World,Mt CO2/yr,4839.1882
+Emissions|CO2|AFOLU|Land,2015,World,Mt CO2/yr,4546.8744
