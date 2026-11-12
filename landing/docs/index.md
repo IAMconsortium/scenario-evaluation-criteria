@@ -16,20 +16,28 @@ hide:
   </div>
 </div>
 
-<div style="text-align: center; margin: 40px 0;">
-  <p>You are viewing the documentation of version <strong data-md-version-label></strong>.<br>You can choose another version here:</p>
-  <div data-md-version-embed></div>
-</div>
-
 <h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Scenario Evaluation Criteria</h1>
 
 <div style="text-align: center;" markdown>
 [![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/IAMconsortium/scenario-evaluation-criteria/blob/main/LICENSE.md)
 [![Documentation Status](https://img.shields.io/badge/docs-online-blue)](https://scenario-evaluation-criteria.iamconsortium.org/)
 [![CI](https://github.com/IAMconsortium/scenario-evaluation-criteria/actions/workflows/ci.yml/badge.svg)](https://github.com/IAMconsortium/scenario-evaluation-criteria/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21771914.svg)](https://doi.org/10.5281/zenodo.21771914)
 </div>
 
 {{ readme_section('## Background') }}
+
+---
+
+## Versions
+
+The documentation is published separately for each version of the criteria.
+
+| Version | Source | Zenodo | Description |
+|---------|--------|--------|-------------|
+| [latest](latest/) | Branch [`main`](https://github.com/IAMconsortium/scenario-evaluation-criteria/tree/main) | — | Development version, rebuilt from the latest commit on `main`. |
+| [2026.08.03](2026.08.03/) (stable) | Release [`v2026.08.03`](https://github.com/IAMconsortium/scenario-evaluation-criteria/releases/tag/v2026.08.03) | [10.5281/zenodo.21771915](https://doi.org/10.5281/zenodo.21771915) | First public release of the criteria definitions. |
+| [2026-update](2026-update/) | Branch [`2026-update`](https://github.com/IAMconsortium/scenario-evaluation-criteria/tree/2026-update) | — | Preview of the 2026 update of the criteria. |
 
 <div class="grid cards" markdown>
 
@@ -39,7 +47,7 @@ hide:
 
     Look at the summary page of the criteria definitions.
 
-    [:octicons-arrow-right-24: See summary](summary/)
+    [:octicons-arrow-right-24: See summary](stable/)
 
 -   :octicons-three-bars-24:{ .lg .middle } __Components__
 
@@ -47,7 +55,7 @@ hide:
 
     Look at the individual components defining the criteria.
 
-    [:octicons-arrow-right-24: See components](components/)
+    [:octicons-arrow-right-24: See components](stable/components/)
 
 -   :octicons-code-24:{ .lg .middle } __Tutorials__
 
@@ -55,7 +63,7 @@ hide:
 
     Look at R and Python tutorials for loading and applying the criteria.
 
-    [:octicons-arrow-right-24: See tutorials](tutorials/)
+    [:octicons-arrow-right-24: See tutorials](stable/tutorials/)
 
 </div>
 

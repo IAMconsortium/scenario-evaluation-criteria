@@ -13,15 +13,19 @@ strict: !ENV [MKDOCS_STRICT, false]
 # The "Summary" section (pages and nav entry below) is generated dynamically
 # from the criteria data instead of being hand-maintained: the gen-files
 # plugin (below) runs scripts/docs/gen_summary_pages.py to generate
-# docs/summary/**, and this hook runs scripts/docs/mkdocs_nav.py to replace
+# docs/index.md and docs/summary/**, and this hook runs scripts/docs/mkdocs_nav.py to replace
 # the "Summary" nav entry with a matching subtree (one level per criteria
 # type, one leaf per criterion).
 hooks:
   - scripts/docs/mkdocs_nav.py
 
+# "Home" leads back to the shared landing page at the root of the gh-pages
+# branch (built from landing/mkdocs.yml); the summary overview (index.md) is
+# each version's own home page. An absolute URL is used, as mkdocs reports a
+# relative "../" as a missing nav file (fatal in strict mode).
 nav:
-  - Home: index.md
-  - Summary: summary/index.md
+  - Home: https://scenario-evaluation-criteria.iamconsortium.org/
+  - Summary: index.md
   - Components:
     - components/index.md
     - Types: components/types.md
@@ -80,9 +84,6 @@ markdown_extensions:
 extra_css:
   - assets/css/extra.css
   - assets/css/theme-toggle.css
-
-extra_javascript:
-  - assets/js/version-selector.js
 
 extra:
   version:

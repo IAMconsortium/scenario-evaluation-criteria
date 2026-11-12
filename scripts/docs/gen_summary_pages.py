@@ -19,7 +19,9 @@ from summary_pages import (
 
 ctx = load_summary_context()
 
-with mkdocs_gen_files.open("summary/index.md", "w") as f:
+# The summary overview doubles as the home page of each versioned site (the
+# shared landing page lives in landing/ instead).
+with mkdocs_gen_files.open("index.md", "w") as f:
     f.write("# Summary\n\n")
     f.write(render_summary_tree(ctx))
     f.write("\n")

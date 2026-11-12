@@ -1,0 +1,29 @@
+# Root landing page, shared across all mike-deployed doc versions. Built
+# separately from the versioned docs and copied into the root of the gh-pages
+# branch by the docs-latest/docs-release workflows (mike leaves files outside
+# its version directories untouched). Build from the repository root, as the
+# citation block in docs/index.md reads CITATION.cff from the working dir:
+#   mkdocs build -f landing/mkdocs.yml
+#
+# Branding (site name, theme, palette, logos, CSS) is inherited from the main
+# config; docs/assets is a symlink to ../../docs/assets. Lists (nav, plugins,
+# hooks, ...) replace the inherited ones, dicts are merged.
+INHERIT: ../mkdocs.yml
+
+hooks: []
+
+nav:
+  - Home: index.md
+
+theme:
+  features: []
+
+extra_javascript: []
+
+extra:
+  version: null
+
+plugins:
+  - macros:
+      module_name: ../scripts/docs/mkdocs_macros
+  - markdown-exec

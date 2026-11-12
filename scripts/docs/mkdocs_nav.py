@@ -24,7 +24,7 @@ from summary_pages import (  # noqa: E402
 def on_config(config, **kwargs):
     criteria_types, criteria_by_type = load_criteria_hierarchy()
 
-    summary_nav = ["summary/index.md"]
+    summary_nav = ["index.md"]
     for crit_type, criteria in criteria_by_type.items():
         if not criteria:
             continue
