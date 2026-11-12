@@ -25,7 +25,7 @@ hide:
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21771914.svg)](https://doi.org/10.5281/zenodo.21771914)
 </div>
 
-<p style="text-align: center; font-size: 1.2em;"><em>A set of community criteria for evaluating integrated assessment emissions scenarios.</em></p>
+## A set of community criteria for evaluating integrated assessment emissions scenarios
 
 Integrated Assessment Models (IAMs) are computational models that produce scenarios of economy, energy system, land use, and greenhouse-gas emissions developments over time, across regions, and under different policy assumptions. Those scenarios are often evaluated in the process of producing new scenarios or when collecting and assessing existing scenarios. Specifically, IAM scenarios are often checked against empirical observations, near-term projections, and sustainability targets to identify scenarios that are outdated, internally inconsistent, technically infeasible, or ecologically or socially undesirable.
 
@@ -33,28 +33,23 @@ This website documents the criteria used to evaluate scenarios in the [Scenario 
 
 ---
 
-## How the criteria are developed
-
-The criteria are developed by the SCI in collaboration with the IAMC Scientific Working Groups on Scenarios and on Data, following the subsequent steps:
-
-1. __Proposal.__ SCI working groups derive criteria and thresholds from peer-reviewed literature and official data sources.
-2. __Open review.__ Draft criteria are published on this site for public review. The call is advertised online, through community mailing lists, and through professional networks.
-3. __Response and revision.__ Responses to reviewer comments are made public. In the first public review, reviewers received direct responses to their comments and the resulting changes to the criteria via email.
-4. __Release.__ The revised criteria are released as a new version and applied in the annual update of the Scenario Compass ensemble.
-
-In general, criteria are required to refer to variables that are critical for the global energy transition, reported consistently across scenarios in the database, and that can be linked to quantifiable thresholds derived from scientific literature or official data sources.
-
----
-
 ## Versions
 
 The documentation is published separately for each version of the criteria.
+
+<div markdown="1" style="text-align: center; font-size: 1.2em;">
 
 | Version | Public review | Source | Zenodo |
 |---------|---------------|--------|--------|
 | [latest](latest/) | — | Branch [`main`](https://github.com/IAMconsortium/scenario-evaluation-criteria/tree/main) | — |
 | [2026.08.03](2026.08.03/) (stable) | January 17 – February 10, 2025 | Release [`v2026.08.03`](https://github.com/IAMconsortium/scenario-evaluation-criteria/releases/tag/v2026.08.03) | [10.5281/zenodo.21771915](https://doi.org/10.5281/zenodo.21771915) |
 | [2026-update](2026-update/) | August 21 – September 21, 2026 (ongoing) | Branch [`2026-update`](https://github.com/IAMconsortium/scenario-evaluation-criteria/tree/2026-update) | — |
+
+</div>
+
+---
+
+## Stable release: v2026.08.03
 
 <div class="grid cards" markdown>
 
@@ -83,6 +78,19 @@ The documentation is published separately for each version of the criteria.
     [:octicons-arrow-right-24: See tutorials](stable/tutorials/)
 
 </div>
+
+---
+
+## How the criteria are developed
+
+The criteria are developed by the SCI in collaboration with the IAMC Scientific Working Groups on Scenarios and on Data, following the subsequent steps:
+
+1. __Proposal.__ SCI working groups derive criteria and thresholds from peer-reviewed literature and official data sources.
+2. __Open review.__ Draft criteria are published on this site for public review. The call is advertised online, through community mailing lists, and through professional networks.
+3. __Response and revision.__ Responses to reviewer comments are made public. In the first public review, reviewers received direct responses to their comments and the resulting changes to the criteria via email.
+4. __Release.__ The revised criteria are released as a new version and applied in the annual update of the Scenario Compass ensemble.
+
+In general, criteria are required to refer to variables that are critical for the global energy transition, reported consistently across scenarios in the database, and that can be linked to quantifiable thresholds derived from scientific literature or official data sources.
 
 ---
 
