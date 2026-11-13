@@ -1,0 +1,26 @@
+# Versions listed in the table on the landing page (landing/docs/index.md).
+# `path` is the directory of the version on the published site.
+- name: 2026.08.03
+  path: 2026.08.03
+  review: Comments collected 17 Jan–10 Feb 2025; revisions implemented
+  source:
+    label: Release `v2026.08.03`
+    url: https://github.com/IAMconsortium/scenario-evaluation-criteria/releases/tag/v2026.08.03
+  zenodo: 10.5281/zenodo.21771915
+  note: Latest stable release; used in 1st SCI community paper ([Riahi et al, 2026](https://doi.org/10.21203/rs.3.rs-8891091/v1); still under review)
+- name: 2026-update
+  path: 2026-update
+  review: Comments collected 21 Aug–21 Sep 2026; revision ongoing
+  source:
+    label: Branch `2026-update`
+    url: https://github.com/IAMconsortium/scenario-evaluation-criteria/tree/2026-update
+  zenodo: null
+  note: Proposed 2026 update; criteria undergoing public review; planned for use in 2nd SCI community paper
+- name: latest
+  path: latest
+  review: "—"
+  source:
+    label: Branch `main`
+    url: https://github.com/IAMconsortium/scenario-evaluation-criteria/tree/main
+  zenodo: null
+  note: Development version; use only if you know what you're doing

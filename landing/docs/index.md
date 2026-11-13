@@ -10,15 +10,10 @@ hide:
     <img src="assets/logos/logo-dark.svg" class="only-dark" alt="Project Logo" style="width: 100%;">
   </div>
   <div style="flex: 0 1 auto; text-align: center;">
-    <p>Developed as part of the <a href="https://scenariocompass.org/">Senario Compass Initiative</a>.</p>
+    <p>Developed as part of the <a href="https://scenariocompass.org/">Scenario Compass Initiative</a>.</p>
     <img src="assets/logos/sci-light.svg" class="only-light" alt="SCI Logo" style="height: 50px;">
     <img src="assets/logos/sci-dark.svg" class="only-dark" alt="SCI Logo" style="height: 50px;">
   </div>
-</div>
-
-<div style="text-align: center; margin: 40px 0;">
-  <p>You are viewing the documentation of version <strong data-md-version-label></strong>.<br>You can choose another version here:</p>
-  <div data-md-version-embed></div>
 </div>
 
 <h1 style="position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0;">Scenario Evaluation Criteria</h1>
@@ -27,37 +22,60 @@ hide:
 [![Licence: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/IAMconsortium/scenario-evaluation-criteria/blob/main/LICENSE.md)
 [![Documentation Status](https://img.shields.io/badge/docs-online-blue)](https://scenario-evaluation-criteria.iamconsortium.org/)
 [![CI](https://github.com/IAMconsortium/scenario-evaluation-criteria/actions/workflows/ci.yml/badge.svg)](https://github.com/IAMconsortium/scenario-evaluation-criteria/actions/workflows/ci.yml)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21771914.svg)](https://doi.org/10.5281/zenodo.21771914)
 </div>
 
-{{ readme_section('## Background') }}
+{{ readme_section('## A set of community criteria for evaluating integrated assessment emissions scenarios') }}
 
-<div class="grid cards" markdown>
+---
 
--   :octicons-info-24:{ .lg .middle } __Summary__
+## Versions
 
-    ---
+The documentation is published separately for each version of the criteria.
 
-    Look at the summary page of the criteria definitions.
+```python exec="true" session="versions" showcode="false"
+from pathlib import Path
 
-    [:octicons-arrow-right-24: See summary](summary/)
+import yaml
 
--   :octicons-three-bars-24:{ .lg .middle } __Components__
+versions = yaml.safe_load(Path("landing/versions.yaml").read_text())
 
-    ---
+links = [
+    ("Summary", ":octicons-info-24:", ""),
+    ("Components", ":octicons-three-bars-24:", "components/"),
+    ("Tutorials", ":octicons-code-24:", "tutorials/"),
+]
 
-    Look at the individual components defining the criteria.
+rows = [
+    "| Version | Public review | Source | Zenodo | Note |",
+    "|---------|---------------|--------|--------|------|",
+]
+for v in versions:
+    nav = "<br>".join(
+        f"[{icon} {label}]({v['path']}/{suffix})" for label, icon, suffix in links
+    )
+    source = f"[{v['source']['label']}]({v['source']['url']})"
+    zenodo = v["zenodo"]
+    zenodo = f"[{zenodo}](https://doi.org/{zenodo})" if zenodo else "—"
+    rows.append(
+        f"| {v['name']}<br>{nav} | {v['review']} | {source} | {zenodo} | {v['note']} |"
+    )
 
-    [:octicons-arrow-right-24: See components](components/)
+print('<div markdown="1" style="text-align: center; font-size: 1.2em;">\n')
+print("\n".join(rows))
+print("\n</div>")
+```
 
--   :octicons-code-24:{ .lg .middle } __Tutorials__
+---
 
-    ---
+{{ readme_section('## How the criteria are developed') }}
 
-    Look at R and Python tutorials for loading and applying the criteria.
+---
 
-    [:octicons-arrow-right-24: See tutorials](tutorials/)
-
-</div>
+{{ readme_section('## Two types of criteria').replace(
+    "<div align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"landing/docs/figures/benchmarks-dark.svg\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"landing/docs/figures/benchmarks-light.svg\">\n    <img src=\"landing/docs/figures/benchmarks-light.svg\" alt=\"SCI scenario evaluation criteria and their implications for the community benchmarks\" width=\"100%\">\n  </picture>\n</div>\n\n*",
+    "<div style=\"text-align: center;\">\n  <img src=\"figures/benchmarks-light.svg\" class=\"only-light\" alt=\"SCI scenario evaluation criteria and their implications for the community benchmarks\" style=\"width: 100%; max-width: 900px; margin: 0 auto;\">\n  <img src=\"figures/benchmarks-dark.svg\" class=\"only-dark\" alt=\"SCI scenario evaluation criteria and their implications for the community benchmarks\" style=\"width: 100%; max-width: 900px; margin: 0 auto;\">\n</div>\n\n<div style=\"text-align: center;\" markdown>\n*",
+).replace("(Riahi et al., submitted).*\n", "(Riahi et al., submitted).*\n</div>\n") }}
 
 ---
 

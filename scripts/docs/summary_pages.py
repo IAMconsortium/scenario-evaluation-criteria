@@ -75,9 +75,9 @@ def criterion_page_slug(criterion: str) -> str:
 
 
 def criterion_page_href(criterion: str) -> str:
-    """Relative link (from the summary landing page) to a criterion's page."""
+    """Relative link (from the summary overview at index.md) to a criterion's page."""
     crit_type, _, _ = criterion.partition("|")
-    return f"{criterion_type_dir(crit_type)}/{criterion_page_slug(criterion)}/"
+    return f"summary/{criterion_type_dir(crit_type)}/{criterion_page_slug(criterion)}/"
 
 
 @cache
@@ -291,7 +291,7 @@ def render_summary_tree(ctx: dict) -> str:
     for crit_type, criteria in ctx["criteria_by_type"].items():
         if not criteria:
             continue
-        lines.append(f"* [{crit_type}]({criterion_type_dir(crit_type)}/)")
+        lines.append(f"* [{crit_type}](summary/{criterion_type_dir(crit_type)}/)")
         for criterion in criteria:
             display_name = criterion.split("|", 1)[1]
             lines.append(f"    * [{display_name}]({criterion_page_href(criterion)})")
