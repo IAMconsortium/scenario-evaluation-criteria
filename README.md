@@ -56,7 +56,13 @@ There are two types of evaluation criteria: historical vetting as well as feasib
 - __Historical vetting.__ Scenarios are evaluated for correctly representing the current energy system. They are marked as inconsistent if they do not match reported historical real-world estimates for time periods in the past.
 - __Feasibility and sustainability concerns.__ The feasibility evaluation concentrates on whether the near-term pace of technology deployment assumed in scenarios stays within empirically grounded bounds. An upper bound checks whether deployment is faster than existing capacity, project pipelines, lead times, and market dynamics can support. A lower bound, near-term plausibility, checks whether deployment falls implausibly low given capacity already operating or committed. The sustainability evaluation focuses on whether scenarios stay within resource and environmental limits, such as levels of bioenergy use, food availability, and cumulative geological CO₂ storage.
 
-![SCI scenario evaluation criteria and their implications for the community benchmarks](landing/docs/figures/benchmarks.svg)
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="landing/docs/figures/benchmarks-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="landing/docs/figures/benchmarks-light.svg">
+    <img src="landing/docs/figures/benchmarks-light.svg" alt="SCI scenario evaluation criteria and their implications for the community benchmarks" width="100%">
+  </picture>
+</div>
 
 *SCI's scenario evaluation criteria and their implications for the community benchmarks reported in "Mitigation benchmarks from the 2025 community update of global emissions pathways" (Riahi et al., submitted).*
 

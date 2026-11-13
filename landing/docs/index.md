@@ -73,9 +73,9 @@ print("\n</div>")
 ---
 
 {{ readme_section('## Two types of criteria').replace(
-    "![SCI scenario evaluation criteria and their implications for the community benchmarks](landing/docs/figures/benchmarks.svg)\n\n*",
-    "<figure markdown>\n  ![SCI scenario evaluation criteria and their implications for the community benchmarks](figures/benchmarks.svg){ style=\"width: 100%; max-width: 900px;\" }\n  <figcaption>",
-).replace("(Riahi et al., submitted).*\n", "(Riahi et al., submitted).</figcaption>\n</figure>\n") }}
+    "<div align=\"center\">\n  <picture>\n    <source media=\"(prefers-color-scheme: dark)\" srcset=\"landing/docs/figures/benchmarks-dark.svg\">\n    <source media=\"(prefers-color-scheme: light)\" srcset=\"landing/docs/figures/benchmarks-light.svg\">\n    <img src=\"landing/docs/figures/benchmarks-light.svg\" alt=\"SCI scenario evaluation criteria and their implications for the community benchmarks\" width=\"100%\">\n  </picture>\n</div>\n\n*",
+    "<div style=\"text-align: center;\">\n  <img src=\"figures/benchmarks-light.svg\" class=\"only-light\" alt=\"SCI scenario evaluation criteria and their implications for the community benchmarks\" style=\"width: 100%; max-width: 900px; margin: 0 auto;\">\n  <img src=\"figures/benchmarks-dark.svg\" class=\"only-dark\" alt=\"SCI scenario evaluation criteria and their implications for the community benchmarks\" style=\"width: 100%; max-width: 900px; margin: 0 auto;\">\n</div>\n\n<div style=\"text-align: center;\" markdown>\n*",
+).replace("(Riahi et al., submitted).*\n", "(Riahi et al., submitted).*\n</div>\n") }}
 
 ---
 
