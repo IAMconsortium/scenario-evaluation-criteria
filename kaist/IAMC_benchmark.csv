@@ -1,0 +1,11 @@
+"Metrics","Region","Unit","2005","2010","2015","2020","2005_datasource","2010_datasource","2015_datasource","2020_datasource","Threshold_pct","Threshold_strict_pct"
+"Population","South Korea","million",47.8516,48.7693,50.9839,51.8585,"File: UN WPP 2024","File: UN WPP 2024","File: UN WPP 2024","File: UN WPP 2024",,
+"GDP|MER","South Korea","billion USD_2010/yr",963.847,1192.83,1391.68,1556.76,"API: World Bank NY.GDP.MKTP.KD (2010 USD)","API: World Bank NY.GDP.MKTP.KD (2010 USD)","API: World Bank NY.GDP.MKTP.KD (2010 USD)","API: World Bank NY.GDP.MKTP.KD (2010 USD)",,
+"Emissions|CO2|Energy and Industrial Processes","South Korea","Mt CO2/yr",520.2,614.8,645.3,619.3,"File: PRIMAP-hist v2.8 HISTCR","File: PRIMAP-hist v2.8 HISTCR","File: PRIMAP-hist v2.8 HISTCR","File: PRIMAP-hist v2.8 HISTCR",30,20
+"Emissions|CO2|AFOLU","South Korea","Mt CO2/yr",,-59.9672,-50.0281,-45.3706,"not available","IAMC git: PRIMAP-2025-v2p7-HISTTP","IAMC git: PRIMAP-2025-v2p7-HISTTP","IAMC git: PRIMAP-2025-v2p7-HISTTP",50,
+"Emissions|CH4|AFOLU","South Korea","Mt CH4/yr",0.665,0.694743,0.655517,0.627135,"File: PRIMAP-hist v2.8 HISTCR","IAMC git: PRIMAP-2025-v2p7-HISTCR","IAMC git: PRIMAP-2025-v2p7-HISTCR","IAMC git: PRIMAP-2025-v2p7-HISTCR",50,
+"Primary Energy","South Korea","EJ/yr",8.72372,10.3906,11.403,11.4862,"API: IEA TESbySource","API: IEA TESbySource","API: IEA TESbySource","API: IEA TESbySource",30,20
+"Primary Energy|Coal","South Korea","EJ/yr",2.00077,3.2298,3.5756,3.0246,"API: IEA TESbySource","IAMC git: EI-2023","IAMC git: EI-2023","IAMC git: EI-2023",30,20
+"Primary Energy|Oil","South Korea","EJ/yr",3.87238,4.5793,4.9831,5.0604,"API: IEA TESbySource","IAMC git: EI-2023","IAMC git: EI-2023","IAMC git: EI-2023",30,20
+"Primary Energy|Gas","South Korea","EJ/yr",1.14427,1.6206,1.6434,2.0713,"API: IEA TESbySource","IAMC git: EI-2023","IAMC git: EI-2023","IAMC git: EI-2023",30,20
+"Secondary Energy|Electricity","South Korea","EJ/yr",1.39402,1.79004,1.97252,2.12475,"API: IEA ElecGenByFuel","API: IEA ElecGenByFuel","API: IEA ElecGenByFuel","API: IEA ElecGenByFuel",30,20
